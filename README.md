@@ -1,6 +1,6 @@
-# awesome-science-agents
+# Awesome-Science-Agents
 
-# Science General
+## Science General
 
 [August 2024] "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery." Chris Lu et al. arXiv 2024. [paper](https://arxiv.org/abs/2408.06292) | [code](https://github.com/SakanaAI/AI-Scientist)
 

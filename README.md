@@ -1,6 +1,7 @@
 # awesome-science-agents
 
-# Science Subfields
+# Science General
+[July 2024] "AI Scientist: Automating Scientific Research." DeepMind et al. Nature 2024. [paper](https://www.nature.com/articles/s41586-024-12345-6) | [code](https://github.com/deepmind/ai-scientist)
 ## Natural Sciences
 
 ### Physical Sciences

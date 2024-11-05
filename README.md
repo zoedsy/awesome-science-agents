@@ -1,7 +1,8 @@
 # awesome-science-agents
 
 # Science General
-[July 2024] "AI Scientist: Automating Scientific Research." DeepMind et al. Nature 2024. [paper](https://www.nature.com/articles/s41586-024-12345-6) | [code](https://github.com/deepmind/ai-scientist)
+[August 2024] "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery." Christopher Lu et al. arXiv 2024. [paper](https://arxiv.org/abs/2408.06292) | [code](https://github.com/ai-scientist/ai-scientist)
+
 ## Natural Sciences
 
 ### Physical Sciences

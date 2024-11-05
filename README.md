@@ -8,8 +8,6 @@
 
 [December 2023] "PaperQA: Retrieval-augmented generative agent for scientific research." Jakub Lála et al. arXiv 2023. [paper](https://arxiv.org/abs/2312.07559)
 
-[March 2023] "Biological research and self-driving labs in deep space supported by artificial intelligence." Lauren M Sanders et al. Nature Machine Intelligence 2023. [paper](https://www.nature.com/articles/s42256-023-00630-8)
-
 ### Physical Sciences (Physics/Chemistry/Earth Sciences/Astronomy)
 
 [July 2024] "A Review of Large Language Models and Autonomous Agents in Chemistry." Mayk Caldas Ramos et al. arXiv 2024. [paper](https://arxiv.org/abs/2407.01603)
@@ -41,6 +39,8 @@
 [May 2024] "Agent Hospital: A Simulacrum of Hospital with Evolvable Medical Agents." Junkai Li et al. arXiv 2024. [paper](https://arxiv.org/abs/2405.02957)
 
 [April 2024] "CRISPR-GPT: An LLM Agent for Automated Design of Gene-Editing Experiments." Kaixuan Huang et al. arXiv 2024. [paper](https://arxiv.org/abs/2404.18021)
+
+[March 2023] "Biological research and self-driving labs in deep space supported by artificial intelligence." Lauren M Sanders et al. Nature Machine Intelligence 2023. [paper](https://www.nature.com/articles/s42256-023-00618-4)
 
 [February 2024] "A multimodal generative AI copilot for human pathology." Ming Y. Lu et al. Nature 2024. [paper](https://www.nature.com/articles/s41586-024-07618-3)
 

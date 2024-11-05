@@ -40,8 +40,6 @@
 
 [April 2024] "CRISPR-GPT: An LLM Agent for Automated Design of Gene-Editing Experiments." Kaixuan Huang et al. arXiv 2024. [paper](https://arxiv.org/abs/2404.18021)
 
-[March 2023] "Biological research and self-driving labs in deep space supported by artificial intelligence." Lauren M Sanders et al. Nature Machine Intelligence 2023. [paper](https://www.nature.com/articles/s42256-023-00618-4)
-
 [February 2024] "A multimodal generative AI copilot for human pathology." Ming Y. Lu et al. Nature 2024. [paper](https://www.nature.com/articles/s41586-024-07618-3)
 
 [December 2023] "De novo drug design using reinforcement learning with multiple GPT agents." Xiuyuan Hu et al. NeurIPS 2023. [paper](https://arxiv.org/abs/2401.06155)
@@ -53,6 +51,8 @@
 [August 2023] "Zhongjing: Enhancing the Chinese Medical Capabilities of Large Language Model through Expert Feedback and Real-world Multi-turn Dialogue." S. Yang et al. arXiv 2023. [paper](https://arxiv.org/abs/2308.03549)
 
 [May 2023] "HuatuoGPT: Towards Taming Language Model to Be a Doctor." H. Zhang et al. arXiv 2023. [paper](https://arxiv.org/abs/2305.15075)
+
+[March 2023] "Biological research and self-driving labs in deep space supported by artificial intelligence." Lauren M Sanders et al. Nature Machine Intelligence 2023. [paper](https://www.nature.com/articles/s42256-023-00618-4)
 
 [October 2020] "A Virtual Conversational Agent for Teens with Autism Spectrum Disorder: Experimental Results and Design Lessons." M. R. Ali et al. ACM International Conference on Intelligent Virtual Agents 2020. [paper](https://dl.acm.org/doi/10.1145/3383652.3423900)
 

@@ -1,102 +1,55 @@
 # awesome-science-agents
 
 # Science General
-[August 2024] "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery." Christopher Lu et al. arXiv 2024. [paper](https://arxiv.org/abs/2408.06292) | [code](https://github.com/SakanaAI/AI-Scientist)
 
-## Natural Sciences
+[August 2024] "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery." Chris Lu et al. arXiv 2024. [paper](https://arxiv.org/abs/2408.06292) | [code](https://github.com/SakanaAI/AI-Scientist)
 
-### Physical Sciences
+[June 2023] "Scientific discovery in the age of artificial intelligence." Hanchen Wang et al. Nature 2023. [paper](https://www.nature.com/articles/s41586-023-06221-2)
 
-#### 1. Physics
-- Mechanics
-- Electromagnetics
-- Thermodynamics
-- Quantum mechanics
-- Astrophysics
-- Particle physics
+[December 2023] "PaperQA: Retrieval-augmented generative agent for scientific research." Jakub Lála et al. arXiv 2023. [paper](https://arxiv.org/abs/2312.07559)
 
-#### 2. Chemistry
-- Inorganic chemistry
-- Organic chemistry
-- Physical chemistry
-- Analytical chemistry
-- Biochemistry
+[March 2023] "Biological research and self-driving labs in deep space supported by artificial intelligence." Lauren M Sanders et al. Nature Machine Intelligence 2023. [paper](https://www.nature.com/articles/s42256-023-00630-8)
 
-#### 3. Earth Sciences
-- Geology
-- Meteorology
-- Oceanography
-- Atmospheric sciences
-- Climatology
+### Physical Sciences (Physics/Chemistry/Earth Sciences/Astronomy)
 
-#### 4. Astronomy
-- Cosmology
-- Planetary science
-- Stellar astronomy
+[December 2023] "Autonomous chemical research with large language models." Daniil A Boiko et al. Nature 2023. [paper](https://www.nature.com/articles/s41586-023-06792-0)
 
-### Life Sciences
+[December 2023] "Augmenting large language models with chemistry tools." Andres M Bran et al. NeurIPS 2023 AI for Science Workshop. [paper](https://openreview.net/forum?id=wdGIL6lx3l)
 
-#### 1. Biology
-- Molecular biology
-- Cell biology
-- Genetics
-- Ecology
-- Evolutionary biology
+### Life Science (Biology/Botany/Zoology/Microbiology/Neuroscience)
 
-#### 2. Botany
-- Plant physiology
-- Plant taxonomy
+[August 2024] "TourSynbio: A Multi-Modal Large Model and Agent Framework to Bridge Text and Protein Sequences for Protein Engineering." Y. Shen et al. arXiv 2024. [paper](https://arxiv.org/abs/2408.15299)
 
-#### 3. Zoology
-- Animal physiology
-- Animal behavior
+[December 2023] "De novo drug design using reinforcement learning with multiple GPT agents." Xiuyuan Hu et al. NeurIPS 2023. [paper](https://arxiv.org/abs/2401.06155)
 
-#### 4. Microbiology
-- Bacteriology
-- Virology
-- Mycology
+[November 2023] "MedAgents: Large Language Models as Collaborators for Zero-shot Medical Reasoning." Xiangru Tang et al. arXiv 2023. [paper](https://arxiv.org/abs/2311.10537)
 
-#### 5. Neuroscience
+[July 2023] "Epidemic modeling with generative agents." Ross Williams et al. arXiv 2023. [paper](https://arxiv.org/abs/2307.04986)
 
-#### 6. Biotechnology
+[August 2023] "Zhongjing: Enhancing the Chinese Medical Capabilities of Large Language Model through Expert Feedback and Real-world Multi-turn Dialogue." S. Yang et al. arXiv 2023. [paper](https://arxiv.org/abs/2308.03549)
 
-## Formal Sciences
+[May 2023] "HuatuoGPT: Towards Taming Language Model to Be a Doctor." H. Zhang et al. arXiv 2023. [paper](https://arxiv.org/abs/2305.15075)
 
-#### 1. Mathematics
-- Algebra
-- Geometry
-- Analysis
-- Statistics
+[October 2020] "A Virtual Conversational Agent for Teens with Autism Spectrum Disorder: Experimental Results and Design Lessons." M. R. Ali et al. ACM International Conference on Intelligent Virtual Agents 2020. [paper](https://dl.acm.org/doi/10.1145/3383652.3423900)
 
-#### 2. Computer Science
-- Artificial intelligence
-- Machine learning
-- Data science
+### Social Science (Psychology/Sociology/Economics/Anthropology/ Political Science)
 
-#### 3. Logic
+[November 2023] "ALYMPICS: Language Agents Meet Game Theory." Shaoguang Mao et al. arXiv 2023. [paper](https://arxiv.org/abs/2311.03220)
 
-## Social Sciences
+[October 2023] "Lyfe Agents: Generative agents for low-cost real-time social interactions." Zhao Kaiya et al. arXiv 2023. [paper](https://arxiv.org/abs/2310.02172)
 
-#### 1. Psychology
-- Cognitive psychology
-- Developmental psychology
-- Social psychology
+[October 2023] "SOTOPIA: Interactive Evaluation for Social Intelligence in Language Agents." Xuhui Zhou et al. arXiv 2023. [paper](https://arxiv.org/abs/2310.11667)
 
-#### 2. Sociology
+[October 2023] "Large Language Model-Empowered Agents for Simulating Macroeconomic Activities." Nian Li et al. arXiv 2023. [paper](https://arxiv.org/abs/2310.10436)
 
-#### 3. Economics
-- Microeconomics
-- Macroeconomics
+[October 2023] "Exploring Collaboration Mechanisms for LLM Agents: A Social Psychology View." Jintian Zhang et al. arXiv 2023. [paper](https://arxiv.org/abs/2310.02124)
 
-#### 4. Anthropology
+[July 2023] "S³: Social-network Simulation System with Large Language Model-Empowered Agents." Chen Gao et al. arXiv 2023. [paper](https://arxiv.org/abs/2307.14984)
 
-#### 5. Political Science
+[July 2023] "The SocialAI school: Insights from developmental psychology towards artificial socio-cultural agents." Grgur Kovač et al. arXiv 2023. [paper](https://arxiv.org/abs/2307.07871)
 
-## Interdisciplinary Fields
+[July 2023] "Understanding the benefits and challenges of using large language model-based conversational agents for mental well-being support." Zilin Ma et al. arXiv 2023. [paper](https://arxiv.org/abs/2307.15810)
 
-1. Biochemistry
-2. Biophysics
-3. Environmental Science
-4. Materials Science
-5. Nanotechnology
-6. Cognitive Science
+[April 2023] "Generative agents: Interactive simulacra of human behavior." Joon Sung Park et al. arXiv 2023. [paper](https://arxiv.org/abs/2304.03442)
+
+[January 2023] "Large language models as simulated economic agents: What can we learn from homo silicus?" John J Horton. National Bureau of Economic Research 2023. [paper](https://arxiv.org/abs/2301.07543)

@@ -12,13 +12,37 @@
 
 ### Physical Sciences (Physics/Chemistry/Earth Sciences/Astronomy)
 
+[July 2024] "A Review of Large Language Models and Autonomous Agents in Chemistry." Mayk Caldas Ramos et al. arXiv 2024. [paper](https://arxiv.org/abs/2407.01603)
+
 [December 2023] "Autonomous chemical research with large language models." Daniil A Boiko et al. Nature 2023. [paper](https://www.nature.com/articles/s41586-023-06792-0)
 
 [December 2023] "Augmenting large language models with chemistry tools." Andres M Bran et al. NeurIPS 2023 AI for Science Workshop. [paper](https://openreview.net/forum?id=wdGIL6lx3l)
 
 ### Life Science (Biology/Botany/Zoology/Microbiology/Neuroscience)
 
+[October 2024] "An AI Agent for Fully Automated Multi-Omic Analyses." Juexiao Zhou et al. Advanced Science 2024. [paper](https://onlinelibrary.wiley.com/doi/full/10.1002/advs.202407094)
+
+[October 2024] "BioDiscoveryAgent: An AI Agent for Designing Genetic Perturbation Experiments." Yusuf Roohani et al. arXiv 2024. [paper](https://arxiv.org/pdf/2405.17631)
+
+[August 2024] "[BioImage.IO](http://BioImage.IO) Chatbot: a community-driven AI assistant for integrative computational bioimaging." Wanlu Lei et al. Nature Methods 2024. [paper](https://www.nature.com/articles/s41592-024-02370-y)
+
 [August 2024] "TourSynbio: A Multi-Modal Large Model and Agent Framework to Bridge Text and Protein Sequences for Protein Engineering." Y. Shen et al. arXiv 2024. [paper](https://arxiv.org/abs/2408.15299)
+
+[July 2024] "MMedAgent: Learning to Use Medical Tools with Multi-modal Agent." Binxu Li et al. arXiv 2024. [paper](https://arxiv.org/abs/2407.02483)
+
+[July 2024] "Empowering Biomedical Discovery with AI Agents." Shanghua Gao et al. arXiv 2024. [paper](https://arxiv.org/pdf/2404.02831.pdf)
+
+[June 2024] "Omega—harnessing the power of large language models for bioimage analysis." Loïc A Royer. Nature Methods 2024. [paper](https://www.nature.com/articles/s41592-024-02310-w)
+
+[May 2024] "CellAgent: An LLM-driven Multi-Agent Framework for Automated Single-cell Data Analysis." Yihang Xiao et al. bioRxiv 2024. [paper](https://www.biorxiv.org/content/10.1101/2024.05.13.593861v1)
+
+[May 2024] "BioInformatics Agent (BIA): Unleashing the Power of Large Language Models to Reshape Bioinformatics Workflow." Qi Xin et al. bioRxiv 2024. [paper](https://www.biorxiv.org/content/10.1101/2024.05.22.595240v1)
+
+[May 2024] "Agent Hospital: A Simulacrum of Hospital with Evolvable Medical Agents." Junkai Li et al. arXiv 2024. [paper](https://arxiv.org/abs/2405.02957)
+
+[April 2024] "CRISPR-GPT: An LLM Agent for Automated Design of Gene-Editing Experiments." Kaixuan Huang et al. arXiv 2024. [paper](https://arxiv.org/abs/2404.18021)
+
+[February 2024] "A multimodal generative AI copilot for human pathology." Ming Y. Lu et al. Nature 2024. [paper](https://www.nature.com/articles/s41586-024-07618-3)
 
 [December 2023] "De novo drug design using reinforcement learning with multiple GPT agents." Xiuyuan Hu et al. NeurIPS 2023. [paper](https://arxiv.org/abs/2401.06155)
 

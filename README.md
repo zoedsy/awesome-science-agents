@@ -1,7 +1,7 @@
 # Awesome-Science-Agents
 
 This repository compiles a list of papers/tools related to agents in AI for Science field.
-We’re continually improving and expanding this collection. If you find relevant papers or tools that should be included, please feel free to open an issue or email me at shiyid@cs.cmu.edu
+We’re continually improving and expanding this collection. If you find relevant papers or tools that should be included, please feel free to open an issue or email me at zoedusy123@gmail.com
 
 ## Science General
 

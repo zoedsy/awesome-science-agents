@@ -1,5 +1,8 @@
 # Awesome-Science-Agents
 
+This repository compiles a list of papers/tools related to agents in AI for Science field.
+We’re continually improving and expanding this collection. If you find relevant papers or tools that should be included, please feel free to open an issue or email me at shiyid@cs.cmu.edu
+
 ## Science General
 
 [August 2024] "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery." Chris Lu et al. arXiv 2024. [paper](https://arxiv.org/abs/2408.06292) | [code](https://github.com/SakanaAI/AI-Scientist)

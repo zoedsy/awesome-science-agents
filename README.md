@@ -11,8 +11,6 @@ We’re continually improving and expanding this collection. If you find relevan
 
 [December 2023] "PaperQA: Retrieval-augmented generative agent for scientific research." Jakub Lála et al. arXiv 2023. [paper](https://arxiv.org/abs/2312.07559)
 
-[June 2024] "AutoSurvey: Large Language Models Can Automatically Write Surveys." Yidong Wang et al. NeurIPS 2024 Conference. [paper](https://openreview.net/forum?id=FExX8pMrdT&noteId=Fq55w4HQeh) | [code](https://github.com/AutoSurveys/AutoSurvey)
-
 ### Physical Sciences (Physics/Chemistry/Earth Sciences/Astronomy)
 
 [July 2024] "A Review of Large Language Models and Autonomous Agents in Chemistry." Mayk Caldas Ramos et al. arXiv 2024. [paper](https://arxiv.org/abs/2407.01603)

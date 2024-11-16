@@ -33,6 +33,8 @@ We’re continually improving and expanding this collection. If you find relevan
 
 [July 2024] "MMedAgent: Learning to Use Medical Tools with Multi-modal Agent." Binxu Li et al. arXiv 2024. [paper](https://arxiv.org/abs/2407.02483)
 
+[July 2024] "ClinicalAgent: Clinical Trial Multi-Agent System with Large Language Model-based Reasoning" Yue Ling et al. arXiv 2024. [paper](https://arxiv.org/abs/2404.14777)
+
 [July 2024] "Empowering Biomedical Discovery with AI Agents." Shanghua Gao et al. arXiv 2024. [paper](https://arxiv.org/pdf/2404.02831.pdf)
 
 [June 2024] "Omega—harnessing the power of large language models for bioimage analysis." Loïc A Royer. Nature Methods 2024. [paper](https://www.nature.com/articles/s41592-024-02310-w)

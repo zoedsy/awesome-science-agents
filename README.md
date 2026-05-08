@@ -33,6 +33,10 @@ We're continually improving and expanding this collection. If you find relevant 
 
 ### Benchmarks & Evaluation
 
+[March 2026] "Probing Scientific General Intelligence of LLMs with Scientist-Aligned Workflows (ResearchClawBench)." Wanghan Xu et al. arXiv 2025. [paper](https://arxiv.org/abs/2512.16969) | [code](https://github.com/InternScience/ResearchClawBench) | [website](https://internscience.github.io/ResearchClawBench-Home/)
+
+[December 2025] "Probing Scientific General Intelligence of LLMs with Scientist-Aligned Workflows (SGI-Bench)." Wanghan Xu et al. (Shanghai AI Lab). arXiv 2025. [paper](https://arxiv.org/abs/2512.16969) | [code](https://github.com/InternScience/SGI-Bench) | [website](https://internscience.github.io/SGI-Page/)
+
 [May 2025] "MLR-Bench: Evaluating AI Agents on Open-Ended Machine Learning Research." Hui Chen et al. NeurIPS 2025 Datasets and Benchmarks Track. [paper](https://arxiv.org/abs/2505.19955)
 
 [May 2025] "AI-Researcher: Autonomous Scientific Innovation." HKUDS et al. arXiv 2025. [paper](https://arxiv.org/abs/2505.18705)

@@ -77,6 +77,10 @@ We're continually improving and expanding this collection. If you find relevant 
 
 ### Life Science (Biology/Botany/Zoology/Microbiology/Neuroscience/Medicine)
 
+[April 2026] "An autonomous LLM-agent platform for computational binder design and conjugation-aware prioritization of antibody–drug conjugates." Ganggang Liu et al. bioRxiv 2026. [paper](https://www.biorxiv.org/content/10.64898/2026.04.21.719907v1) | [code](https://github.com/liugangg/oih-platform)
+
+[March 2026] "Protein Design with Agent Rosetta: A Case Study for Specialized Scientific Agents." Jacopo Teneggi et al. arXiv 2026. [paper](https://arxiv.org/abs/2603.15952)
+
 [March 2026] "Empowering AI data scientists using a multi-agent LLM framework with self-evolving capabilities for autonomous, tool-aware biomedical data analyses (BioMedAgent)." Dechao Bu et al. Nature Biomedical Engineering 2026. [paper](https://www.nature.com/articles/s41551-026-01634-6)
 
 [February 2026] "A Multi-Agent Framework for Medical AI: Leveraging Fine-Tuned GPT, LLaMA, and DeepSeek R1 for Evidence-Based and Bias-Aware Clinical Query Processing." Naeimeh Nourmohammadi et al. arXiv 2026. [paper](https://arxiv.org/abs/2602.14158)
@@ -90,6 +94,8 @@ We're continually improving and expanding this collection. If you find relevant 
 [May 2025] "Robin: A multi-agent system for automating scientific discovery." Ali Essam Ghareeb et al. (FutureHouse). arXiv 2025. [paper](https://arxiv.org/abs/2505.13400) | [blog](https://www.futurehouse.org/research-announcements/demonstrating-end-to-end-scientific-discovery-with-robin-a-multi-agent-system)
 
 [May 2025] "Biomni: A General-Purpose Biomedical AI Agent." Kexin Huang et al. (Stanford). bioRxiv 2025. [paper](https://www.biorxiv.org/content/10.1101/2025.05.30.656746v1) | [platform](https://biomni.stanford.edu)
+
+[March 2025] "TxAgent: An AI Agent for Therapeutic Reasoning Across a Universe of Tools." Shanghua Gao et al. (Harvard). arXiv 2025. [paper](https://arxiv.org/abs/2503.10970) | [project](https://zitniklab.hms.harvard.edu/TxAgent) | [code](https://github.com/mims-harvard/TxAgent)
 
 [November 2024] "DrugAgent: Automating AI-aided Drug Discovery Programming through LLM Multi-Agent Collaboration." Sizhe Liu et al. arXiv 2024. [paper](https://arxiv.org/abs/2411.15692)
 

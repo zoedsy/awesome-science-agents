@@ -33,7 +33,7 @@ We're continually improving and expanding this collection. If you find relevant 
 
 ### Benchmarks & Evaluation
 
-[March 2026]  ResearchClawBench [code](https://github.com/InternScience/ResearchClawBench) | [website](https://internscience.github.io/ResearchClawBench-Home/)
+[March 2026] "ResearchClawBench." [code](https://github.com/InternScience/ResearchClawBench) | [website](https://internscience.github.io/ResearchClawBench-Home/)
 
 [December 2025] "Probing Scientific General Intelligence of LLMs with Scientist-Aligned Workflows (SGI-Bench)." Wanghan Xu et al. (Shanghai AI Lab). arXiv 2025. [paper](https://arxiv.org/abs/2512.16969) | [code](https://github.com/InternScience/SGI-Bench) | [website](https://internscience.github.io/SGI-Page/)
 
@@ -77,7 +77,7 @@ We're continually improving and expanding this collection. If you find relevant 
 
 ### Life Science (Biology/Botany/Zoology/Microbiology/Neuroscience/Medicine)
 
-[March 2026] "Empowering AI data scientists using a multi-agent LLM framework with self-evolving capabilities for autonomous, tool-aware biomedical data analyses (BioMedAgent)." Dechao Buet al. Nature Biomedical Engineering 2026. [paper](https://www.nature.com/articles/s41551-026-01634-6)
+[March 2026] "Empowering AI data scientists using a multi-agent LLM framework with self-evolving capabilities for autonomous, tool-aware biomedical data analyses (BioMedAgent)." Dechao Bu et al. Nature Biomedical Engineering 2026. [paper](https://www.nature.com/articles/s41551-026-01634-6)
 
 [February 2026] "A Multi-Agent Framework for Medical AI: Leveraging Fine-Tuned GPT, LLaMA, and DeepSeek R1 for Evidence-Based and Bias-Aware Clinical Query Processing." Naeimeh Nourmohammadi et al. arXiv 2026. [paper](https://arxiv.org/abs/2602.14158)
 

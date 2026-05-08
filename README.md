@@ -85,6 +85,8 @@ We're continually improving and expanding this collection. If you find relevant 
 
 [February 2026] "A Multi-Agent Framework for Medical AI: Leveraging Fine-Tuned GPT, LLaMA, and DeepSeek R1 for Evidence-Based and Bias-Aware Clinical Query Processing." Naeimeh Nourmohammadi et al. arXiv 2026. [paper](https://arxiv.org/abs/2602.14158)
 
+[January 2026] "Agentic reinforcement learning empowers next-generation chemical language models for molecular design and synthesis" Hao Li et al. Peking University. Submitted to Nature Machine Intelligence. [paper](https://arxiv.org/pdf/2601.17687)
+
 [January 2026] "Virtual lab of artificial intelligence agents accelerating nanobody design against SARS-CoV-2 variants." Hakjin Kim et al. International Journal of Biological Sciences 2026. [paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12780944/)
 
 [October 2025] "The Virtual Lab of AI agents designs new SARS-CoV-2 nanobodies." Kyle Swanson et al. Nature 2025. [paper](https://www.nature.com/articles/s41586-025-09442-9) | [code](https://github.com/zou-group/virtual-lab)

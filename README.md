@@ -33,7 +33,7 @@ We're continually improving and expanding this collection. If you find relevant 
 
 ### Benchmarks & Evaluation
 
-[March 2026] "Probing Scientific General Intelligence of LLMs with Scientist-Aligned Workflows (ResearchClawBench)." Wanghan Xu et al. arXiv 2025. [paper](https://arxiv.org/abs/2512.16969) | [code](https://github.com/InternScience/ResearchClawBench) | [website](https://internscience.github.io/ResearchClawBench-Home/)
+[March 2026]  ResearchClawBench [code](https://github.com/InternScience/ResearchClawBench) | [website](https://internscience.github.io/ResearchClawBench-Home/)
 
 [December 2025] "Probing Scientific General Intelligence of LLMs with Scientist-Aligned Workflows (SGI-Bench)." Wanghan Xu et al. (Shanghai AI Lab). arXiv 2025. [paper](https://arxiv.org/abs/2512.16969) | [code](https://github.com/InternScience/SGI-Bench) | [website](https://internscience.github.io/SGI-Page/)
 

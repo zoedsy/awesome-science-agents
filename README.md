@@ -91,6 +91,8 @@ We're continually improving and expanding this collection. If you find relevant 
 
 [May 2025] "Biomni: A General-Purpose Biomedical AI Agent." Kexin Huang et al. (Stanford). bioRxiv 2025. [paper](https://www.biorxiv.org/content/10.1101/2025.05.30.656746v1) | [platform](https://biomni.stanford.edu)
 
+[March 2025] "TxAgent: An AI Agent for Therapeutic Reasoning Across a Universe of Tools." Shanghua Gao et al. (Harvard). arXiv 2025. [paper](https://arxiv.org/abs/2503.10970) | [project](https://zitniklab.hms.harvard.edu/TxAgent) | [code](https://github.com/mims-harvard/TxAgent)
+
 [November 2024] "DrugAgent: Automating AI-aided Drug Discovery Programming through LLM Multi-Agent Collaboration." Sizhe Liu et al. arXiv 2024. [paper](https://arxiv.org/abs/2411.15692)
 
 [November 2024] "TourSynbio-Agent: Validation of an LLM-based Multi-Agent Framework for Protein Engineering in Dry Lab and Wet Lab." Y. Shen et al. arXiv 2024. [paper](https://arxiv.org/abs/2411.06029)

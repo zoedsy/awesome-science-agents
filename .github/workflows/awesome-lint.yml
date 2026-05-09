@@ -1,0 +1,41 @@
+name: lint
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "README.md"
+      - "CONTRIBUTING.md"
+      - ".github/workflows/awesome-lint.yml"
+      - ".markdownlint.json"
+  pull_request:
+    paths:
+      - "README.md"
+      - "CONTRIBUTING.md"
+      - ".github/workflows/awesome-lint.yml"
+      - ".markdownlint.json"
+
+jobs:
+  markdownlint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Run markdownlint-cli2
+        run: npx markdownlint-cli2 "README.md" "CONTRIBUTING.md"
+
+  awesome-lint:
+    # Advisory: awesome-lint enforces a strict bullet-list format that this
+    # list does not adopt (we keep blank-line-separated entries for readability).
+    # Failures here surface as warnings, not gates.
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Run awesome-lint (advisory)
+        run: npx awesome-lint || true

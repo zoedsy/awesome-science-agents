@@ -1,0 +1,19 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors / IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Node (for awesome-lint local runs)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Misc
+*.log
+.cache/

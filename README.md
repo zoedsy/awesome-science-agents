@@ -51,6 +51,8 @@ We're continually improving and expanding this collection. If you find relevant 
 
 [February 2026] "Knowledge-driven autonomous materials research via collaborative multi-agent and robotic system (MARS)." Tongyu Shi et al. Matter 2026. [paper](https://doi.org/10.1016/j.matt.2025.102577)
 
+[December 2025] "CASCADE: Cumulative Agentic Skill Creation through Autonomous Development and Evolution." Xu Huang et al. arXiv 2025. [paper](https://arxiv.org/abs/2512.23880)
+
 [December 2025] "An Agentic Framework for Autonomous Materials Computation." arXiv 2025. [paper](https://arxiv.org/abs/2512.19458)
 
 [December 2025] "Hierarchical Multi-agent Large Language Model Reasoning for Autonomous Functional Materials Discovery." arXiv 2025. [paper](https://arxiv.org/abs/2512.13930)

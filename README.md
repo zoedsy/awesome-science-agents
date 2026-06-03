@@ -61,21 +61,107 @@ See [CONTRIBUTING.md](CONTRIBUTING.md#tag-taxonomy) for tag definitions.
 
 ### Benchmarks & Evaluation
 
-📊 Datasets, leaderboards, and evaluation frameworks.
+📊 Datasets, leaderboards, and evaluation frameworks for science agents — grouped by domain, newest first within each group.
+
+#### General & AI/ML Research Automation
 
 [2026-03] ![Benchmark](https://img.shields.io/badge/Benchmark-1f6feb) "ResearchClawBench" (code-only release). [code](https://github.com/InternScience/ResearchClawBench) | [website](https://internscience.github.io/ResearchClawBench-Home/)
 
 [2025-12] ![Benchmark](https://img.shields.io/badge/Benchmark-1f6feb) "Probing Scientific General Intelligence of LLMs with Scientist-Aligned Workflows (SGI-Bench)." Wanghan Xu et al. (Shanghai AI Lab). arXiv 2025. [paper](https://arxiv.org/abs/2512.16969) | [code](https://github.com/InternScience/SGI-Bench) | [website](https://internscience.github.io/SGI-Page/)
 
+[2025-10] ![Benchmark](https://img.shields.io/badge/Benchmark-1f6feb) "AstaBench: Rigorous Benchmarking of AI Agents with a Scientific Research Suite." Jonathan Bragg et al. (Allen Institute for AI). arXiv 2025. [paper](https://arxiv.org/abs/2510.21652) | [code](https://github.com/allenai/asta-bench)
+
+[2025-06] ![Benchmark](https://img.shields.io/badge/Benchmark-1f6feb) "DeepResearch Bench: A Comprehensive Benchmark for Deep Research Agents." Mingxuan Du et al. (USTC). arXiv 2025. [paper](https://arxiv.org/abs/2506.11763) | [code](https://github.com/Ayanami0730/deep_research_bench)
+
 [2025-05] ![Benchmark](https://img.shields.io/badge/Benchmark-1f6feb) "MLR-Bench: Evaluating AI Agents on Open-Ended Machine Learning Research." Hui Chen et al. NeurIPS 2025 Datasets and Benchmarks Track. [paper](https://arxiv.org/abs/2505.19955)
 
 [2025-05] ![Benchmark](https://img.shields.io/badge/Benchmark-1f6feb) ![Multi-Agent](https://img.shields.io/badge/Multi--Agent-1f6feb) "AI-Researcher: Autonomous Scientific Innovation." HKUDS et al. arXiv 2025. [paper](https://arxiv.org/abs/2505.18705)
 
+[2025-05] ![Benchmark](https://img.shields.io/badge/Benchmark-1f6feb) "ScienceBoard: Evaluating Multimodal Autonomous Agents in Realistic Scientific Workflows." Qiushi Sun et al. (University of Hong Kong / Shanghai AI Lab). arXiv 2025. [paper](https://arxiv.org/abs/2505.19897) | [code](https://github.com/OS-Copilot/ScienceBoard)
+
+[2025-05] ![Benchmark](https://img.shields.io/badge/Benchmark-1f6feb) "EXP-Bench: Can AI Conduct AI Research Experiments?" Patrick Tser Jern Kon et al. (University of Michigan). arXiv 2025. [paper](https://arxiv.org/abs/2505.24785) | [code](https://github.com/Just-Curieous/Curie/tree/main/benchmark/exp_bench)
+
+[2025-05] ![Benchmark](https://img.shields.io/badge/Benchmark-1f6feb) "MLE-Dojo: Interactive Environments for Empowering LLM Agents in Machine Learning Engineering." Rushi Qiang et al. (Georgia Tech / Stanford). arXiv 2025. [paper](https://arxiv.org/abs/2505.07782) | [code](https://github.com/MLE-Dojo/MLE-Dojo)
+
 [2025-04] ![Benchmark](https://img.shields.io/badge/Benchmark-1f6feb) "PaperBench: Evaluating AI's Ability to Replicate AI Research." Giulio Starace et al. arXiv 2025. [paper](https://arxiv.org/abs/2504.01848)
+
+[2025-04] ![Benchmark](https://img.shields.io/badge/Benchmark-1f6feb) "MLRC-Bench: Can Language Agents Solve Machine Learning Research Challenges?" Yunxiang Zhang et al. (University of Michigan / LG AI Research). NeurIPS 2025 Datasets and Benchmarks Track. [paper](https://arxiv.org/abs/2504.09702) | [code](https://github.com/yunx-z/MLRC-Bench)
+
+[2025-02] ![Benchmark](https://img.shields.io/badge/Benchmark-1f6feb) "MLGym: A New Framework and Benchmark for Advancing AI Research Agents." Deepak Nathani et al. (Meta AI / FAIR). arXiv 2025. [paper](https://arxiv.org/abs/2502.14499) | [code](https://github.com/facebookresearch/MLGym)
+
+[2024-11] ![Benchmark](https://img.shields.io/badge/Benchmark-1f6feb) "RE-Bench: Evaluating Frontier AI R&D Capabilities of Language Model Agents against Human Experts." Hjalmar Wijk et al. (METR). arXiv 2024. [paper](https://arxiv.org/abs/2411.15114) | [code](https://github.com/METR/ai-rd-tasks)
 
 [2024-10] ![Benchmark](https://img.shields.io/badge/Benchmark-1f6feb) "MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering." Jun Shern Chan et al. ICLR 2025. [paper](https://arxiv.org/abs/2410.07095)
 
+[2024-09] ![Benchmark](https://img.shields.io/badge/Benchmark-1f6feb) "SUPER: Evaluating Agents on Setting Up and Executing Tasks from Research Repositories." Ben Bogin et al. (Allen Institute for AI). EMNLP 2024. [paper](https://arxiv.org/abs/2409.07440) | [code](https://github.com/allenai/super-benchmark)
+
+[2024-07] ![Benchmark](https://img.shields.io/badge/Benchmark-1f6feb) "SciCode: A Research Coding Benchmark Curated by Scientists." Minyang Tian et al. (UIUC / CMU). NeurIPS 2024 Datasets and Benchmarks Track. [paper](https://arxiv.org/abs/2407.13168) | [code](https://github.com/scicode-bench/SciCode)
+
+[2024-06] ![Benchmark](https://img.shields.io/badge/Benchmark-1f6feb) ![Simulation](https://img.shields.io/badge/Simulation-2da44e) "DiscoveryWorld: A Virtual Environment for Developing and Evaluating Automated Scientific Discovery Agents." Peter Jansen et al. (Allen Institute for AI / Microsoft Research). NeurIPS 2024 Datasets and Benchmarks Track. [paper](https://arxiv.org/abs/2406.06769) | [code](https://github.com/allenai/discoveryworld)
+
+[2023-10] ![Benchmark](https://img.shields.io/badge/Benchmark-1f6feb) "MLAgentBench: Evaluating Language Agents on Machine Learning Experimentation." Qian Huang et al. (Stanford). ICML 2024. [paper](https://arxiv.org/abs/2310.03302) | [code](https://github.com/snap-stanford/MLAgentBench)
+
+#### Data Science & Computational Reproducibility
+
+[2024-11] ![Benchmark](https://img.shields.io/badge/Benchmark-1f6feb) "Spider 2.0: Evaluating Language Models on Real-World Enterprise Text-to-SQL Workflows." Fangyu Lei et al. (XLang Lab, HKU). ICLR 2025. [paper](https://arxiv.org/abs/2411.07763) | [code](https://github.com/xlang-ai/Spider2)
+
 [2024-10] ![Benchmark](https://img.shields.io/badge/Benchmark-1f6feb) "ScienceAgentBench: Toward Rigorous Assessment of Language Agents for Data-Driven Scientific Discovery." Ziru Chen et al. ICLR 2025. [paper](https://arxiv.org/abs/2410.05080)
+
+[2024-10] ![Benchmark](https://img.shields.io/badge/Benchmark-1f6feb) "DA-Code: Agent Data Science Code Generation Benchmark for Large Language Models." Yiming Huang et al. (CASIA). EMNLP 2024. [paper](https://arxiv.org/abs/2410.07331) | [code](https://github.com/yiyihum/da-code)
+
+[2024-09] ![Benchmark](https://img.shields.io/badge/Benchmark-1f6feb) "CORE-Bench: Fostering the Credibility of Published Research Through a Computational Reproducibility Agent Benchmark." Zachary S. Siegel et al. (Princeton University). arXiv 2024. [paper](https://arxiv.org/abs/2409.11363) | [code](https://github.com/siegelz/core-bench)
+
+[2024-09] ![Benchmark](https://img.shields.io/badge/Benchmark-1f6feb) "DSBench: How Far Are Data Science Agents from Becoming Data Science Experts?" Liqiang Jing et al. (Tencent AI Lab). ICLR 2025. [paper](https://arxiv.org/abs/2409.07703) | [code](https://github.com/LiqiangJing/DSBench)
+
+[2024-08] ![Benchmark](https://img.shields.io/badge/Benchmark-1f6feb) "BLADE: Benchmarking Language Model Agents for Data-Driven Science." Ken Gu et al. (University of Washington). EMNLP 2024 Findings. [paper](https://arxiv.org/abs/2408.09667) | [code](https://github.com/behavioral-data/BLADE)
+
+[2024-07] ![Benchmark](https://img.shields.io/badge/Benchmark-1f6feb) "DiscoveryBench: Towards Data-Driven Discovery with Large Language Models." Bodhisattwa Prasad Majumder et al. (Allen Institute for AI). ICLR 2025. [paper](https://arxiv.org/abs/2407.01725) | [code](https://github.com/allenai/discoverybench)
+
+[2024-02] ![Benchmark](https://img.shields.io/badge/Benchmark-1f6feb) "Are LLMs Capable of Data-based Statistical and Causal Reasoning? Benchmarking Advanced Quantitative Reasoning with Data (QRData)." Xiao Liu et al. (Peking University / UCLA). ACL 2024 Findings. [paper](https://arxiv.org/abs/2402.17644) | [code](https://github.com/xxxiaol/QRData)
+
+[2024-01] ![Benchmark](https://img.shields.io/badge/Benchmark-1f6feb) "InfiAgent-DABench: Evaluating Agents on Data Analysis Tasks." Xueyu Hu et al. (Zhejiang University / ByteDance). ICML 2024. [paper](https://arxiv.org/abs/2401.05507) | [code](https://github.com/InfiAgent/InfiAgent)
+
+#### Chemistry & Materials
+
+[2025-10] ![Benchmark](https://img.shields.io/badge/Benchmark-1f6feb) ![Chemistry](https://img.shields.io/badge/Chemistry-2da44e) "ChemX: Benchmarking Agentic Systems in Automated Scientific Information Extraction." Anastasia Vepreva et al. NeurIPS 2025 Datasets and Benchmarks Track. [paper](https://arxiv.org/abs/2510.00795) | [code](https://github.com/ai-chem/ChemX)
+
+[2025-05] ![Benchmark](https://img.shields.io/badge/Benchmark-1f6feb) ![Materials](https://img.shields.io/badge/Materials-2da44e) "MatTools: Benchmarking Large Language Models for Materials Science Tools." Siyu Liu et al. (University of Hong Kong). arXiv 2025. [paper](https://arxiv.org/abs/2505.10852) | [code](https://github.com/Grenzlinie/MatTools)
+
+[2024-02] ![Benchmark](https://img.shields.io/badge/Benchmark-1f6feb) ![Chemistry](https://img.shields.io/badge/Chemistry-2da44e) "SciAgent: Tool-augmented Language Models for Scientific Reasoning (introduces SciToolBench)." Yubo Ma et al. (Microsoft / NTU / Tsinghua). EMNLP 2024. [paper](https://arxiv.org/abs/2402.11451)
+
+#### Life Sciences (Biology, Genomics, Biomedicine)
+
+[2025-03] ![Benchmark](https://img.shields.io/badge/Benchmark-1f6feb) ![Clinical](https://img.shields.io/badge/Clinical-2da44e) "MedAgentsBench: Benchmarking Thinking Models and Agent Frameworks for Complex Medical Reasoning." Xiangru Tang et al. (Yale University). arXiv 2025. [paper](https://arxiv.org/abs/2503.07459) | [code](https://github.com/gersteinlab/medagents-benchmark)
+
+[2025-02] ![Benchmark](https://img.shields.io/badge/Benchmark-1f6feb) ![Genomics](https://img.shields.io/badge/Genomics-2da44e) "BixBench: A Comprehensive Benchmark for LLM-based Agents in Computational Biology." Ludovico Mitchener et al. (FutureHouse). arXiv 2025. [paper](https://arxiv.org/abs/2503.00096) | [code](https://github.com/Future-House/BixBench)
+
+[2025-02] ![Benchmark](https://img.shields.io/badge/Benchmark-1f6feb) "BioMaze: Benchmarking and Enhancing Large Language Models for Biological Pathway Reasoning." Haiteng Zhao et al. (Peking University / HKU). arXiv 2025. [paper](https://arxiv.org/abs/2502.16660)
+
+[2025-01] ![Benchmark](https://img.shields.io/badge/Benchmark-1f6feb) ![Clinical](https://img.shields.io/badge/Clinical-2da44e) "MedAgentBench: A Realistic Virtual EHR Environment to Benchmark Medical LLM Agents." Yixing Jiang et al. (Stanford). arXiv 2025. [paper](https://arxiv.org/abs/2501.14654) | [code](https://github.com/stanfordmlgroup/MedAgentBench)
+
+[2024-06] ![Benchmark](https://img.shields.io/badge/Benchmark-1f6feb) ![Genomics](https://img.shields.io/badge/Genomics-2da44e) "GenoTEX: An LLM Agent Benchmark for Automated Gene Expression Data Analysis." Haoyang Liu et al. (UIUC). arXiv 2024. [paper](https://arxiv.org/abs/2406.15341) | [code](https://github.com/Liu-Hy/GenoTEX)
+
+[2024-05] ![Benchmark](https://img.shields.io/badge/Benchmark-1f6feb) ![Clinical](https://img.shields.io/badge/Clinical-2da44e) "AgentClinic: A Multimodal Agent Benchmark to Evaluate AI in Simulated Clinical Environments." Samuel Schmidgall et al. (Johns Hopkins / Stanford). arXiv 2024. [paper](https://arxiv.org/abs/2405.07960) | [code](https://github.com/SamuelSchmidgall/AgentClinic)
+
+#### Physical Sciences (Physics, Astronomy, Earth)
+
+[2025-10] ![Benchmark](https://img.shields.io/badge/Benchmark-1f6feb) "NewtonBench: Benchmarking Generalizable Scientific Law Discovery in LLM Agents." Tianshi Zheng et al. (HKUST). arXiv 2025. [paper](https://arxiv.org/abs/2510.07172)
+
+[2025-10] ![Benchmark](https://img.shields.io/badge/Benchmark-1f6feb) "ReplicationBench: Can AI Agents Replicate Astrophysics Research Papers?" Christine Ye et al. (Stanford / KIPAC). arXiv 2025. [paper](https://arxiv.org/abs/2510.24591)
+
+[2025-05] ![Benchmark](https://img.shields.io/badge/Benchmark-1f6feb) "AstroVisBench: A Code Benchmark for Scientific Computing and Visualization in Astronomy." Sebastian Antony Joseph et al. (UT Austin). NeurIPS 2025 Datasets and Benchmarks Track. [paper](https://arxiv.org/abs/2505.20538) | [code](https://github.com/SebaJoe/AstroVisBench)
+
+[2025-04] ![Benchmark](https://img.shields.io/badge/Benchmark-1f6feb) "LLM-SRBench: A New Benchmark for Scientific Equation Discovery with Large Language Models." Parshin Shojaee et al. (CMU / Virginia Tech). ICML 2025. [paper](https://arxiv.org/abs/2504.10415) | [code](https://github.com/deep-symbolic-mathematics/llm-srbench)
+
+[2025-01] ![Benchmark](https://img.shields.io/badge/Benchmark-1f6feb) ![Simulation](https://img.shields.io/badge/Simulation-2da44e) "BoxingGym: Benchmarking Progress in Automated Experimental Design and Model Discovery." Kanishk Gandhi et al. (Stanford). NeurIPS 2025. [paper](https://arxiv.org/abs/2501.01540) | [code](https://github.com/kanishkg/boxing-gym)
+
+#### Scientific Literature & Survey
+
+[2025-03] ![Benchmark](https://img.shields.io/badge/Benchmark-1f6feb) "SurveyForge: On the Outline Heuristics, Memory-Driven Generation, and Multi-dimensional Evaluation for Automated Survey Writing." Xiangchao Yan et al. (Shanghai AI Lab). ACL 2025. [paper](https://arxiv.org/abs/2503.04629) | [code](https://github.com/Alpha-Innovator/SurveyForge)
+
+[2024-07] ![Benchmark](https://img.shields.io/badge/Benchmark-1f6feb) "CiteME: Can Language Models Accurately Cite Scientific Claims?" Ori Press et al. (University of Tübingen). NeurIPS 2024 Datasets and Benchmarks Track. [paper](https://arxiv.org/abs/2407.12861) | [code](https://github.com/bethgelab/CiteME)
+
+[2024-06] ![Benchmark](https://img.shields.io/badge/Benchmark-1f6feb) "ResearchArena: Benchmarking Large Language Models' Ability to Collect and Organize Information as Research Agents." Hao Kang and Chenyan Xiong (Carnegie Mellon University). arXiv 2024. [paper](https://arxiv.org/abs/2406.10291) | [code](https://github.com/cxcscmu/ResearchArena)
 
 ## Physical Sciences
 

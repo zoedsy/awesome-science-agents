@@ -33,6 +33,10 @@ See [CONTRIBUTING.md](CONTRIBUTING.md#tag-taxonomy) for tag definitions.
 
 🌐 Cross-domain agentic systems, AI scientists, and research copilots.
 
+[2026-06] ![Multi-Agent](https://img.shields.io/badge/Multi--Agent-1f6feb) ![Framework](https://img.shields.io/badge/Framework-1f6feb) "Agon: An Autonomous Large-Scale Omnidisciplinary Research System Built on Prompt Economy." Youran Sun et al. arXiv 2026. [paper](https://arxiv.org/abs/2606.24177) | [code](https://github.com/AutoResearch-Factory/Agon)
+
+[2026-06] ![Survey](https://img.shields.io/badge/Survey-1f6feb) "What's Missing in Autonomous Research? A Systematization of Systems, Benchmarks, and Verification." Xingyu Ren et al. Technical report 2026. [paper](https://haizhaoyang.github.io/research/autoresearch-survey.html)
+
 [2026-01] ![Survey](https://img.shields.io/badge/Survey-1f6feb) "Why LLMs Aren't Scientists Yet: Lessons from Four Autonomous Research Attempts." Dhruv Trehan and Paras Chopra. arXiv 2026. [paper](https://arxiv.org/abs/2601.03315)
 
 [2025-11] ![Multi-Agent](https://img.shields.io/badge/Multi--Agent-1f6feb) ![Platform](https://img.shields.io/badge/Platform-1f6feb) "Kosmos: An AI Scientist for Autonomous Discovery." Ludovico Mitchener et al. (FutureHouse / Edison Scientific). arXiv 2025. [paper](https://arxiv.org/abs/2511.02824) | [platform](https://edisonscientific.com/)
@@ -80,6 +84,8 @@ See [CONTRIBUTING.md](CONTRIBUTING.md#tag-taxonomy) for tag definitions.
 ## Physical Sciences
 
 ⚛️ Physics · Chemistry · Earth Sciences · Astronomy · Materials.
+
+[2026-02] ![Multi-Agent](https://img.shields.io/badge/Multi--Agent-1f6feb) ![LLM-Tool](https://img.shields.io/badge/LLM--Tool-1f6feb) "AutoNumerics: An Autonomous, PDE-Agnostic Multi-Agent Pipeline for Scientific Computing." Jianda Du, Youran Sun, and Haizhao Yang. arXiv 2026. [paper](https://arxiv.org/abs/2602.17607) | [code](https://github.com/Daviddjddu/Autonumerics)
 
 [2026-02] ![Multi-Agent](https://img.shields.io/badge/Multi--Agent-1f6feb) ![Materials](https://img.shields.io/badge/Materials-2da44e) "Knowledge-driven autonomous materials research via collaborative multi-agent and robotic system (MARS)." Tongyu Shi et al. Matter 2026. [paper](https://doi.org/10.1016/j.matt.2025.102577)
 

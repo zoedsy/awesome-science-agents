@@ -33,6 +33,8 @@ See [CONTRIBUTING.md](CONTRIBUTING.md#tag-taxonomy) for tag definitions.
 
 🌐 Cross-domain agentic systems, AI scientists, and research copilots.
 
+[2026-07] ![LLM-Tool](https://img.shields.io/badge/LLM--Tool-1f6feb) ![Framework](https://img.shields.io/badge/Framework-1f6feb) "Jacobian: Composable mathematics for agent-driven research experiments." [code](https://github.com/morluto/jacobian) | [project](https://github.com/morluto/jacobian)
+
 [2026-06] ![Multi-Agent](https://img.shields.io/badge/Multi--Agent-1f6feb) ![Framework](https://img.shields.io/badge/Framework-1f6feb) "Agon: An Autonomous Large-Scale Omnidisciplinary Research System Built on Prompt Economy." Youran Sun et al. arXiv 2026. [paper](https://arxiv.org/abs/2606.24177) | [code](https://github.com/AutoResearch-Factory/Agon)
 
 [2026-06] ![Survey](https://img.shields.io/badge/Survey-1f6feb) "What's Missing in Autonomous Research? A Systematization of Systems, Benchmarks, and Verification." Xingyu Ren et al. Technical report 2026. [paper](https://haizhaoyang.github.io/research/autoresearch-survey.html)

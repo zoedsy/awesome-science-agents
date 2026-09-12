@@ -14,7 +14,7 @@ If you only want to suggest a paper without filing a PR, open an issue using the
 
 Every entry follows this single-line template:
 
-```
+```markdown
 [YYYY-MM] ![tag1] ![tag2] "Title." Authors. Venue YYYY. [paper](url) | [code](url) | [project](url)
 ```
 
@@ -57,7 +57,7 @@ Within each section, entries are sorted **reverse-chronologically by `YYYY-MM`**
 ## Section choice
 
 | Section | What goes here |
-|---------|----------------|
+| --- | --- |
 | 🌐 Science General | Cross-domain agentic systems, AI scientists, research copilots |
 | 🔄 Self-Evolving Agents and Continual Learning | Cross-domain scientific agents that accumulate experience, learn skills, adapt parameters, or improve their own research machinery; selected RSI foundations with an explicit scientific-research connection |
 | 📊 Benchmarks & Evaluation | Datasets, leaderboards, eval frameworks |

@@ -8,7 +8,7 @@
 
 > A curated list of papers, tools, and platforms on **AI agents for scientific discovery** (2023–2026) — spanning general science copilots, self-evolving agents and continual learning, benchmarks, physical sciences, life sciences, and social-science simulation.
 
-We're continually improving and expanding this collection. To add a paper, please see [CONTRIBUTING.md](CONTRIBUTING.md) or open an [issue](https://github.com/zoedsy/awesome-science-agents/issues/new/choose). For other inquiries: zoedusy123@gmail.com.
+We're continually improving and expanding this collection. To add a paper, please see [CONTRIBUTING.md](CONTRIBUTING.md) or open an [issue](https://github.com/zoedsy/awesome-science-agents/issues/new/choose). For other inquiries: <zoedusy123@gmail.com>.
 
 ## Contents
 
@@ -268,4 +268,4 @@ This list is released under [CC0 1.0 Universal](LICENSE) — to the extent possi
 
 ## Maintainer
 
-Curated by [@zoedsy](https://github.com/zoedsy). Contact: zoedusy123@gmail.com.
+Curated by [@zoedsy](https://github.com/zoedsy). Contact: <zoedusy123@gmail.com>.

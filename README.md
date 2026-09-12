@@ -12,6 +12,7 @@ We're continually improving and expanding this collection. To add a paper, pleas
 
 ## Contents
 
+- [Ivy Tendril](https://github.com/Ivy-Interactive/Ivy-Tendril) - Open-source agentic software factory with an amazing UI that handles parallel Git worktrees for you, complete with programmatic verifications and fast review loops
 - 🌐 [Science General](#science-general)
   - 📊 [Benchmarks & Evaluation](#benchmarks--evaluation)
 - ⚛️ [Physical Sciences](#physical-sciences)

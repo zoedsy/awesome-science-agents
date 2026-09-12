@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore the papers, methods, and evolving ideas behind AI agents for scientific discovery. A bilingual, interactive research atlas.">
+  <meta name="theme-color" content="#126c54">
+  <title>Science Agent Atlas · 科学智能体图谱</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="assets/reading.css">
+  <script type="module" src="assets/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to papers / 跳至论文</a>
+  <aside class="sidebar" id="sidebar">
+    <a class="brand" href="./" aria-label="Science Agent Atlas home"><span class="brand-mark" aria-hidden="true">a<span>·</span></span><span>SCIENCE AGENT<br><strong>ATLAS</strong></span></a>
+    <div class="sidebar-section" data-i18n="exploreLabel">探索 / EXPLORE</div>
+    <nav aria-label="Collection">
+      <button class="nav-item active" id="nav-all"><span class="nav-symbol" aria-hidden="true">◈</span><span data-i18n="allPapers">全部论文</span><span class="nav-count" id="all-count">—</span></button>
+    </nav>
+    <div class="sidebar-section" data-i18n="domainsLabel">研究领域 / DISCIPLINES</div>
+    <nav id="domain-nav" aria-label="Research disciplines"></nav>
+    <div class="sidebar-note"><span class="tiny-label">A LIVING BIBLIOGRAPHY</span><p data-i18n="sidebarNote">让论文之间的脉络，比论文数量更清晰。</p><a href="https://github.com/zoedsy/awesome-science-agents" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a></div>
+    <div class="sidebar-foot"><span class="status-dot"></span><span>Curated by zoedsy</span></div>
+  </aside>
+  <div class="workspace">
+    <header class="topbar">
+      <button class="mobile-menu icon-button" id="menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="sidebar">☰</button>
+      <div class="breadcrumb"><span data-i18n="library">研究文库</span><span class="slash">/</span><strong data-i18n="atlas">论文图谱</strong></div>
+      <div class="topbar-right"><a class="guide-link" href="https://github.com/zoedsy/awesome-science-agents/blob/main/docs/self-evolving-science.md" target="_blank" rel="noopener noreferrer" data-i18n="readingGuide">专题阅读指南 ↗</a><div class="language-switch" role="group" aria-label="Language"><button id="lang-zh" aria-pressed="true">中</button><button id="lang-en" aria-pressed="false">EN</button></div></div>
+    </header>
+    <main id="main">
+      <section class="hero">
+        <div class="eyebrow"><span class="short-rule"></span> THE SCIENCE OF SCIENTIFIC AGENTS</div>
+        <h1 data-i18n="heroTitle">看见科学智能体的演进<span>。</span></h1>
+        <div class="hero-bottom"><p data-i18n="heroSubtitle">从协作研究到自我演化。探索每篇论文解决的问题、采用的方法与验证的边界。</p><div class="edition"><span data-i18n="edition">文献快照</span><strong id="edition-date">2026.09.12</strong></div></div>
+      </section>
+      <section class="metrics" aria-label="Collection overview">
+        <div><strong id="metric-total">—</strong><span data-i18n="metricPapers">论文与研究工具</span><small>01 / COLLECTION</small></div>
+        <div><strong id="metric-evolving">—</strong><span data-i18n="metricEvolving">演化与学习专题</span><small>02 / EVOLUTION</small></div>
+        <div><strong id="metric-years">—</strong><span data-i18n="metricYears">研究时间跨度</span><small>03 / TIMELINE</small></div>
+      </section>
+      <section class="explorer" aria-labelledby="explorer-title">
+        <div class="explorer-heading"><div><span class="tiny-label">EXPLORE THE LANDSCAPE</span><h2 id="explorer-title" data-i18n="landscapeTitle">一张地图，读懂研究脉络。</h2></div><div class="view-switch" role="group" aria-label="View"><button id="view-map" aria-pressed="true" data-i18n="mapView">时间图谱</button><button id="view-list" aria-pressed="false" data-i18n="listView">论文列表</button></div></div>
+        <div class="toolbar">
+          <label class="search-box"><span aria-hidden="true">⌕</span><input type="search" id="search" autocomplete="off" placeholder="搜索论文、作者或研究问题…" aria-label="Search papers"><kbd>/</kbd></label>
+          <label class="select-wrap"><span class="sr-only" data-i18n="methodFilter">筛选研究机制</span><select id="mechanism-filter"></select></label>
+          <label class="code-filter"><input type="checkbox" id="code-filter"><span data-i18n="hasCode">有代码链接</span></label>
+        </div>
+        <div class="topic-row"><label><input type="checkbox" id="topic-filter"><span data-i18n="topicFilter">只看自我演化与持续学习</span></label><small data-i18n="topicHint">跨领域专题，可与其他筛选组合</small></div>
+        <div class="active-filters"><span id="result-count" role="status" aria-live="polite"></span><div id="filter-tags"></div><button class="text-button" id="reset" hidden data-i18n="clearFilters">清除筛选</button></div>
+        <div id="map-panel">
+          <div class="map-top"><p data-i18n="mapHint">每一个点，都是一项研究。点击，展开它的故事。</p><label><span data-i18n="groupBy">分组</span><select id="group-by"><option value="domain" data-i18n="byDomain">按研究领域</option><option value="method" data-i18n="byMethod">按主要机制</option></select></label></div>
+          <div class="map-swipe" data-i18n="swipe">横向滑动，查看完整时间轴 →</div>
+          <div class="map-viewport" id="map-viewport" tabindex="0" aria-label="Scrollable research timeline"><div class="research-map" id="research-map" role="group" aria-label="Interactive research timeline"></div></div>
+          <div class="timeline-controls"><button class="play-button" id="play" aria-label="Play publication timeline"><span id="play-symbol" aria-hidden="true">▶</span><span id="play-label" data-i18n="play">播放演进</span></button><div class="time-range"><label for="timeline"><span data-i18n="publishedThrough">发表截至</span> <output id="timeline-date">2026.09</output></label><input id="timeline" type="range" min="0" max="44" value="44" step="1"></div><span class="timeline-end" id="timeline-end">2026</span></div>
+        </div>
+        <div class="results-heading"><h3 data-i18n="papersTitle">从一篇论文开始</h3><label><span class="sr-only" data-i18n="sortLabel">排序</span><select id="sort"><option value="newest" data-i18n="newest">最新发表优先</option><option value="oldest" data-i18n="oldest">最早发表优先</option><option value="name" data-i18n="byName">按名称排序</option></select></label></div>
+        <div id="paper-grid" class="paper-grid" aria-label="Papers"></div>
+        <div class="empty-state" id="empty-state" hidden><span aria-hidden="true">∅</span><h3 data-i18n="noResults">没有匹配的论文</h3><p data-i18n="noResultsHint">试试更短的关键词，或放宽领域、机制与时间范围。</p><button class="primary-button" id="empty-reset" data-i18n="resetAll">查看全部论文</button></div>
+        <div class="load-more-wrap"><button class="secondary-button" id="load-more" hidden></button></div>
+      </section>
+      <footer class="page-footer"><span>SCIENCE AGENT ATLAS</span><p data-i18n="footerNote">解释来自论文摘要与官方项目资料；领域和机制由人工归类。时间以文库收录日期为准。</p><a href="https://github.com/zoedsy/awesome-science-agents/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener noreferrer" data-i18n="contribute">补充一篇论文 ↗</a></footer>
+      <noscript><p>This dashboard needs JavaScript. <a href="https://github.com/zoedsy/awesome-science-agents">Read the full bibliography on GitHub.</a></p></noscript>
+      <div class="error-state" id="load-error" role="alert" hidden><h2>Unable to load the collection / 文库暂时未能加载</h2><p>Refresh this page, or open the bibliography on GitHub.</p><a href="https://github.com/zoedsy/awesome-science-agents">GitHub bibliography ↗</a></div>
+    </main>
+  </div>
+  <dialog class="paper-dialog" id="paper-dialog" aria-labelledby="detail-title"><div class="detail-scroll"><header class="detail-top"><span class="tiny-label" data-i18n="paperDetail">PAPER NOTES / 论文解读</span><button class="icon-button" id="close-detail" aria-label="Close paper details">×</button></header><div id="detail-content"></div></div></dialog>
+  <div class="map-tooltip" id="map-tooltip" role="tooltip" hidden></div>
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+</body>
+</html>

@@ -17,3 +17,7 @@ yarn.lock
 # Misc
 *.log
 .cache/
+
+# Dashboard development
+__pycache__/
+*.pyc

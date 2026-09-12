@@ -20,7 +20,7 @@ Every entry follows this single-line template:
 
 Rules:
 
-- **Date**: ISO-style `[YYYY-MM]` based on the first public release (preprint date is fine). Wrap in square brackets.
+- **Date**: ISO-style `[YYYY-MM]` based on the first public release (preprint date is fine). Wrap in square brackets. Use the original paper/preprint date for paper entries and the first public code release for code-only entries; later revisions do not reset the date. If an earlier white paper predates arXiv, link the dated primary source.
 - **Tags**: 1–3 shields.io badges from the taxonomy below. Order them most-specific first.
 - **Title**: in double quotes, ending with a period inside the quotes.
 - **Authors**: `First Last et al.` if more than three authors. Drop entirely only if truly unavailable.
@@ -59,12 +59,21 @@ Within each section, entries are sorted **reverse-chronologically by `YYYY-MM`**
 | Section | What goes here |
 |---------|----------------|
 | 🌐 Science General | Cross-domain agentic systems, AI scientists, research copilots |
+| 🔄 Self-Evolving Agents and Continual Learning | Cross-domain scientific agents that accumulate experience, learn skills, adapt parameters, or improve their own research machinery; selected RSI foundations with an explicit scientific-research connection |
 | 📊 Benchmarks & Evaluation | Datasets, leaderboards, eval frameworks |
 | ⚛️ Physical Sciences | Physics, Chemistry, Earth Sciences, Astronomy, Materials |
 | 🧬 Life Science | Biology, Medicine, Neuroscience, Bioinformatics |
 | 👥 Social Science & Simulation | Economics, sociology, political science, generative agent simulation |
 
 If unsure, suggest a section in your PR description and a maintainer will help.
+
+## Self-evolution and continual-learning entries
+
+Describe what actually changes: external memory, reusable skills/tools, candidate scientific programs, model parameters, or the improvement procedure itself. Distinguish adaptation on one problem from transfer across tasks and retention of earlier capabilities. Use the [reading guide](docs/self-evolving-science.md) for examples.
+
+Keep domain-specific applications in their scientific section and benchmarks in **Benchmarks & Evaluation**; use the guide to connect them without duplicating entries. Clearly identify general RSI papers as methodological foundations and state the setting in which they were evaluated. A title containing "self-evolving" or "RSI" alone does not establish broad recursive improvement.
+
+Verify paper metadata and code links using the paper or official project. Link runnable implementations as `[code]`, descriptive landing pages as `[project]`, and omit unavailable links. Keep preprints labeled as preprints unless a venue is confirmed by a primary source.
 
 ## PR checklist
 

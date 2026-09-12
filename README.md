@@ -8,12 +8,29 @@
 
 > A curated list of papers, tools, and platforms on **AI agents for scientific discovery** (2023–2026) — spanning general science copilots, self-evolving agents and continual learning, benchmarks, physical sciences, life sciences, and social-science simulation.
 
-We're continually improving and expanding this collection. To add a paper, please see [CONTRIBUTING.md](CONTRIBUTING.md) or open an [issue](https://github.com/zoedsy/awesome-science-agents/issues/new/choose). For other inquiries: <zoedusy123@gmail.com>.
+## Explore the interactive atlas
 
-**Interactive reading dashboard:** [Science Agent Atlas](docs/DASHBOARD.md) provides a Chinese/English timeline, linked filters, and paper-by-paper explanations of the question, method, and evidence. See the guide for local preview and GitHub Pages setup.
+[![Open Science Agent Atlas](https://img.shields.io/badge/OPEN_INTERACTIVE_ATLAS-2455a4?style=for-the-badge)](https://zoedsy.github.io/awesome-science-agents/?lang=en)
+
+**[Open in English →](https://zoedsy.github.io/awesome-science-agents/?lang=en) · [打开中文版 →](https://zoedsy.github.io/awesome-science-agents/?lang=zh)**
+
+**Click any paper to understand what it does.** Explore the collection on a timeline, then open a detailed reading guide with method steps, experimental results, original figures and tables, takeaways, authors, and institutions. Search by research question, author, or institution, and combine discipline and mechanism filters. No installation or sign-in needed.
+
+**推荐打开交互网页阅读：** 在时间图谱中点击任意论文，查看具体方法、实验结果、原图表导读、主要结论及作者机构；支持中英切换、搜索和组合筛选。
+
+<a href="https://zoedsy.github.io/awesome-science-agents/?lang=en">
+  <img src="docs/assets/atlas-preview.png" alt="Science Agent Atlas preview: searchable timeline of scientific-agent papers across five research areas. Click to open the interactive website." width="560">
+</a>
+
+*Click the preview to explore the live atlas. 点击预览图，打开交互网页。*
+
+Quick links: [Self-evolving agents & continual learning](https://zoedsy.github.io/awesome-science-agents/?lang=en&topic=evolving) · [Paper list](https://zoedsy.github.io/awesome-science-agents/?lang=en&view=list) · [Reading and maintenance guide](docs/DASHBOARD.md).
+
+We're continually improving and expanding this collection. To add a paper, please see [CONTRIBUTING.md](CONTRIBUTING.md) or open an [issue](https://github.com/zoedsy/awesome-science-agents/issues/new/choose). For other inquiries: <zoedusy123@gmail.com>.
 
 ## Contents
 
+- [Interactive atlas](#explore-the-interactive-atlas)
 - 🌐 [Science General](#science-general)
   - 🔄 [Self-Evolving Agents and Continual Learning](#self-evolving-agents-and-continual-learning)
   - 📊 [Benchmarks & Evaluation](#benchmarks--evaluation)
@@ -71,6 +88,8 @@ See [CONTRIBUTING.md](CONTRIBUTING.md#tag-taxonomy) for tag definitions.
 ### Self-Evolving Agents and Continual Learning
 
 🔄 Scientific agents that retain experience, acquire skills, adapt model parameters, or improve their own research machinery. Selected RSI (recursive self-improvement) foundations are included for their relevance to building and evaluating scientific agents.
+
+**[Explore this topic in the interactive atlas →](https://zoedsy.github.io/awesome-science-agents/?lang=en&topic=evolving)** — compare papers on the timeline and open their detailed reading guides.
 
 See the [reading guide](docs/self-evolving-science.md) for mechanisms, scientific applications, evidence limits, and domain-specific works. Literature checked through **2026-09-12**; entry dates refer to first publication, not the latest revision.
 

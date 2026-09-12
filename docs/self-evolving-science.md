@@ -2,6 +2,8 @@
 
 [Back to the list](../README.md#self-evolving-agents-and-continual-learning)
 
+**[Explore this topic in the interactive atlas →](https://zoedsy.github.io/awesome-science-agents/?lang=en&topic=evolving)** · [中文版图谱](https://zoedsy.github.io/awesome-science-agents/?lang=zh&topic=evolving). Click a paper for method steps, experimental evidence, original figures and tables, and author affiliations.
+
 Literature checked through **2026-09-12**. This guide connects recent scientific applications with the mechanisms they use to improve. It includes selected earlier foundations. Descriptions summarize the cited papers; the grouping and scope assessments are editorial judgments, not independent reproductions of their results.
 
 ## What improves?

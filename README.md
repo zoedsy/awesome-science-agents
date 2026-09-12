@@ -6,13 +6,14 @@
 [![Last Commit](https://img.shields.io/github/last-commit/zoedsy/awesome-science-agents)](https://github.com/zoedsy/awesome-science-agents/commits/main)
 [![GitHub Stars](https://img.shields.io/github/stars/zoedsy/awesome-science-agents?style=social)](https://github.com/zoedsy/awesome-science-agents/stargazers)
 
-> A curated list of papers, tools, and platforms on **AI agents for scientific discovery** (2023–2026) — spanning general science copilots, benchmarks, physical sciences, life sciences, and social-science simulation.
+> A curated list of papers, tools, and platforms on **AI agents for scientific discovery** (2023–2026) — spanning general science copilots, self-evolving agents and continual learning, benchmarks, physical sciences, life sciences, and social-science simulation.
 
-We're continually improving and expanding this collection. To add a paper, please see [CONTRIBUTING.md](CONTRIBUTING.md) or open an [issue](https://github.com/zoedsy/awesome-science-agents/issues/new/choose). For other inquiries: zoedusy123@gmail.com.
+We're continually improving and expanding this collection. To add a paper, please see [CONTRIBUTING.md](CONTRIBUTING.md) or open an [issue](https://github.com/zoedsy/awesome-science-agents/issues/new/choose). For other inquiries: <zoedusy123@gmail.com>.
 
 ## Contents
 
 - 🌐 [Science General](#science-general)
+  - 🔄 [Self-Evolving Agents and Continual Learning](#self-evolving-agents-and-continual-learning)
   - 📊 [Benchmarks & Evaluation](#benchmarks--evaluation)
 - ⚛️ [Physical Sciences](#physical-sciences)
 - 🧬 [Life Science](#life-science)
@@ -65,9 +66,43 @@ See [CONTRIBUTING.md](CONTRIBUTING.md#tag-taxonomy) for tag definitions.
 
 [2023-06] ![Survey](https://img.shields.io/badge/Survey-1f6feb) "Scientific discovery in the age of artificial intelligence." Hanchen Wang et al. Nature 2023. [paper](https://www.nature.com/articles/s41586-023-06221-2)
 
+### Self-Evolving Agents and Continual Learning
+
+🔄 Scientific agents that retain experience, acquire skills, adapt model parameters, or improve their own research machinery. Selected RSI (recursive self-improvement) foundations are included for their relevance to building and evaluating scientific agents.
+
+See the [reading guide](docs/self-evolving-science.md) for mechanisms, scientific applications, evidence limits, and domain-specific works. Literature checked through **2026-09-12**; entry dates refer to first publication, not the latest revision.
+
+[2026-08] ![Multi-Agent](https://img.shields.io/badge/Multi--Agent-1f6feb) ![Framework](https://img.shields.io/badge/Framework-1f6feb) "HypoForge: A Self-Improving Multi-Agent Framework for Automated Hypothesis Generation and Testing via Scientific Skill Learning." Ziqing Qian et al. arXiv 2026. [paper](https://arxiv.org/abs/2608.25770)
+
+[2026-08] ![Framework](https://img.shields.io/badge/Framework-1f6feb) "Meta$^n$: Recursive Self-Improvement through Emergent Depth." Zae Myung Kim et al. arXiv 2026. [paper](https://arxiv.org/abs/2608.24735) | [code](https://github.com/minnesotanlp/meta-n)
+
+[2026-07] ![LLM-Tool](https://img.shields.io/badge/LLM--Tool-1f6feb) "SciToolAgent-Evo: An Ontology-Aware Self-Evolving Agent for Open-World Scientific Tool Acquisition." Yuqi Tang et al. arXiv 2026. [paper](https://arxiv.org/abs/2607.28692)
+
+[2026-06] ![LLM-Tool](https://img.shields.io/badge/LLM--Tool-1f6feb) "Evidence-Informed LLM Beliefs for Continual Scientific Discovery." Dhruv Agarwal et al. arXiv 2026. [paper](https://arxiv.org/abs/2606.29182)
+
+[2026-06] ![Multi-Agent](https://img.shields.io/badge/Multi--Agent-1f6feb) ![Framework](https://img.shields.io/badge/Framework-1f6feb) "MLEvolve: A Self-Evolving Framework for Automated Machine Learning Algorithm Discovery." Shangheng Du et al. arXiv 2026. [paper](https://arxiv.org/abs/2606.06473) | [code](https://github.com/InternScience/MLEvolve)
+
+[2026-04] ![Framework](https://img.shields.io/badge/Framework-1f6feb) "EvoMaster: A Foundational Evolving Agent Framework for Agentic Science at Scale." Xinyu Zhu et al. arXiv 2026. [paper](https://arxiv.org/abs/2604.17406) | [code](https://github.com/sjtu-sai-agents/EvoMaster)
+
+[2026-04] ![Multi-Agent](https://img.shields.io/badge/Multi--Agent-1f6feb) ![Framework](https://img.shields.io/badge/Framework-1f6feb) "CORAL: Towards Autonomous Multi-Agent Evolution for Open-Ended Discovery." Ao Qu et al. COLM 2026. [paper](https://arxiv.org/abs/2604.01658) | [code](https://github.com/Human-Agent-Society/CORAL)
+
+[2026-03] ![Multi-Agent](https://img.shields.io/badge/Multi--Agent-1f6feb) ![Framework](https://img.shields.io/badge/Framework-1f6feb) "Hyperagents." Jenny Zhang et al. arXiv 2026. [paper](https://arxiv.org/abs/2603.19461) | [code](https://github.com/facebookresearch/HyperAgents)
+
+[2026-03] ![Multi-Agent](https://img.shields.io/badge/Multi--Agent-1f6feb) ![Framework](https://img.shields.io/badge/Framework-1f6feb) "EvoScientist: Towards Multi-Agent Evolving AI Scientists for End-to-End Scientific Discovery." Yougang Lyu et al. arXiv 2026. [paper](https://arxiv.org/abs/2603.08127) | [code](https://github.com/EvoScientist/EvoScientist)
+
+[2026-02] ![Multi-Agent](https://img.shields.io/badge/Multi--Agent-1f6feb) ![Framework](https://img.shields.io/badge/Framework-1f6feb) "S1-NexusAgent: a Self-Evolving Agent Framework for Multidisciplinary Scientific Research." S1-NexusAgent Team. arXiv 2026. [paper](https://arxiv.org/abs/2602.01550) | [code](https://github.com/CASIA-LM/S1-NexusAgent)
+
+[2026-01] ![LLM-Tool](https://img.shields.io/badge/LLM--Tool-1f6feb) ![Framework](https://img.shields.io/badge/Framework-1f6feb) "Learning to Discover at Test Time." Mert Yuksekgonul et al. arXiv 2026. [paper](https://arxiv.org/abs/2601.16175) | [code](https://github.com/test-time-training/discover)
+
+[2025-05] ![LLM-Tool](https://img.shields.io/badge/LLM--Tool-1f6feb) "AlphaEvolve: A coding agent for scientific and algorithmic discovery." Alexander Novikov et al. arXiv 2025. [paper](https://arxiv.org/abs/2506.13131) | [blog](https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/)
+
+[2025-05] ![Framework](https://img.shields.io/badge/Framework-1f6feb) "Darwin Godel Machine: Open-Ended Evolution of Self-Improving Agents." Jenny Zhang et al. arXiv 2025. [paper](https://arxiv.org/abs/2505.22954) | [code](https://github.com/jennyzzt/dgm)
+
 ### Benchmarks & Evaluation
 
 📊 Datasets, leaderboards, and evaluation frameworks.
+
+[2026-08] ![Benchmark](https://img.shields.io/badge/Benchmark-1f6feb) "AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement." Yizhe Chi et al. arXiv 2026. [paper](https://arxiv.org/abs/2608.20318)
 
 [2026-03] ![Benchmark](https://img.shields.io/badge/Benchmark-1f6feb) "ResearchClawBench" (code-only release). [code](https://github.com/InternScience/ResearchClawBench) | [website](https://internscience.github.io/ResearchClawBench-Home/)
 
@@ -86,6 +121,12 @@ See [CONTRIBUTING.md](CONTRIBUTING.md#tag-taxonomy) for tag definitions.
 ## Physical Sciences
 
 ⚛️ Physics · Chemistry · Earth Sciences · Astronomy · Materials.
+
+[2026-07] ![LLM-Tool](https://img.shields.io/badge/LLM--Tool-1f6feb) ![Materials](https://img.shields.io/badge/Materials-2da44e) "Harnessing agent memory to build lifelong AI partners for materials scientists." Siyu Liu et al. arXiv 2026. [paper](https://arxiv.org/abs/2608.11224)
+
+[2026-06] ![LLM-Tool](https://img.shields.io/badge/LLM--Tool-1f6feb) ![Simulation](https://img.shields.io/badge/Simulation-2da44e) "Self-Evolving Scientific Agent Designs Physically Reasoned White-Box Fluid Control." Boai Sun et al. arXiv 2026. [paper](https://arxiv.org/abs/2606.08405) | [code](https://github.com/scaling-group/agent-fluid)
+
+[2026-05] ![Multi-Agent](https://img.shields.io/badge/Multi--Agent-1f6feb) ![Framework](https://img.shields.io/badge/Framework-1f6feb) "GRAFT-ATHENA: Self-Improving Agentic Teams for Autonomous Discovery and Evolutionary Numerical Algorithms." Juan Diego Toscano, Zhaojie Chai, and George Em Karniadakis. arXiv 2026. [paper](https://arxiv.org/abs/2605.11117)
 
 [2026-02] ![Multi-Agent](https://img.shields.io/badge/Multi--Agent-1f6feb) ![LLM-Tool](https://img.shields.io/badge/LLM--Tool-1f6feb) "AutoNumerics: An Autonomous, PDE-Agnostic Multi-Agent Pipeline for Scientific Computing." Jianda Du, Youran Sun, and Haizhao Yang. arXiv 2026. [paper](https://arxiv.org/abs/2602.17607) | [code](https://github.com/Daviddjddu/Autonumerics)
 
@@ -121,6 +162,8 @@ See [CONTRIBUTING.md](CONTRIBUTING.md#tag-taxonomy) for tag definitions.
 
 🧬 Biology · Botany · Zoology · Microbiology · Neuroscience · Medicine.
 
+[2026-09] ![LLM-Tool](https://img.shields.io/badge/LLM--Tool-1f6feb) ![Drug-Discovery](https://img.shields.io/badge/Drug--Discovery-2da44e) "ADMET-EvO: a self-evolving scientific agent for sustained research across heterogeneous tasks." Yiling Zhou et al. arXiv 2026. [paper](https://arxiv.org/abs/2609.10121)
+
 [2026-04] ![Multi-Agent](https://img.shields.io/badge/Multi--Agent-1f6feb) ![Drug-Discovery](https://img.shields.io/badge/Drug--Discovery-2da44e) "An autonomous LLM-agent platform for computational binder design and conjugation-aware prioritization of antibody–drug conjugates." Ganggang Liu et al. bioRxiv 2026. [paper](https://www.biorxiv.org/content/10.64898/2026.04.21.719907v1) | [code](https://github.com/liugangg/oih-platform)
 
 [2026-03] ![LLM-Tool](https://img.shields.io/badge/LLM--Tool-1f6feb) "Protein Design with Agent Rosetta: A Case Study for Specialized Scientific Agents." Jacopo Teneggi et al. arXiv 2026. [paper](https://arxiv.org/abs/2603.15952)
@@ -136,6 +179,8 @@ See [CONTRIBUTING.md](CONTRIBUTING.md#tag-taxonomy) for tag definitions.
 [2025-10] ![Multi-Agent](https://img.shields.io/badge/Multi--Agent-1f6feb) ![Drug-Discovery](https://img.shields.io/badge/Drug--Discovery-2da44e) "The Virtual Lab of AI agents designs new SARS-CoV-2 nanobodies." Kyle Swanson et al. Nature 2025. [paper](https://www.nature.com/articles/s41586-025-09442-9) | [code](https://github.com/zou-group/virtual-lab)
 
 [2025-07] ![Multi-Agent](https://img.shields.io/badge/Multi--Agent-1f6feb) ![Genomics](https://img.shields.io/badge/Genomics-2da44e) "GenoMAS: A Multi-Agent Framework for Scientific Discovery via Code-Driven Gene Expression Analysis." Haoyang Liu et al. arXiv 2025. [paper](https://arxiv.org/abs/2507.21035)
+
+[2025-07] ![Multi-Agent](https://img.shields.io/badge/Multi--Agent-1f6feb) ![Framework](https://img.shields.io/badge/Framework-1f6feb) "STELLA: Self-Evolving LLM Agent for Biomedical Research." Ruofan Jin et al. arXiv 2025. [paper](https://arxiv.org/abs/2507.02004) | [code](https://github.com/zaixizhang/STELLA)
 
 [2025-05] ![Multi-Agent](https://img.shields.io/badge/Multi--Agent-1f6feb) "Robin: A multi-agent system for automating scientific discovery." Ali Essam Ghareeb et al. (FutureHouse). arXiv 2025. [paper](https://arxiv.org/abs/2505.13400) | [blog](https://www.futurehouse.org/research-announcements/demonstrating-end-to-end-scientific-discovery-with-robin-a-multi-agent-system)
 
@@ -223,4 +268,4 @@ This list is released under [CC0 1.0 Universal](LICENSE) — to the extent possi
 
 ## Maintainer
 
-Curated by [@zoedsy](https://github.com/zoedsy). Contact: zoedusy123@gmail.com.
+Curated by [@zoedsy](https://github.com/zoedsy). Contact: <zoedusy123@gmail.com>.

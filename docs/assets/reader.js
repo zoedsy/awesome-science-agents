@@ -1,6 +1,6 @@
 const text = {
-  zh: { institutions: '机构与团队', affiliations: '原文列示的机构；保留署名时名称', partial: '目前可从来源确认的机构', unstated: '公开资料未明确列出机构', more: n => `查看其余 ${n} 项`, authors: n => `作者 · ${n} 人`, takeaway: '先记住这两点', figures: '结合原图理解', tables: '关键表格', full: '查看原图 ↗', source: '原文出处 ↗', failed: '原图暂时未能加载，可通过出处查看。', tableNote: '保留原文数值与英文列名；横向滑动可查看完整表格。', complete: '继续阅读完整原文 ↗', excerpt: '本页选取关键图表。图像版权归原作者／出版方，文字解读为编辑整理。', noFigure: '此条目暂未收录可直接展示的原文图像。', parts: '原图分面', jump: '快速跳转', overview: '研究问题与方法' },
-  en: { institutions: 'Institutions & teams', affiliations: 'Affiliations as listed in the source', partial: 'Institutions confirmed from available sources', unstated: 'No institution explicitly listed in the public source', more: n => `Show ${n} more`, authors: n => `Authors · ${n}`, takeaway: 'Two things to take away', figures: 'Read the original figure', tables: 'Key tables', full: 'Open original image ↗', source: 'View in source ↗', failed: 'The image could not load. Use the source link to view it.', tableNote: 'Original values and English column labels. Scroll horizontally for the complete table.', complete: 'Continue with the full source ↗', excerpt: 'Selected figures and tables. Images belong to their authors/publishers; explanations are editorial notes.', noFigure: 'No directly displayable source image is included for this entry yet.', parts: 'Figure panels', jump: 'Jump to section', overview: 'Question & method' },
+  zh: { institutions: '机构与团队', affiliations: '原文列示的机构；保留署名时名称', partial: '目前可从来源确认的机构', unstated: '公开资料未明确列出机构', more: n => `查看其余 ${n} 项`, authors: n => `作者 · ${n} 人`, takeaway: '先记住这两点', figures: '结合原图理解', tables: '关键表格', full: '查看原图 ↗', source: '原文出处 ↗', failed: '原图暂时未能加载，可通过出处查看。', tableNote: '保留原文数值与英文列名；横向滑动可查看完整表格。', complete: '继续阅读完整原文 ↗', excerpt: '本页选取关键图表。图像版权归原作者／出版方，文字解读为编辑整理。', noFigure: '此条目暂未收录可直接展示的原文图像。', parts: '原图分面', jump: '快速跳转', overview: '研究问题' },
+  en: { institutions: 'Institutions & teams', affiliations: 'Affiliations as listed in the source', partial: 'Institutions confirmed from available sources', unstated: 'No institution explicitly listed in the public source', more: n => `Show ${n} more`, authors: n => `Authors · ${n}`, takeaway: 'Two things to take away', figures: 'Read the original figure', tables: 'Key tables', full: 'Open original image ↗', source: 'View in source ↗', failed: 'The image could not load. Use the source link to view it.', tableNote: 'Original values and English column labels. Scroll horizontally for the complete table.', complete: 'Continue with the full source ↗', excerpt: 'Selected figures and tables. Images belong to their authors/publishers; explanations are editorial notes.', noFigure: 'No directly displayable source image is included for this entry yet.', parts: 'Figure panels', jump: 'Jump to section', overview: 'Research question' },
 };
 const el = (tag, className, value) => {
   const node = document.createElement(tag);
@@ -8,6 +8,21 @@ const el = (tag, className, value) => {
   if (value !== undefined) node.textContent = value;
   return node;
 };
+const guideLabels = {
+  zh: { context: '具体研究场景', steps: '方法拆解：一步步怎么做', evidence: '实验怎么做，结果说明什么', visual: '图表导读', caveat: '边界与可借鉴之处', reference: '核对原文中的方法与结果 ↗' },
+  en: { context: 'The concrete research setting', steps: 'How it works, step by step', evidence: 'Experiments and what the results mean', visual: 'How to read the figures and tables', caveat: 'Limits and reusable ideas', reference: 'Check the original methods and results ↗' },
+};
+function labelsFor(p, lang) {
+  const labels = { ...guideLabels[lang] };
+  if (['survey', 'perspective'].includes(p.kind)) {
+    labels.steps = lang === 'zh' ? '文章如何展开论证' : 'How the argument is developed';
+    labels.evidence = lang === 'zh' ? '论据与主要结论' : 'Evidence and main conclusions';
+  } else if (['study', 'tool'].includes(p.kind)) {
+    labels.steps = lang === 'zh' ? '方法与分析过程' : 'Method and analysis';
+    labels.evidence = lang === 'zh' ? '依据、结果与解读' : 'Evidence, findings and interpretation';
+  }
+  return labels;
+}
 const external = (url, label, className) => {
   const node = el('a', className, label); node.href = url;
   node.target = '_blank'; node.rel = 'noopener noreferrer'; return node;
@@ -37,10 +52,12 @@ export function takeawayBlock(p, lang) {
   block.append(items); return block;
 }
 export function readerNavigation(p, lang) {
-  const w = text[lang], nav = el('nav', 'reader-navigation'); nav.setAttribute('aria-label', w.jump);
+  const w = text[lang], labels = labelsFor(p, lang), nav = el('nav', 'reader-navigation'); nav.setAttribute('aria-label', w.jump);
   const sections = [['reader-overview', w.overview]];
+  if (p.reading.guide) sections.push(['reader-steps', labels.steps], ['reader-evidence', labels.evidence]);
   if (p.reading.figures.length) sections.push(['reader-figures', w.figures]);
   if (p.reading.tables.length) sections.push(['reader-tables', w.tables]);
+  if (p.reading.guide) sections.push(['reader-caveat', guideLabels[lang].caveat]);
   sections.push(['reader-source', w.source.replace(' ↗', '')]);
   sections.forEach(([id, title]) => {
     const button = el('button', '', title);
@@ -51,6 +68,34 @@ export function readerNavigation(p, lang) {
     }); nav.append(button);
   });
   return nav;
+}
+export function guideBlocks(p, lang) {
+  const guide = p.reading.guide?.[lang];
+  if (!guide) return [];
+  const labels = labelsFor(p, lang);
+  return ['context', 'steps', 'evidence', 'visual'].map(key => {
+    const section = el('section', 'reader-section guide-section');
+    section.id = `reader-${key}`; section.tabIndex = -1;
+    section.append(el('h3', '', labels[key]));
+    if (key === 'steps') {
+      const list = el('ol', 'method-steps');
+      guide.steps.forEach(step => list.append(el('li', '', step)));
+      section.append(list);
+    } else {
+      const paragraphs = Array.isArray(guide[key]) ? guide[key] : [guide[key]];
+      paragraphs.forEach(paragraph => section.append(el('p', '', paragraph)));
+    }
+    if (key === 'evidence') section.append(external(p.reading.fullText, guideLabels[lang].reference, 'guide-reference'));
+    return section;
+  });
+}
+export function caveatBlock(p, lang) {
+  const guide = p.reading.guide?.[lang];
+  if (!guide) return [];
+  const section = el('section', 'reader-section guide-section guide-caveat');
+  section.id = 'reader-caveat'; section.tabIndex = -1;
+  section.append(el('h3', '', guideLabels[lang].caveat), el('p', '', guide.caveat));
+  return [section];
 }
 export function evidenceBlocks(p, lang) {
   const w = text[lang], r = p.reading, blocks = [];

@@ -78,6 +78,22 @@ def validate_reading(key, reading):
         items = reading.get('takeaways', {}).get(lang)
         if not isinstance(items, list) or not items or any(not isinstance(x, str) or not x.strip() for x in items):
             raise ValueError(f'{key}: missing {lang} takeaways')
+    guide = reading.get('guide')
+    if not isinstance(guide, dict):
+        raise ValueError(f'{key}: missing bilingual reading guide')
+    for lang in ('zh', 'en'):
+        edition = guide.get(lang)
+        if not isinstance(edition, dict):
+            raise ValueError(f'{key}: missing {lang} reading guide')
+        for field in ('context', 'visual', 'caveat'):
+            value = edition.get(field)
+            if not isinstance(value, str) or not value.strip():
+                raise ValueError(f'{key}: missing guide {lang}.{field}')
+        for field, minimum in (('steps', 3), ('evidence', 2)):
+            values = edition.get(field)
+            if (not isinstance(values, list) or len(values) < minimum or
+                    any(not isinstance(value, str) or not value.strip() for value in values)):
+                raise ValueError(f'{key}: incomplete guide {lang}.{field}')
     for kind in ('figures', 'tables'):
         if not isinstance(reading.get(kind), list):
             raise ValueError(f'{key}: missing {kind}')

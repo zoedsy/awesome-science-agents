@@ -1,9 +1,11 @@
 # Science Agent Atlas
 
 An interactive Chinese/English reading dashboard for every dated entry in the
-repository. Select a timeline dot or card to read the research question, method,
-evaluation scope, author affiliations, original figures, selected result tables,
-and concise takeaways. Search, discipline, mechanism, code-link,
+repository. Select a timeline dot or card for a detailed reading guide: concrete
+research setting, three method steps, experimental design and results, figure/table
+walkthrough, and limitations and reusable ideas. Author affiliations, original
+figures, selected result tables, and quick takeaways accompany each guide.
+Search, discipline, mechanism, code-link,
 topic, and month filters work together. Links preserve the current view and paper.
 
 ## Run locally
@@ -25,8 +27,9 @@ file directly, because the site loads an ES module and a JSON file.
 `README.md` remains the source for titles, catalog months, sections, and outgoing
 links. `data/paper-notes.json` contains reviewed bilingual explanations and source
 provenance keyed by each entry's primary paper URL (or code URL for software).
-`data/paper-reading.json` adds source-backed institutions, bilingual takeaways,
-figure explanations, image URLs, and selected table values under the same keys.
+`data/paper-reading.json` adds source-backed institutions, bilingual reading guides
+and takeaways, figure explanations, image URLs, and selected table values under
+the same keys.
 `docs/data/papers.json` is the generated, committed snapshot served by the website.
 
 1. Add or update the dated README entry.
@@ -36,6 +39,14 @@ figure explanations, image URLs, and selected table values under the same keys.
 3. Add a reading record in `data/paper-reading.json`. Verify affiliations in the
    source, label incomplete information, select useful figures and tables, and
    explain them in both languages. Preserve table units and comparison conditions.
+   Each `guide.zh` and `guide.en` must include `context`, at least three `steps`,
+   at least two `evidence` paragraphs, `visual`, and `caveat`. Explain the actual
+   inputs, process, outputs, comparison conditions and meaning of results. Use
+   the paper's metric definitions and distinguish ratings, accuracy, relative
+   gains and percentage-point differences. Adapt evidence to the source type:
+   surveys, software and qualitative studies do not all report experiments.
+   Cross-check specific claims against the linked source version; say when only
+   an abstract or official summary is available. Do not invent missing results.
 4. Run `python3 scripts/build_dashboard.py` and commit both note files and snapshot.
 5. Run `npm test` with Node.js 20+ and Python 3.9+; no `npm install` is needed.
 
@@ -72,7 +83,9 @@ If the primary URL itself changes, its permalink changes too.
   Eleven PDF-only figures and tables are cropped locally, with provenance recorded in
   `docs/assets/paper-figures/README.md`. Tables retain original numerical values
   and labels, omitting bibliographic citation markers.
-- The September 2026 reading edition includes figures for 98 entries, selected
+- All 101 entries include complete Chinese and English reading guides. These
+  expand on the brief catalog summaries; numerical claims retain their evaluation
+  setting and original-source links. The September 2026 reading edition includes figures for 98 entries, selected
   tables for 48, and identified institutions or project teams for 99. Jacobian and
   ResearchClawBench are project entries without selected figures; MARS currently
   links to its original publication because a usable figure was not retrieved.
@@ -101,3 +114,5 @@ check the site under a path prefix before changing its asset paths.
 Browser checks for reading pages should additionally inspect image loading and
 fallbacks, source links, figure crops, long author/affiliation lists, table scrolling,
 keyboard section navigation, and language switching while a paper is open.
+Check the method steps, evidence paragraphs and limitations in both languages,
+including mobile line wrapping and navigation to the longer sections.

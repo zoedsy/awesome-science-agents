@@ -1657,12 +1657,12 @@
       "zh": {
         "problem": "能否从偏微分方程描述自动构造可解释数值求解器？",
         "method": "多智能体提出经典数值方案，用由粗到细的残差验证筛选与改进实现。",
-        "evaluation": "在 24 个偏微分方程问题中评估。"
+        "evaluation": "比较五个 CodePDE 标准问题及额外 PDE 测试；摘要与正文对测试规模的表述不一致，需按具体结果表核对。"
       },
       "en": {
         "problem": "Can an interpretable numerical solver be constructed from a PDE description?",
         "method": "Agents propose classical numerical schemes and refine implementations through coarse-to-fine residual checks.",
-        "evaluation": "Evaluated on 24 partial differential equation problems."
+        "evaluation": "Compares five CodePDE problems and additional PDE tests; the abstract and body report different suite counts, so check the specific result tables."
       },
       "authors": [
         "Du, Jianda",
@@ -1712,7 +1712,9 @@
       ],
       "sourceTitle": "Knowledge-driven autonomous materials research via collaborative multi-agent and robotic system (MARS)",
       "sources": [
-        "https://doi.org/10.1016/j.matt.2025.102577"
+        "https://doi.org/10.1016/j.matt.2025.102577",
+        "https://www.sciencedirect.com/science/article/pii/S2590238525006204",
+        "https://english.cas.cn/newsroom/research-news/202602/t20260210_1150376.shtml"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -1856,7 +1858,8 @@
       ],
       "sourceTitle": "SciToolAgent: A knowledge-graph-driven scientific agent for multitool integration",
       "sources": [
-        "https://www.nature.com/articles/s43588-025-00849-y"
+        "https://www.nature.com/articles/s43588-025-00849-y",
+        "https://github.com/HICAI-ZJU/SciToolAgent"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",

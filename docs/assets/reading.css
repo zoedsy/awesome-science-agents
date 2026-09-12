@@ -1,4 +1,10 @@
 /* Reading-first typography, contrast, and full-width paper notes. */
+.guide-section p { max-width: 78ch; margin: 14px 0; font-size: 17px; line-height: 1.9; color: #34465c; }
+.method-steps { padding-left: 30px; margin: 18px 0; }
+.method-steps li { padding-left: 8px; margin: 0 0 20px; font-size: 17px; line-height: 1.9; color: #34465c; }
+.method-steps li::marker { font-weight: 650; color: #2455a4; }
+.guide-reference { display: inline-block; font-size: 14px; margin-top: 8px; }
+.guide-caveat { border-left: 3px solid #a8bad5; padding-left: 22px; }
 :root {
   --ink: #182638;
   --muted: #526174;

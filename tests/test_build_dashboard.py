@@ -54,6 +54,31 @@ class BuildTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'bilingual figures'):
             builder.build(self.readme, self.notes, reading)
 
+    def test_missing_or_untranslated_guides_fail(self):
+        for missing in ('guide', 'zh', 'en'):
+            with self.subTest(missing=missing):
+                reading = copy.deepcopy(self.reading)
+                entry = next(iter(reading['entries'].values()))
+                if missing == 'guide':
+                    entry.pop('guide')
+                else:
+                    entry['guide'].pop(missing)
+                with self.assertRaisesRegex(ValueError, 'reading guide'):
+                    builder.build(self.readme, self.notes, reading)
+
+    def test_incomplete_guide_sections_fail(self):
+        for lang in ('zh', 'en'):
+            for field, value in [('context', ''), ('visual', ' '), ('caveat', None),
+                                 ('steps', 'Not a list'), ('steps', ['Only one step']),
+                                 ('steps', ['Step one', '', 'Step three']),
+                                 ('evidence', []), ('evidence', ['Result', 42])]:
+                with self.subTest(lang=lang, field=field, value=value):
+                    reading = copy.deepcopy(self.reading)
+                    entry = next(iter(reading['entries'].values()))
+                    entry['guide'][lang][field] = value
+                    with self.assertRaisesRegex(ValueError, f'guide {lang}.{field}'):
+                        builder.build(self.readme, self.notes, reading)
+
     def test_unsafe_images_and_inconsistent_affiliations_fail(self):
         for bad_image in ['javascript:alert(1)', '../../private.png', 'data:image/svg+xml,unsafe']:
             reading = copy.deepcopy(self.reading)

@@ -1,4 +1,4 @@
-import { institutionBlock, takeawayBlock, readerNavigation, evidenceBlocks, readingSource } from './reader.js';
+import { institutionBlock, takeawayBlock, readerNavigation, evidenceBlocks, readingSource, guideBlocks, caveatBlock } from './reader.js';
 import { domains, methods, kinds, monthIndex, monthString, defaultState, parseState,
   serializeState, filterPapers, layoutPapers } from './catalog.js';
 
@@ -235,7 +235,8 @@ function renderDetail(p) {
   const overview = section('01', t('question'), p[state.lang].problem);
   overview.id = 'reader-overview'; overview.tabIndex = -1;
   root.append(links, takeawayBlock(p, state.lang), readerNavigation(p, state.lang), overview,
-    section('02', t('approach'), p[state.lang].method), ...evidenceBlocks(p, state.lang));
+    ...(p.reading.guide ? guideBlocks(p, state.lang) : [section('02', t('approach'), p[state.lang].method)]),
+    ...evidenceBlocks(p, state.lang), ...caveatBlock(p, state.lang));
   const mechanism = element('section', 'detail-section'); mechanism.append(element('h3', '', t('mechanism')));
   const tags = element('div', 'detail-methods');
   for (const method of p.methods) {

@@ -1,0 +1,11 @@
+{
+  "name": "science-agent-atlas",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "python3 scripts/build_dashboard.py",
+    "check": "python3 scripts/build_dashboard.py --check",
+    "test": "node --test tests/catalog.test.js && python3 -m unittest discover -s tests -p 'test_*.py' && python3 scripts/build_dashboard.py --check",
+    "start": "python3 -m http.server 4173 --bind 127.0.0.1 --directory docs"
+  }
+}

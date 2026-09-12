@@ -10,6 +10,8 @@
 
 We're continually improving and expanding this collection. To add a paper, please see [CONTRIBUTING.md](CONTRIBUTING.md) or open an [issue](https://github.com/zoedsy/awesome-science-agents/issues/new/choose). For other inquiries: <zoedusy123@gmail.com>.
 
+**Interactive reading dashboard:** [Science Agent Atlas](docs/DASHBOARD.md) provides a Chinese/English timeline, linked filters, and paper-by-paper explanations of the question, method, and evidence. See the guide for local preview and GitHub Pages setup.
+
 ## Contents
 
 - 🌐 [Science General](#science-general)

@@ -1,0 +1,3508 @@
+{
+  "reviewed": "2026-09-12",
+  "entries": {
+    "https://github.com/morluto/jacobian": {
+      "name": "Jacobian",
+      "kind": "tool",
+      "methods": [
+        "tools"
+      ],
+      "zh": {
+        "problem": "让科学智能体复用可检查的数学操作。",
+        "method": "提供带类型与条件约束的数学原语，供智能体搜索、组合和执行。",
+        "evaluation": "官方代码工具；这里没有单独的论文实验结果。"
+      },
+      "en": {
+        "problem": "Make mathematical operations reusable and checkable for research agents.",
+        "method": "Provides typed mathematical primitives with explicit conditions that agents can find, compose and execute.",
+        "evaluation": "An official software project; this entry does not provide a separate paper evaluation."
+      },
+      "authors": [],
+      "sourceTitle": "Jacobian: Composable mathematics for agent-driven research experiments",
+      "sources": [
+        "https://github.com/morluto/jacobian"
+      ],
+      "basis": "project",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://arxiv.org/abs/2606.24177": {
+      "name": "Agon",
+      "kind": "research",
+      "methods": [
+        "multi-agent",
+        "evaluation"
+      ],
+      "zh": {
+        "problem": "规模化开展研究后，如何区分产物数量和结论质量？",
+        "method": "以精简提示和并行研究循环组织任务，将可执行检查与科学判断分开。",
+        "evaluation": "报告跨领域的 444 轮运行，并分析哪些失败仍需人类判断。"
+      },
+      "en": {
+        "problem": "How can scalable research distinguish output volume from the quality of its claims?",
+        "method": "Orchestrates parallel research loops using compact prompts and separates executable checks from scientific judgment.",
+        "evaluation": "Reports 444 cross-domain iterations and analyzes failures that still require human judgment."
+      },
+      "authors": [
+        "Sun, Youran",
+        "Ren, Xingyu",
+        "Yi, Chugang",
+        "Guo, Jiaxuan",
+        "Zhang, Kejia",
+        "Du, Jianda",
+        "Yang, Haizhao"
+      ],
+      "sourceTitle": "Agon: An Autonomous Large-Scale Omnidisciplinary Research System Built on Prompt Economy",
+      "sources": [
+        "https://arxiv.org/abs/2606.24177"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://haizhaoyang.github.io/research/autoresearch-survey.html": {
+      "name": "Autonomous Research: What's Missing?",
+      "kind": "survey",
+      "methods": [
+        "evaluation"
+      ],
+      "zh": {
+        "problem": "现有自主研究系统到底验证了什么？",
+        "method": "按系统、任务、产物和验证方式组织文献，区分生成研究材料与支撑科学结论。",
+        "evaluation": "系统化综述；不是一个新智能体的性能报告。"
+      },
+      "en": {
+        "problem": "What do autonomous research systems actually verify?",
+        "method": "Organizes systems, tasks, artifacts and verification practices, distinguishing generated research artifacts from supported claims.",
+        "evaluation": "A systematization of prior work, rather than a performance report for a new agent."
+      },
+      "authors": [],
+      "sourceTitle": "What's Missing in Autonomous Research? A Systematization of Systems, Benchmarks, and Verification",
+      "sources": [
+        "https://haizhaoyang.github.io/research/autoresearch-survey.html"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://arxiv.org/abs/2601.03315": {
+      "name": "Why LLMs Aren't Scientists Yet",
+      "kind": "study",
+      "methods": [
+        "evaluation",
+        "multi-agent"
+      ],
+      "zh": {
+        "problem": "端到端研究为何仍会在实现和判断环节失效？",
+        "method": "回顾多智能体研究尝试，分析记忆丢失、实现偏移与研究判断问题。",
+        "evaluation": "四个机器学习研究案例；结论是案例观察，不是通用能力排名。"
+      },
+      "en": {
+        "problem": "Why does end-to-end research still fail at implementation and judgment?",
+        "method": "Examines multi-agent research attempts for memory loss, implementation drift and weak research judgment.",
+        "evaluation": "Four machine-learning research cases; the conclusions are case observations, not a general capability ranking."
+      },
+      "authors": [
+        "Trehan, Dhruv",
+        "Chopra, Paras"
+      ],
+      "sourceTitle": "Why LLMs Aren't Scientists Yet: Lessons from Four Autonomous Research Attempts",
+      "sources": [
+        "https://arxiv.org/abs/2601.03315"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://arxiv.org/abs/2511.02824": {
+      "name": "Kosmos",
+      "kind": "research",
+      "methods": [
+        "multi-agent",
+        "memory",
+        "retrieval"
+      ],
+      "zh": {
+        "problem": "如何让长时间的数据分析和文献检索共同推进一个科学问题？",
+        "method": "并行安排分析和检索智能体，用结构化世界模型共享中间发现并生成可追溯报告。",
+        "evaluation": "展示代谢组、材料、神经科学和遗传学等七项发现，并报告科学家评估。"
+      },
+      "en": {
+        "problem": "How can prolonged data analysis and literature search advance one scientific question together?",
+        "method": "Runs analysis and search agents in parallel, sharing intermediate findings through a structured world model and producing traceable reports.",
+        "evaluation": "Presents seven discoveries across areas including metabolomics, materials, neuroscience and genetics, alongside scientist assessments."
+      },
+      "authors": [
+        "Mitchener, Ludovico",
+        "Yiu, Angela",
+        "Chang, Benjamin",
+        "Bourdenx, Mathieu",
+        "Nadolski, Tyler",
+        "Sulovari, Arvis",
+        "Landsness, Eric C.",
+        "Barabasi, Daniel L.",
+        "Narayanan, Siddharth",
+        "Evans, Nicky",
+        "Reddy, Shriya",
+        "Foiani, Martha",
+        "Kamal, Aizad",
+        "Shriver, Leah P.",
+        "Cao, Fang",
+        "Wassie, Asmamaw T.",
+        "Laurent, Jon M.",
+        "Melville-Green, Edwin",
+        "Caldas, Mayk",
+        "Bou, Albert",
+        "Roberts, Kaleigh F.",
+        "Zagorac, Sladjana",
+        "Orr, Timothy C.",
+        "Orr, Miranda E.",
+        "Zwezdaryk, Kevin J.",
+        "Ghareeb, Ali E.",
+        "McCoy, Laurie",
+        "Gomes, Bruna",
+        "Ashley, Euan A.",
+        "Duff, Karen E.",
+        "Buonassisi, Tonio",
+        "Rainforth, Tom",
+        "Bateman, Randall J.",
+        "Skarlinski, Michael",
+        "Rodriques, Samuel G.",
+        "Hinks, Michaela M.",
+        "White, Andrew D."
+      ],
+      "sourceTitle": "Kosmos: An AI Scientist for Autonomous Discovery",
+      "sources": [
+        "https://arxiv.org/abs/2511.02824"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://arxiv.org/abs/2510.09901": {
+      "name": "Orchestrating Scientists, Language, Code & Physics",
+      "kind": "perspective",
+      "methods": [
+        "multi-agent",
+        "tools"
+      ],
+      "zh": {
+        "problem": "科学家的判断、语言推理、代码和物理模型如何协作？",
+        "method": "讨论将这些能力编排到科学发现流程中的架构与挑战。",
+        "evaluation": "观点与框架讨论；不应解读成一个统一系统已完成全部验证。"
+      },
+      "en": {
+        "problem": "How should scientists, language reasoning, code and physical models work together?",
+        "method": "Discusses architectures and challenges for coordinating these capabilities across scientific discovery.",
+        "evaluation": "A perspective and framework discussion; it does not establish full validation of one unified system."
+      },
+      "authors": [
+        "Zhou, Lianhao",
+        "Ling, Hongyi",
+        "Fu, Cong",
+        "Huang, Yepeng",
+        "Sun, Michael",
+        "Yu, Wendi",
+        "Wang, Xiaoxuan",
+        "Li, Xiner",
+        "Su, Xingyu",
+        "Zhang, Junkai",
+        "Chen, Xiusi",
+        "Liang, Chenxing",
+        "Qian, Xiaofeng",
+        "Ji, Heng",
+        "Wang, Wei",
+        "Zitnik, Marinka",
+        "Ji, Shuiwang"
+      ],
+      "sourceTitle": "Autonomous Agents for Scientific Discovery: Orchestrating Scientists, Language, Code, and Physics",
+      "sources": [
+        "https://arxiv.org/abs/2510.09901"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://arxiv.org/abs/2508.14111": {
+      "name": "From AI for Science to Agentic Science",
+      "kind": "survey",
+      "methods": [
+        "multi-agent",
+        "tools"
+      ],
+      "zh": {
+        "problem": "科学 AI 怎样从单任务模型走向能规划和行动的系统？",
+        "method": "梳理不同学科的智能体工作，比较任务流程、自主程度和工具使用。",
+        "evaluation": "综述生命、化学与物理科学等研究方向，不提供统一排行榜。"
+      },
+      "en": {
+        "problem": "How is scientific AI moving from task-specific models to systems that plan and act?",
+        "method": "Surveys scientific agents across disciplines, comparing workflows, autonomy and tool use.",
+        "evaluation": "A survey spanning life, chemical and physical sciences, without a unified performance leaderboard."
+      },
+      "authors": [
+        "Wei, Jiaqi",
+        "Yang, Yuejin",
+        "Zhang, Xiang",
+        "Chen, Yuhan",
+        "Zhuang, Xiang",
+        "Gao, Zhangyang",
+        "Zhou, Dongzhan",
+        "Wang, Guangshuai",
+        "Gao, Zhiqiang",
+        "Cao, Juntai",
+        "Qiu, Zijie",
+        "Hu, Ming",
+        "Ma, Chenglong",
+        "Tang, Shixiang",
+        "He, Junjun",
+        "Song, Chunfeng",
+        "He, Xuming",
+        "Zhang, Qiang",
+        "You, Chenyu",
+        "Zheng, Shuangjia",
+        "Ding, Ning",
+        "Ouyang, Wanli",
+        "Dong, Nanqing",
+        "Cheng, Yu",
+        "Sun, Siqi",
+        "Bai, Lei",
+        "Zhou, Bowen"
+      ],
+      "sourceTitle": "From AI for Science to Agentic Science: A Survey on Autonomous Scientific Discovery",
+      "sources": [
+        "https://arxiv.org/abs/2508.14111"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://arxiv.org/abs/2504.08066": {
+      "name": "The AI Scientist-v2",
+      "kind": "research",
+      "methods": [
+        "multi-agent",
+        "evaluation"
+      ],
+      "zh": {
+        "problem": "能否减少人工模板，自动探索机器学习研究思路？",
+        "method": "通过渐进式树搜索安排实验，并用视觉语言反馈检查图表，串联实验和论文写作。",
+        "evaluation": "报告三个研讨会投稿实验，其中一个达到评审接受阈值；这不等于普遍具备科学发现能力。"
+      },
+      "en": {
+        "problem": "Can machine-learning research be explored with less dependence on human-written templates?",
+        "method": "Uses progressive tree search for experiments and vision-language feedback for figures, connecting experimentation to paper writing.",
+        "evaluation": "Reports three workshop submission experiments, one reaching the review acceptance threshold; this is not evidence of general scientific discovery capability."
+      },
+      "authors": [
+        "Yamada, Yutaro",
+        "Lange, Robert Tjarko",
+        "Lu, Cong",
+        "Hu, Shengran",
+        "Lu, Chris",
+        "Foerster, Jakob",
+        "Clune, Jeff",
+        "Ha, David"
+      ],
+      "sourceTitle": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
+      "sources": [
+        "https://arxiv.org/abs/2504.08066"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://arxiv.org/abs/2503.18102": {
+      "name": "AgentRxiv",
+      "kind": "research",
+      "methods": [
+        "memory",
+        "retrieval",
+        "multi-agent"
+      ],
+      "zh": {
+        "problem": "不同智能体实验室能否积累并复用先前研究？",
+        "method": "把生成的研究存入共享预印本文库，让后续研究检索并扩展已有结果。",
+        "evaluation": "在 MATH-500 等推理研究任务中测试知识共享与累积改进。"
+      },
+      "en": {
+        "problem": "Can separate agent laboratories accumulate and reuse previous research?",
+        "method": "Stores generated research in a shared preprint repository so later work can retrieve and extend earlier results.",
+        "evaluation": "Tests shared research and cumulative improvement on reasoning research tasks including MATH-500."
+      },
+      "authors": [
+        "Schmidgall, Samuel",
+        "Moor, Michael"
+      ],
+      "sourceTitle": "AgentRxiv: Towards Collaborative Autonomous Research",
+      "sources": [
+        "https://arxiv.org/abs/2503.18102"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": true
+    },
+    "https://arxiv.org/abs/2502.18864": {
+      "name": "AI Co-Scientist",
+      "kind": "research",
+      "methods": [
+        "multi-agent",
+        "evaluation"
+      ],
+      "zh": {
+        "problem": "如何从一个研究目标形成更值得实验的生物医学假设？",
+        "method": "多个智能体生成、批评和修订假设，通过竞争式评估逐步筛选研究提案。",
+        "evaluation": "研究包含药物重定位等生物医学案例及实验检验；具体结论限于相应案例。"
+      },
+      "en": {
+        "problem": "How can a research goal become a biomedical hypothesis worth testing?",
+        "method": "Agents generate, criticize and revise hypotheses, using tournament-style assessment to select proposals.",
+        "evaluation": "Includes biomedical cases such as drug repurposing and experimental tests; findings are specific to those cases."
+      },
+      "authors": [
+        "Gottweis, Juraj",
+        "Weng, Wei-Hung",
+        "Daryin, Alexander",
+        "Tu, Tao",
+        "Sirkovic, Petar",
+        "Myaskovsky, Artiom",
+        "Glowaty, Grzegorz",
+        "Weissenberger, Felix",
+        "Orlandi, Alessio",
+        "Popovici, Dan",
+        "Palepu, Anil",
+        "Rong, Keran",
+        "Tanno, Ryutaro",
+        "Saab, Khaled",
+        "Zhang, Fan",
+        "Blum, Jacob",
+        "Carroll, Andrew",
+        "Kulkarni, Kavita",
+        "Tomasev, Nenad",
+        "Zverinski, Dina",
+        "Rendulic, Ivor",
+        "Vedadi, Elahe",
+        "Hasler, Florian",
+        "Rimanic, Luka",
+        "Boia, Marina",
+        "Budiselic, Ivan",
+        "Feinstein, Ben",
+        "Bellaiche, Mathias",
+        "Sheffer, Tom",
+        "Freyberg, Jan",
+        "Ratcliff, Jeremy",
+        "Bertolli, Ottavia",
+        "Chou, Katherine",
+        "Hassidim, Avinatan",
+        "Gokturk, Burak",
+        "Vahdat, Amin",
+        "Guan, Yuan",
+        "Dhillon, Vikram",
+        "Vaishnav, Eeshit Dhaval",
+        "Lee, Byron",
+        "Costa, Tiago R D",
+        "Penadés, José R",
+        "Peltz, Gary",
+        "Matias, Yossi",
+        "Manyika, James",
+        "Hassabis, Demis",
+        "Xu, Yunhan",
+        "Kohli, Pushmeet",
+        "Pawlosky, Annalisa",
+        "Karthikesalingam, Alan",
+        "Natarajan, Vivek"
+      ],
+      "sourceTitle": "Accelerating scientific discovery with Co-Scientist",
+      "sources": [
+        "https://arxiv.org/abs/2502.18864"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://arxiv.org/abs/2501.04227": {
+      "name": "Agent Laboratory",
+      "kind": "research",
+      "methods": [
+        "multi-agent",
+        "tools"
+      ],
+      "zh": {
+        "problem": "如何把研究者的初始想法转化成实验和报告？",
+        "method": "将文献整理、实验执行和论文写作交给不同智能体，在阶段间接受用户反馈。",
+        "evaluation": "使用机器学习实验与研究者反馈评估流程质量和实用性。"
+      },
+      "en": {
+        "problem": "How can a researcher's initial idea become experiments and a report?",
+        "method": "Assigns literature review, experiment execution and writing to agents, incorporating user feedback between stages.",
+        "evaluation": "Evaluates workflow quality and usefulness through machine-learning experiments and researcher feedback."
+      },
+      "authors": [
+        "Schmidgall, Samuel",
+        "Su, Yusheng",
+        "Wang, Ze",
+        "Sun, Ximeng",
+        "Wu, Jialian",
+        "Yu, Xiaodong",
+        "Liu, Jiang",
+        "Moor, Michael",
+        "Liu, Zicheng",
+        "Barsoum, Emad"
+      ],
+      "sourceTitle": "Agent Laboratory: Using LLM Agents as Research Assistants",
+      "sources": [
+        "https://arxiv.org/abs/2501.04227"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://arxiv.org/abs/2408.14033": {
+      "name": "MLR-Copilot",
+      "kind": "research",
+      "methods": [
+        "multi-agent",
+        "retrieval",
+        "tools"
+      ],
+      "zh": {
+        "problem": "机器学习研究想法如何更可靠地落到可运行实验？",
+        "method": "结合想法生成、原型代码检索、执行调试与人工反馈。",
+        "evaluation": "在五项机器学习研究任务上评估实验生成能力。"
+      },
+      "en": {
+        "problem": "How can machine-learning ideas be translated into executable experiments?",
+        "method": "Combines idea generation, retrieval of prototype code, execution, debugging and human feedback.",
+        "evaluation": "Evaluates experiment-generation capabilities on five machine-learning research tasks."
+      },
+      "authors": [
+        "Li, Ruochen",
+        "Patel, Teerth",
+        "Wang, Qingyun",
+        "Du, Xinya"
+      ],
+      "sourceTitle": "MLR-Copilot: Autonomous Machine Learning Research based on Large Language Models Agents",
+      "sources": [
+        "https://arxiv.org/abs/2408.14033"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://arxiv.org/abs/2408.06292": {
+      "name": "The AI Scientist",
+      "kind": "research",
+      "methods": [
+        "multi-agent",
+        "tools",
+        "evaluation"
+      ],
+      "zh": {
+        "problem": "从研究想法到实验、图表和论文，哪些环节能被串联自动化？",
+        "method": "使用语言模型迭代生成想法、改代码、运行实验、撰写论文并给出自动评审。",
+        "evaluation": "在扩散模型、Transformer 与学习动力学方向展示流程；自动评审不是科学正确性的保证。"
+      },
+      "en": {
+        "problem": "Which steps from an idea to experiments, figures and a paper can be automated together?",
+        "method": "Uses language models to iterate on ideas, modify code, run experiments, write papers and produce automated reviews.",
+        "evaluation": "Demonstrates workflows in diffusion models, Transformers and learning dynamics; automated review does not guarantee scientific correctness."
+      },
+      "authors": [
+        "Lu, Chris",
+        "Lu, Cong",
+        "Lange, Robert Tjarko",
+        "Foerster, Jakob",
+        "Clune, Jeff",
+        "Ha, David"
+      ],
+      "sourceTitle": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery",
+      "sources": [
+        "https://arxiv.org/abs/2408.06292"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://openreview.net/forum?id=FExX8pMrdT": {
+      "name": "AutoSurvey",
+      "kind": "research",
+      "methods": [
+        "retrieval",
+        "multi-agent"
+      ],
+      "zh": {
+        "problem": "如何在大量文献中快速组织一篇连贯的综述？",
+        "method": "检索相关论文并形成提纲，平行撰写子章节，再整合与修订。",
+        "evaluation": "论文评估综述生成质量和引用表现；产物是文献综述。"
+      },
+      "en": {
+        "problem": "How can a coherent survey be organized from a large literature collection?",
+        "method": "Retrieves papers, builds an outline, drafts subsections in parallel, then integrates and revises them.",
+        "evaluation": "Evaluates survey-generation quality and citation performance; the output is a literature survey."
+      },
+      "authors": [],
+      "sourceTitle": "AutoSurvey: Large Language Models Can Automatically Write Surveys",
+      "sources": [
+        "https://arxiv.org/abs/2406.10252"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://arxiv.org/abs/2312.07559": {
+      "name": "PaperQA",
+      "kind": "research",
+      "methods": [
+        "retrieval",
+        "tools"
+      ],
+      "zh": {
+        "problem": "科学问答怎样给出能回溯到原文的证据？",
+        "method": "检索论文全文、筛选相关段落，再结合证据生成带引用的回答。",
+        "evaluation": "使用 LitQA 等文献问答任务，并与人类回答进行比较。"
+      },
+      "en": {
+        "problem": "How can scientific question answering provide evidence traceable to source texts?",
+        "method": "Retrieves paper text, selects relevant passages and synthesizes answers with citations.",
+        "evaluation": "Uses literature question-answering tasks including LitQA and comparisons with human answers."
+      },
+      "authors": [
+        "Lála, Jakub",
+        "O'Donoghue, Odhran",
+        "Shtedritski, Aleksandar",
+        "Cox, Sam",
+        "Rodriques, Samuel G.",
+        "White, Andrew D."
+      ],
+      "sourceTitle": "PaperQA: Retrieval-Augmented Generative Agent for Scientific Research",
+      "sources": [
+        "https://arxiv.org/abs/2312.07559"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://www.nature.com/articles/s41586-023-06221-2": {
+      "name": "Scientific Discovery in the Age of AI",
+      "kind": "survey",
+      "methods": [
+        "evaluation"
+      ],
+      "zh": {
+        "problem": "AI 正在怎样改变科学研究的方法与组织方式？",
+        "method": "从数据、模型和科学发现流程梳理人工智能的作用与局限。",
+        "evaluation": "领域综述；不对应一个可直接运行的统一科学智能体。"
+      },
+      "en": {
+        "problem": "How is AI changing the methods and organization of scientific research?",
+        "method": "Reviews AI's role and limitations across data, models and scientific discovery workflows.",
+        "evaluation": "A field review, rather than a single executable scientific-agent system."
+      },
+      "authors": [],
+      "sourceTitle": "Scientific discovery in the age of artificial intelligence",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/37532811/"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://arxiv.org/abs/2608.25770": {
+      "name": "HypoForge",
+      "kind": "research",
+      "methods": [
+        "evolution",
+        "tools",
+        "multi-agent"
+      ],
+      "zh": {
+        "problem": "智能体能否从验证反馈中学会提出更好的假设？",
+        "method": "生成器与判别器对抗协作，把执行结果转成后续可复用的假设检验技能。",
+        "evaluation": "在科学假设任务中评估；改进主要发生在技能和推理流程层。"
+      },
+      "en": {
+        "problem": "Can agents learn to propose better hypotheses from verification feedback?",
+        "method": "A generator and discriminator work adversarially, turning execution results into reusable hypothesis-testing skills.",
+        "evaluation": "Evaluated on scientific hypothesis tasks; improvement primarily concerns skills and reasoning workflows."
+      },
+      "authors": [
+        "Qian, Ziqing",
+        "Lei, Jiaying",
+        "Wang, Yifang",
+        "Cao, Nan"
+      ],
+      "sourceTitle": "HypoForge: A Self-Improving Multi-Agent Framework for Automated Hypothesis Generation and Testing via Scientific Skill Learning",
+      "sources": [
+        "https://arxiv.org/abs/2608.25770"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": true
+    },
+    "https://arxiv.org/abs/2608.24735": {
+      "name": "Metaⁿ",
+      "kind": "research",
+      "methods": [
+        "evolution"
+      ],
+      "zh": {
+        "problem": "优化器能否继续优化帮助自己求解的程序？",
+        "method": "递归叠加求解辅助程序与元优化层，用统一操作探索不同深度的优化结构。",
+        "evaluation": "覆盖八类任务，包括数学与符号回归；部分任务缺少独立留出集，不能据此推断通用 RSI。"
+      },
+      "en": {
+        "problem": "Can an optimizer improve the programs that help it solve problems?",
+        "method": "Recursively adds solver helpers and meta-optimization layers, exploring optimization depth with a shared operation.",
+        "evaluation": "Covers eight task families, including mathematics and symbolic regression; some lack held-out splits, limiting claims about general RSI."
+      },
+      "authors": [
+        "Kim, Zae Myung",
+        "Lee, Young-Jun",
+        "Jwa, Seungyeon",
+        "Kang, Dongyeop"
+      ],
+      "sourceTitle": "Meta$^n$: Recursive Self-Improvement through Emergent Depth",
+      "sources": [
+        "https://arxiv.org/abs/2608.24735"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": true
+    },
+    "https://arxiv.org/abs/2607.28692": {
+      "name": "SciToolAgent-Evo",
+      "kind": "research",
+      "methods": [
+        "memory",
+        "tools",
+        "evolution"
+      ],
+      "zh": {
+        "problem": "科学工具不断变化时，智能体如何扩充并保留能力？",
+        "method": "把工具组织成图谱，积累技能与经验，并用在线选择机制决定何时获取新工具。",
+        "evaluation": "在包含 900 个任务的 OpenSciToolBench 中检验动态工具使用。"
+      },
+      "en": {
+        "problem": "How can an agent expand and retain capabilities as scientific tools change?",
+        "method": "Organizes tools in a graph, retains skills and experience, and uses an online selection mechanism to acquire tools.",
+        "evaluation": "Tests dynamic tool use on the 900-task OpenSciToolBench."
+      },
+      "authors": [
+        "Tang, Yuqi",
+        "Zhou, Chenyi",
+        "Wang, Libin",
+        "Ding, Keyan",
+        "Zhang, Qiang",
+        "Chen, Huajun"
+      ],
+      "sourceTitle": "SciToolAgent-Evo: An Ontology-Aware Self-Evolving Agent for Open-World Scientific Tool Acquisition",
+      "sources": [
+        "https://arxiv.org/abs/2607.28692"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": true
+    },
+    "https://arxiv.org/abs/2606.29182": {
+      "name": "Evidence-Informed Beliefs",
+      "kind": "research",
+      "methods": [
+        "memory",
+        "retrieval"
+      ],
+      "zh": {
+        "problem": "新证据能否改变智能体后续探索的方向？",
+        "method": "检索先前发现，在上下文中更新信念，并兼顾信息增益与探索多样性。",
+        "evaluation": "在五个领域评估发现过程；这是证据驱动的上下文更新。"
+      },
+      "en": {
+        "problem": "Can new evidence change the direction of an agent's later exploration?",
+        "method": "Retrieves earlier discoveries to update contextual beliefs while balancing informative and diverse exploration.",
+        "evaluation": "Evaluates discovery processes in five domains; adaptation comes from evidence-informed contextual updates."
+      },
+      "authors": [
+        "Agarwal, Dhruv",
+        "Adamson, Reece",
+        "McCallum, Andrew",
+        "Clark, Peter",
+        "Sabharwal, Ashish",
+        "Majumder, Bodhisattwa Prasad"
+      ],
+      "sourceTitle": "Evidence-Informed LLM Beliefs for Continual Scientific Discovery",
+      "sources": [
+        "https://arxiv.org/abs/2606.29182"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": true
+    },
+    "https://arxiv.org/abs/2606.06473": {
+      "name": "MLEvolve",
+      "kind": "research",
+      "methods": [
+        "evolution",
+        "memory"
+      ],
+      "zh": {
+        "problem": "怎样避免机器学习智能体反复尝试相同的低效方案？",
+        "method": "用渐进式图搜索联系不同实验分支，并用回顾记忆指导下一轮策略。",
+        "evaluation": "在 MLE-bench 与数学优化任务中评估。"
+      },
+      "en": {
+        "problem": "How can machine-learning agents avoid repeating ineffective experiments?",
+        "method": "Links experimental branches through progressive graph search and uses retrospective memory to guide future strategies.",
+        "evaluation": "Evaluated on MLE-bench and mathematical optimization tasks."
+      },
+      "authors": [
+        "Du, Shangheng",
+        "Yan, Xiangchao",
+        "Shi, Jinxin",
+        "Cao, Zongsheng",
+        "Feng, Shiyang",
+        "Liang, Zichen",
+        "Sun, Boyuan",
+        "Peng, Tianshuo",
+        "Zhou, Yifan",
+        "Li, Xin",
+        "Zhou, Jie",
+        "He, Liang",
+        "Zhang, Bo",
+        "Bai, Lei"
+      ],
+      "sourceTitle": "MLEvolve: A Self-Evolving Framework for Automated Machine Learning Algorithm Discovery",
+      "sources": [
+        "https://arxiv.org/abs/2606.06473"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": true
+    },
+    "https://arxiv.org/abs/2604.17406": {
+      "name": "EvoMaster",
+      "kind": "research",
+      "methods": [
+        "memory",
+        "evolution",
+        "multi-agent"
+      ],
+      "zh": {
+        "problem": "如何让跨多轮研究积累的经验影响后续执行？",
+        "method": "把执行、探索与演化组织成持续循环，保留可支持下一轮决策的证据。",
+        "evaluation": "报告十个混合科学与计算基准上的结果。"
+      },
+      "en": {
+        "problem": "How can experience accumulated across research iterations influence later execution?",
+        "method": "Connects execution, exploration and evolution in persistent loops, retaining evidence for later decisions.",
+        "evaluation": "Reports results across ten mixed scientific and computational benchmarks."
+      },
+      "authors": [
+        "Zhu, Xinyu",
+        "Cai, Yuzhu",
+        "Liu, Zexi",
+        "Wang, Cheng",
+        "Li, Fengyang",
+        "Jin, Wenkai",
+        "Liu, Wanxu",
+        "Bing, Zehao",
+        "Zheng, Bingyang",
+        "Chai, Jingyi",
+        "Tang, Shuo",
+        "Ye, Rui",
+        "Du, Yuwen",
+        "Pang, Xianghe",
+        "Du, Yaxin",
+        "Miao, Tingjia",
+        "Zhang, Yuzhi",
+        "Liao, Ruoxue",
+        "Ding, Zhaohan",
+        "Zhang, Linfeng",
+        "Wang, Yanfeng",
+        "E, Weinan",
+        "Chen, Siheng"
+      ],
+      "sourceTitle": "EvoMaster: A Foundational Evolving Agent Framework for Agentic Science at Scale",
+      "sources": [
+        "https://arxiv.org/abs/2604.17406"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": true
+    },
+    "https://arxiv.org/abs/2604.01658": {
+      "name": "CORAL",
+      "kind": "research",
+      "methods": [
+        "memory",
+        "multi-agent"
+      ],
+      "zh": {
+        "problem": "并行科研智能体如何长期共享有用的发现？",
+        "method": "让持续运行的智能体共享知识与记忆，在不同探索路径之间交换经验。",
+        "evaluation": "在数学、算法与优化问题中检验协作效果。"
+      },
+      "en": {
+        "problem": "How can parallel research agents share useful findings over time?",
+        "method": "Persistent agents share knowledge and memory, exchanging experience across exploration paths.",
+        "evaluation": "Evaluates collaboration on mathematics, algorithmic and optimization problems."
+      },
+      "authors": [
+        "Qu, Ao",
+        "Zheng, Han",
+        "Zhou, Zijian",
+        "Yan, Yihao",
+        "Tang, Yihong",
+        "Ong, Shao Yong",
+        "Hong, Fenglu",
+        "Zhou, Kaichen",
+        "Jiang, Chonghe",
+        "Kong, Minwei",
+        "Zhu, Jiacheng",
+        "Jiang, Xuan",
+        "Li, Sirui",
+        "Wu, Cathy",
+        "Low, Bryan Kian Hsiang",
+        "Zhao, Jinhua",
+        "Liang, Paul Pu"
+      ],
+      "sourceTitle": "CORAL: Towards Autonomous Multi-Agent Evolution for Open-Ended Discovery",
+      "sources": [
+        "https://arxiv.org/abs/2604.01658"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": true
+    },
+    "https://arxiv.org/abs/2603.19461": {
+      "name": "Hyperagents",
+      "kind": "research",
+      "methods": [
+        "evolution",
+        "tools"
+      ],
+      "zh": {
+        "problem": "智能体能否同时改进任务程序和自己的改进程序？",
+        "method": "将任务智能体与元智能体实现为可编辑代码，允许修改求解流程及元级更新逻辑。",
+        "evaluation": "在多个计算任务中测试，并研究元级经验跨领域转移。"
+      },
+      "en": {
+        "problem": "Can an agent improve both its task program and the program that improves it?",
+        "method": "Represents task and meta-agents as editable programs, allowing changes to both solving and meta-level update logic.",
+        "evaluation": "Tests multiple computational tasks and studies transfer of meta-level experience across domains."
+      },
+      "authors": [
+        "Zhang, Jenny",
+        "Zhao, Bingchen",
+        "Yang, Wannan",
+        "Foerster, Jakob",
+        "Clune, Jeff",
+        "Jiang, Minqi",
+        "Devlin, Sam",
+        "Shavrina, Tatiana"
+      ],
+      "sourceTitle": "Hyperagents",
+      "sources": [
+        "https://arxiv.org/abs/2603.19461"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": true
+    },
+    "https://arxiv.org/abs/2603.08127": {
+      "name": "EvoScientist",
+      "kind": "research",
+      "methods": [
+        "memory",
+        "multi-agent"
+      ],
+      "zh": {
+        "problem": "研究构思与实验经验如何共同积累？",
+        "method": "研究员、工程师与演化管理者分工，把构思和实验经验保存为不同记忆。",
+        "evaluation": "评估研究想法质量与代码执行表现；记忆更新不等于基础模型权重更新。"
+      },
+      "en": {
+        "problem": "How can research ideas and experimental experience accumulate together?",
+        "method": "A researcher, engineer and evolution manager retain separate memories for ideation and experiments.",
+        "evaluation": "Evaluates idea quality and code execution; memory updates are distinct from foundation-model weight updates."
+      },
+      "authors": [
+        "Lyu, Yougang",
+        "Zhang, Xi",
+        "Yi, Xinhao",
+        "Zhao, Yuyue",
+        "Guo, Shuyu",
+        "Hu, Wenxiang",
+        "Piotrowski, Jan",
+        "Kaliski, Jakub",
+        "Urbani, Jacopo",
+        "Meng, Zaiqiao",
+        "Zhou, Lun",
+        "Yan, Xiaohui"
+      ],
+      "sourceTitle": "EvoScientist: Towards Multi-Agent Evolving AI Scientists for End-to-End Scientific Discovery",
+      "sources": [
+        "https://arxiv.org/abs/2603.08127"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": true
+    },
+    "https://arxiv.org/abs/2602.01550": {
+      "name": "S1-NexusAgent",
+      "kind": "research",
+      "methods": [
+        "memory",
+        "tools",
+        "multi-agent"
+      ],
+      "zh": {
+        "problem": "复杂科学任务怎样在规划和实际执行之间保持连贯？",
+        "method": "分层规划与代码执行形成双循环，结合工具调用与批评反馈蒸馏科学技能。",
+        "evaluation": "在生物、化学和材料科学任务中评估。"
+      },
+      "en": {
+        "problem": "How can complex scientific tasks stay coherent from planning through execution?",
+        "method": "Combines hierarchical planning and code execution with tool use and critique-based distillation of scientific skills.",
+        "evaluation": "Evaluated on biology, chemistry and materials-science tasks."
+      },
+      "authors": [
+        "NexusAgent Team"
+      ],
+      "sourceTitle": "S1-NexusAgent: a Self-Evolving Agent Framework for Multidisciplinary Scientific Research",
+      "sources": [
+        "https://arxiv.org/abs/2602.01550"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": true
+    },
+    "https://arxiv.org/abs/2601.16175": {
+      "name": "TTT-Discover",
+      "kind": "research",
+      "methods": [
+        "training",
+        "evolution"
+      ],
+      "zh": {
+        "problem": "能否针对一个困难测试问题，边求解边训练模型？",
+        "method": "利用该问题的验证反馈进行测试时强化学习，目标是找到更好的单问题解。",
+        "evaluation": "涉及数学、算法、计算内核与单细胞去噪；不是跨任务终身记忆评估。"
+      },
+      "en": {
+        "problem": "Can a model be trained while solving a difficult test-time problem?",
+        "method": "Uses task verification feedback for test-time reinforcement learning to find a better solution to one problem.",
+        "evaluation": "Covers mathematics, algorithms, kernels and single-cell denoising; it does not evaluate lifelong retention across tasks."
+      },
+      "authors": [
+        "Yuksekgonul, Mert",
+        "Koceja, Daniel",
+        "Li, Xinhao",
+        "Bianchi, Federico",
+        "McCaleb, Jed",
+        "Wang, Xiaolong",
+        "Kautz, Jan",
+        "Choi, Yejin",
+        "Zou, James",
+        "Guestrin, Carlos",
+        "Sun, Yu"
+      ],
+      "sourceTitle": "Learning to Discover at Test Time",
+      "sources": [
+        "https://arxiv.org/abs/2601.16175"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": true
+    },
+    "https://arxiv.org/abs/2506.13131": {
+      "name": "AlphaEvolve",
+      "kind": "research",
+      "methods": [
+        "evolution",
+        "tools"
+      ],
+      "zh": {
+        "problem": "语言模型提出的程序能否经执行筛选而持续改进？",
+        "method": "让语言模型生成候选代码，以可计算目标评价，再进行进化式搜索。",
+        "evaluation": "展示数学与计算基础设施优化；基础语言模型在搜索中保持固定。"
+      },
+      "en": {
+        "problem": "Can model-proposed programs improve through repeated execution and selection?",
+        "method": "Language models propose code candidates that are scored by executable objectives and selected through evolutionary search.",
+        "evaluation": "Demonstrates mathematical and computing-infrastructure optimization with fixed underlying language models."
+      },
+      "authors": [
+        "Novikov, Alexander",
+        "Vũ, Ngân",
+        "Eisenberger, Marvin",
+        "Dupont, Emilien",
+        "Huang, Po-Sen",
+        "Wagner, Adam Zsolt",
+        "Shirobokov, Sergey",
+        "Kozlovskii, Borislav",
+        "Ruiz, Francisco J. R.",
+        "Mehrabian, Abbas",
+        "Kumar, M. Pawan",
+        "See, Abigail",
+        "Chaudhuri, Swarat",
+        "Holland, George",
+        "Davies, Alex",
+        "Nowozin, Sebastian",
+        "Kohli, Pushmeet",
+        "Balog, Matej"
+      ],
+      "sourceTitle": "AlphaEvolve: A coding agent for scientific and algorithmic discovery",
+      "sources": [
+        "https://arxiv.org/abs/2506.13131"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": true
+    },
+    "https://arxiv.org/abs/2505.22954": {
+      "name": "Darwin Gödel Machine",
+      "kind": "research",
+      "methods": [
+        "evolution",
+        "tools"
+      ],
+      "zh": {
+        "problem": "代码智能体能否修改自身实现以提升任务表现？",
+        "method": "生成并评测自身代码的变体，用开放式档案保留有用的智能体分支。",
+        "evaluation": "在软件工程和编程基准中测试；对科学实验室的适用性尚未由这些结果建立。"
+      },
+      "en": {
+        "problem": "Can a coding agent modify its own implementation to improve task performance?",
+        "method": "Generates and evaluates variants of its own code, retaining useful agent branches in an open-ended archive.",
+        "evaluation": "Tested on software-engineering and coding benchmarks; these results do not establish applicability to scientific laboratories."
+      },
+      "authors": [
+        "Zhang, Jenny",
+        "Hu, Shengran",
+        "Lu, Cong",
+        "Lange, Robert",
+        "Clune, Jeff"
+      ],
+      "sourceTitle": "Darwin Godel Machine: Open-Ended Evolution of Self-Improving Agents",
+      "sources": [
+        "https://arxiv.org/abs/2505.22954"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": true
+    },
+    "https://arxiv.org/abs/2608.20318": {
+      "name": "AI4AI-Bench",
+      "kind": "benchmark",
+      "methods": [
+        "evaluation",
+        "training"
+      ],
+      "zh": {
+        "problem": "智能体写出的训练算法，能否让重新训练的模型变得更好？",
+        "method": "允许智能体修改训练规则，用独立重训练和隐藏评估检验改动。",
+        "evaluation": "覆盖十个训练算法代码库；衡量递归改进的前提条件，而非证明无限自我提升。"
+      },
+      "en": {
+        "problem": "Can an agent-written training algorithm improve a model trained from scratch?",
+        "method": "Allows agents to modify training rules, testing them through independent retraining and hidden evaluation.",
+        "evaluation": "Covers ten training-algorithm repositories; it measures a prerequisite for recursive improvement, not unbounded self-improvement."
+      },
+      "authors": [
+        "Chi, Yizhe",
+        "Li, Wenyi",
+        "Hong, Deyao",
+        "Wang, Xiaoqiu",
+        "Gao, Mingju",
+        "Yang, Kaisen",
+        "He, Bingxiang",
+        "Zheng, Youjie",
+        "Xiao, Calvin",
+        "Na, Qinhuai"
+      ],
+      "sourceTitle": "AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement",
+      "sources": [
+        "https://arxiv.org/abs/2608.20318"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": true
+    },
+    "https://github.com/InternScience/ResearchClawBench": {
+      "name": "ResearchClawBench",
+      "kind": "benchmark",
+      "methods": [
+        "evaluation",
+        "tools"
+      ],
+      "zh": {
+        "problem": "如何对科学研究智能体进行任务级评测？",
+        "method": "官方项目提供研究任务、运行说明和评测资源，供不同智能体接入比较。",
+        "evaluation": "代码与基准资源条目；具体任务配置和结果应查看官方项目。"
+      },
+      "en": {
+        "problem": "How can scientific research agents be evaluated at the task level?",
+        "method": "The official project supplies research tasks, execution instructions and evaluation resources for comparing agents.",
+        "evaluation": "A code and benchmark-resource entry; consult the official project for task configurations and results."
+      },
+      "authors": [],
+      "sourceTitle": "ResearchClawBench",
+      "sources": [
+        "https://github.com/InternScience/ResearchClawBench"
+      ],
+      "basis": "project",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://arxiv.org/abs/2512.16969": {
+      "name": "SGI-Bench",
+      "kind": "benchmark",
+      "methods": [
+        "evaluation"
+      ],
+      "zh": {
+        "problem": "科学智能体的推理、构思、行动和感知怎样一起评估？",
+        "method": "将研究能力拆成多个维度，组织深度研究、想法与干湿实验相关任务。",
+        "evaluation": "包含 1,000 个专家整理样本；用于定位不同能力维度的短板。"
+      },
+      "en": {
+        "problem": "How can scientific agents be evaluated across reasoning, conception, action and perception?",
+        "method": "Separates scientific capability into dimensions covering deep research, ideas and dry- and wet-experiment tasks.",
+        "evaluation": "Contains 1,000 expert-curated samples for identifying weaknesses across capability dimensions."
+      },
+      "authors": [
+        "Xu, Wanghan",
+        "Zhou, Yuhao",
+        "Zhou, Yifan",
+        "Cao, Qinglong",
+        "Li, Shuo",
+        "Bu, Jia",
+        "Liu, Bo",
+        "Chen, Yixin",
+        "He, Xuming",
+        "Zhao, Xiangyu",
+        "Zhuang, Xiang",
+        "Wang, Fengxiang",
+        "Zhou, Zhiwang",
+        "Feng, Qiantai",
+        "Huang, Wenxuan",
+        "Wei, Jiaqi",
+        "Wu, Hao",
+        "Yang, Yuejin",
+        "Wang, Guangshuai",
+        "Xu, Sheng",
+        "Huang, Ziyan",
+        "Liu, Xinyao",
+        "Liu, Jiyao",
+        "Tang, Cheng",
+        "Li, Wei",
+        "Chen, Ying",
+        "Ning, Junzhi",
+        "Jiang, Pengfei",
+        "Ma, Chenglong",
+        "Du, Ye",
+        "Ji, Changkai",
+        "Xu, Huihui",
+        "Hu, Ming",
+        "Zheng, Jiangbin",
+        "Chen, Xin",
+        "Wu, Yucheng",
+        "Jiang, Feifei",
+        "Chen, Xi",
+        "Tang, Xiangru",
+        "Fu, Yuchen",
+        "Lu, Yingzhou",
+        "Zhang, Yuanyuan",
+        "Sun, Lihao",
+        "Li, Chengbo",
+        "Ma, Jinzhe",
+        "Liu, Wanhao",
+        "Liu, Yating",
+        "Wu, Kuo-Cheng",
+        "Chai, Shengdu",
+        "Wang, Yizhou",
+        "Zhangjin, Ouwen",
+        "Tang, Chen",
+        "Zhang, Shufei",
+        "Cao, Wenbo",
+        "Ren, Junjie",
+        "Cui, Taoyong",
+        "Yao, Zhouheng",
+        "Deng, Juntao",
+        "Sun, Yijie",
+        "Liu, Feng",
+        "Wei, Wangxu",
+        "Xu, Jingyi",
+        "Li, Zhangrui",
+        "Gong, Junchao",
+        "Guo, Zijie",
+        "Yao, Zhiyu",
+        "Chen, Zaoyu",
+        "Peng, Tianhao",
+        "Yu, Fangchen",
+        "Zhang, Bo",
+        "Zhou, Dongzhan",
+        "Tang, Shixiang",
+        "Liu, Jiaheng",
+        "Ling, Fenghua",
+        "Lu, Yan",
+        "Ren, Yuchen",
+        "Fei, Ben",
+        "Zhao, Zhen",
+        "Gu, Xinyu",
+        "Su, Rui",
+        "Wu, Xiao-Ming",
+        "Si, Weikang",
+        "Liu, Yang",
+        "Chen, Hao",
+        "Yan, Xiangchao",
+        "Yang, Xue",
+        "Yan, Junchi",
+        "Wu, Jiamin",
+        "Zheng, Qihao",
+        "Li, Chenhui",
+        "Gao, Zhiqiang",
+        "Kong, Hao",
+        "He, Junjun",
+        "Su, Mao",
+        "Fu, Tianfan",
+        "Ye, Peng",
+        "Song, Chunfeng",
+        "Dong, Nanqing",
+        "Li, Yuqiang",
+        "Fu, Huazhu",
+        "Sun, Siqi",
+        "Cheng, Lijing",
+        "Lin, Jintai",
+        "Ouyang, Wanli",
+        "Zhou, Bowen",
+        "Zhang, Wenlong",
+        "Bai, Lei"
+      ],
+      "sourceTitle": "Probing Scientific General Intelligence of LLMs with Scientist-Aligned Workflows",
+      "sources": [
+        "https://arxiv.org/abs/2512.16969"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://arxiv.org/abs/2505.19955": {
+      "name": "MLR-Bench",
+      "kind": "benchmark",
+      "methods": [
+        "evaluation"
+      ],
+      "zh": {
+        "problem": "机器学习研究智能体生成的实验是否真正有效？",
+        "method": "用研究任务和分阶段评价规则，结合与人类判断校验过的自动评审。",
+        "evaluation": "包含 201 个任务，评估阶段任务与端到端研究，并分析无效实验。"
+      },
+      "en": {
+        "problem": "Are the experiments produced by machine-learning research agents actually valid?",
+        "method": "Combines research tasks and stage-specific criteria with automated judging validated against human judgments.",
+        "evaluation": "Includes 201 tasks, covering stage-level and end-to-end research while analyzing invalid experiments."
+      },
+      "authors": [
+        "Chen, Hui",
+        "Xiong, Miao",
+        "Lu, Yujie",
+        "Han, Wei",
+        "Deng, Ailin",
+        "He, Yufei",
+        "Wu, Jiaying",
+        "Li, Yibo",
+        "Liu, Yue",
+        "Hooi, Bryan"
+      ],
+      "sourceTitle": "MLR-Bench: Evaluating AI Agents on Open-Ended Machine Learning Research",
+      "sources": [
+        "https://arxiv.org/abs/2505.19955"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://arxiv.org/abs/2505.18705": {
+      "name": "AI-Researcher",
+      "kind": "research",
+      "methods": [
+        "multi-agent",
+        "evaluation"
+      ],
+      "zh": {
+        "problem": "能否从文献调查一直推进到方法实现和论文写作？",
+        "method": "组织文献阅读、假设形成、方法开发、代码实现和写作的完整流程。",
+        "evaluation": "通过 Scientist-Bench 的引导式与开放式研究任务评估。"
+      },
+      "en": {
+        "problem": "Can a system progress from literature review to implementation and paper writing?",
+        "method": "Coordinates literature reading, hypothesis formation, method development, implementation and writing.",
+        "evaluation": "Evaluated through guided and open-ended research tasks in Scientist-Bench."
+      },
+      "authors": [
+        "Tang, Jiabin",
+        "Xia, Lianghao",
+        "Li, Zhonghang",
+        "Huang, Chao"
+      ],
+      "sourceTitle": "AI-Researcher: Autonomous Scientific Innovation",
+      "sources": [
+        "https://arxiv.org/abs/2505.18705"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://arxiv.org/abs/2504.01848": {
+      "name": "PaperBench",
+      "kind": "benchmark",
+      "methods": [
+        "evaluation",
+        "tools"
+      ],
+      "zh": {
+        "problem": "智能体能否复现一篇完整机器学习论文的实验？",
+        "method": "要求从论文构建可执行复现代码，并按作者参与制定的细分规则评分。",
+        "evaluation": "20 篇 ICML 2024 论文、8,316 个评分子项，并有人类研究者基线。"
+      },
+      "en": {
+        "problem": "Can an agent reproduce the experiments of an entire machine-learning paper?",
+        "method": "Requires executable reproductions from papers, scored using detailed rubrics developed with author input.",
+        "evaluation": "Uses 20 ICML 2024 papers and 8,316 grading subtasks, with human researcher baselines."
+      },
+      "authors": [
+        "Starace, Giulio",
+        "Jaffe, Oliver",
+        "Sherburn, Dane",
+        "Aung, James",
+        "Chan, Jun Shern",
+        "Maksin, Leon",
+        "Dias, Rachel",
+        "Mays, Evan",
+        "Kinsella, Benjamin",
+        "Thompson, Wyatt",
+        "Heidecke, Johannes",
+        "Glaese, Amelia",
+        "Patwardhan, Tejal"
+      ],
+      "sourceTitle": "PaperBench: Evaluating AI's Ability to Replicate AI Research",
+      "sources": [
+        "https://arxiv.org/abs/2504.01848"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://arxiv.org/abs/2410.07095": {
+      "name": "MLE-bench",
+      "kind": "benchmark",
+      "methods": [
+        "evaluation",
+        "tools"
+      ],
+      "zh": {
+        "problem": "AI 智能体能否完成现实中的机器学习工程竞赛？",
+        "method": "让智能体准备数据、训练模型并迭代实验，对照历史竞赛成绩评估。",
+        "evaluation": "75 个 Kaggle 竞赛任务；重点是工程执行与模型表现。"
+      },
+      "en": {
+        "problem": "Can AI agents complete realistic machine-learning engineering competitions?",
+        "method": "Agents prepare data, train models and iterate on experiments, evaluated against historical competition results.",
+        "evaluation": "75 Kaggle competition tasks focused on engineering execution and model performance."
+      },
+      "authors": [
+        "Chan, Jun Shern",
+        "Chowdhury, Neil",
+        "Jaffe, Oliver",
+        "Aung, James",
+        "Sherburn, Dane",
+        "Mays, Evan",
+        "Starace, Giulio",
+        "Liu, Kevin",
+        "Maksin, Leon",
+        "Patwardhan, Tejal",
+        "Weng, Lilian",
+        "Mądry, Aleksander"
+      ],
+      "sourceTitle": "MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering",
+      "sources": [
+        "https://arxiv.org/abs/2410.07095"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://arxiv.org/abs/2410.05080": {
+      "name": "ScienceAgentBench",
+      "kind": "benchmark",
+      "methods": [
+        "evaluation",
+        "tools"
+      ],
+      "zh": {
+        "problem": "如何衡量智能体在真实科学数据分析任务中的执行能力？",
+        "method": "从论文中提取可执行任务，评估生成的 Python 程序、科学输出及成本。",
+        "evaluation": "102 个任务来自四个学科的 44 篇论文，并经领域人员核验。"
+      },
+      "en": {
+        "problem": "How can agent execution be measured on realistic scientific data-analysis tasks?",
+        "method": "Extracts executable tasks from papers, evaluating generated Python programs, scientific outputs and cost.",
+        "evaluation": "102 tasks drawn from 44 papers in four disciplines, checked by domain specialists."
+      },
+      "authors": [
+        "Chen, Ziru",
+        "Chen, Shijie",
+        "Ning, Yuting",
+        "Zhang, Qianheng",
+        "Wang, Boshi",
+        "Yu, Botao",
+        "Li, Yifei",
+        "Liao, Zeyi",
+        "Wei, Chen",
+        "Lu, Zitong",
+        "Dey, Vishal",
+        "Xue, Mingyi",
+        "Baker, Frazier N.",
+        "Burns, Benjamin",
+        "Adu-Ampratwum, Daniel",
+        "Huang, Xuhui",
+        "Ning, Xia",
+        "Gao, Song",
+        "Su, Yu",
+        "Sun, Huan"
+      ],
+      "sourceTitle": "ScienceAgentBench: Toward Rigorous Assessment of Language Agents for Data-Driven Scientific Discovery",
+      "sources": [
+        "https://arxiv.org/abs/2410.05080"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://arxiv.org/abs/2608.11224": {
+      "name": "Lifelong Materials Memory",
+      "kind": "research",
+      "methods": [
+        "memory",
+        "tools"
+      ],
+      "zh": {
+        "problem": "材料模拟中的经验能否跨会话持续复用？",
+        "method": "保存事实、可执行技能和失败防护规则，让后续任务调用结构化记忆。",
+        "evaluation": "涉及工具问答、状态方程及 13 个模拟流程；不更新基础模型权重。"
+      },
+      "en": {
+        "problem": "Can experience from materials simulations be reused across sessions?",
+        "method": "Stores facts, executable skills and failure guards as structured memory for later tasks.",
+        "evaluation": "Covers tool questions, equations of state and 13 simulation workflows, without changing foundation-model weights."
+      },
+      "authors": [
+        "Liu, Siyu",
+        "Hu, Bo",
+        "Ye, Beilin",
+        "Cao, He",
+        "Srolovitz, David J.",
+        "Wen, Tongqi"
+      ],
+      "sourceTitle": "Harnessing agent memory to build lifelong AI partners for materials scientists",
+      "sources": [
+        "https://arxiv.org/abs/2608.11224"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": true
+    },
+    "https://arxiv.org/abs/2606.08405": {
+      "name": "White-Box Fluid Control",
+      "kind": "research",
+      "methods": [
+        "evolution",
+        "simulation"
+      ],
+      "zh": {
+        "problem": "如何找到可读、可分析的流体控制策略？",
+        "method": "在模拟反馈下进化显式控制器代码，用可检查程序表示策略。",
+        "evaluation": "研究游动与流体控制，并测试从二维到三维的迁移。"
+      },
+      "en": {
+        "problem": "How can fluid-control policies remain readable and analyzable?",
+        "method": "Evolves explicit controller code using simulation feedback, keeping the policy as an inspectable program.",
+        "evaluation": "Studies swimming and fluid control, including transfer from two to three dimensions."
+      },
+      "authors": [
+        "Sun, Boai",
+        "Guo, Wenjin",
+        "Yu, Zongmin",
+        "Yang, Liu"
+      ],
+      "sourceTitle": "Self-Evolving Scientific Agent Designs Physically Reasoned White-Box Fluid Control",
+      "sources": [
+        "https://arxiv.org/abs/2606.08405"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": true
+    },
+    "https://arxiv.org/abs/2605.11117": {
+      "name": "GRAFT-ATHENA",
+      "kind": "research",
+      "methods": [
+        "evolution",
+        "memory"
+      ],
+      "zh": {
+        "problem": "科学计算方法的搜索空间能否随经验共同扩展？",
+        "method": "用分解式概率树表达方法选择，积累以往问题的经验并扩充可选动作。",
+        "evaluation": "在物理信息机器学习、逆问题与数值求解中检验。"
+      },
+      "en": {
+        "problem": "Can the search space of scientific-computing methods expand with experience?",
+        "method": "Represents method choices with factored probabilistic trees, learning from past problems and expanding available actions.",
+        "evaluation": "Tested on physics-informed learning, inverse problems and numerical solvers."
+      },
+      "authors": [
+        "Toscano, Juan Diego",
+        "Chai, Zhaojie",
+        "Karniadakis, George Em"
+      ],
+      "sourceTitle": "GRAFT-ATHENA: Self-Improving Agentic Teams for Autonomous Discovery and Evolutionary Numerical Algorithms",
+      "sources": [
+        "https://arxiv.org/abs/2605.11117"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": true
+    },
+    "https://arxiv.org/abs/2602.17607": {
+      "name": "AutoNumerics",
+      "kind": "research",
+      "methods": [
+        "multi-agent",
+        "tools",
+        "evaluation"
+      ],
+      "zh": {
+        "problem": "能否从偏微分方程描述自动构造可解释数值求解器？",
+        "method": "多智能体提出经典数值方案，用由粗到细的残差验证筛选与改进实现。",
+        "evaluation": "在 24 个偏微分方程问题中评估。"
+      },
+      "en": {
+        "problem": "Can an interpretable numerical solver be constructed from a PDE description?",
+        "method": "Agents propose classical numerical schemes and refine implementations through coarse-to-fine residual checks.",
+        "evaluation": "Evaluated on 24 partial differential equation problems."
+      },
+      "authors": [
+        "Du, Jianda",
+        "Sun, Youran",
+        "Yang, Haizhao"
+      ],
+      "sourceTitle": "AutoNumerics: An Autonomous, PDE-Agnostic Multi-Agent Pipeline for Scientific Computing",
+      "sources": [
+        "https://arxiv.org/abs/2602.17607"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://doi.org/10.1016/j.matt.2025.102577": {
+      "name": "MARS",
+      "kind": "research",
+      "methods": [
+        "multi-agent",
+        "tools"
+      ],
+      "zh": {
+        "problem": "材料知识、智能体决策和机器人实验如何形成闭环？",
+        "method": "结合专门知识、协作智能体与实验工具，迭代提出合成方案并分析结果。",
+        "evaluation": "以纳米晶与复合材料研究展示计算建议和机器人实验的结合。"
+      },
+      "en": {
+        "problem": "How can materials knowledge, agent decisions and robotic experiments form a closed loop?",
+        "method": "Combines specialized knowledge, collaborating agents and experimental tools to iterate on synthesis proposals and results.",
+        "evaluation": "Demonstrates the integration of computational proposals and robotic experiments in nanocrystal and composite-material research."
+      },
+      "authors": [],
+      "sourceTitle": "Knowledge-driven autonomous materials research via collaborative multi-agent and robotic system (MARS)",
+      "sources": [
+        "https://doi.org/10.1016/j.matt.2025.102577"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://arxiv.org/abs/2512.23880": {
+      "name": "CASCADE",
+      "kind": "research",
+      "methods": [
+        "memory",
+        "tools",
+        "evolution"
+      ],
+      "zh": {
+        "problem": "智能体能否把做过的科学任务变成可再次执行的技能？",
+        "method": "通过网页、代码和执行反馈获取能力，用记忆与自省机制保存并改进技能。",
+        "evaluation": "SciSkillBench 包含 116 项材料与化学任务，涉及计算、实验和论文复现。"
+      },
+      "en": {
+        "problem": "Can completed scientific tasks become reusable executable skills?",
+        "method": "Acquires capabilities from web resources, code and execution feedback, retaining and refining skills through memory and introspection.",
+        "evaluation": "SciSkillBench includes 116 materials and chemistry tasks spanning computation, experiments and paper reproduction."
+      },
+      "authors": [
+        "Huang, Xu",
+        "Chen, Junwu",
+        "Fei, Yuxing",
+        "Li, Zhuohan",
+        "Schwaller, Philippe",
+        "Ceder, Gerbrand"
+      ],
+      "sourceTitle": "CASCADE: Cumulative Agentic Skill Creation through Autonomous Development and Evolution",
+      "sources": [
+        "https://arxiv.org/abs/2512.23880"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": true
+    },
+    "https://arxiv.org/abs/2512.19458": {
+      "name": "VASP Agent",
+      "kind": "research",
+      "methods": [
+        "tools",
+        "memory"
+      ],
+      "zh": {
+        "problem": "第一性原理计算如何更可靠地从自然语言走到实际执行？",
+        "method": "结合领域技能、确定性工具和工作空间状态，根据运行证据检查并恢复工作流。",
+        "evaluation": "案例包括结构弛豫、能带、晶格常数与表面吸附计算。"
+      },
+      "en": {
+        "problem": "How can natural-language requests reliably become first-principles calculations?",
+        "method": "Combines domain skills, deterministic tools and workspace state, using runtime evidence to check and recover workflows.",
+        "evaluation": "Cases include structural relaxation, electronic bands, lattice constants and surface adsorption calculations."
+      },
+      "authors": [
+        "Xia, Zeyu",
+        "Ma, Jinzhe",
+        "Zheng, Congjie",
+        "Wang, Zhongyao",
+        "Zhang, Shufei",
+        "Li, Yuqiang",
+        "Su, Hang",
+        "Hu, P.",
+        "Zhang, Changshui",
+        "Gong, Xingao",
+        "Ouyang, Wanli",
+        "Bai, Lei",
+        "Zhou, Dongzhan",
+        "Su, Mao"
+      ],
+      "sourceTitle": "VASP Agent: An Agentic Framework for Autonomous First-principles Calculations",
+      "sources": [
+        "https://arxiv.org/abs/2512.19458"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://arxiv.org/abs/2512.13930": {
+      "name": "MASTER",
+      "kind": "research",
+      "methods": [
+        "multi-agent",
+        "evaluation"
+      ],
+      "zh": {
+        "problem": "如何减少材料筛选中昂贵的第一性原理计算？",
+        "method": "多智能体设计并解释计算，通过分层同行评议与主动学习优先选择候选。",
+        "evaluation": "在催化材料的 CO 吸附研究中评估筛选效率和样本使用。"
+      },
+      "en": {
+        "problem": "How can expensive first-principles calculations be reduced in materials screening?",
+        "method": "Agents design and interpret calculations, using hierarchical peer review and active learning to prioritize candidates.",
+        "evaluation": "Evaluates screening efficiency and sample use in catalyst studies involving CO adsorption."
+      },
+      "authors": [
+        "Rothfarb, Samuel",
+        "Davis, Megan C.",
+        "Matanovic, Ivana",
+        "Li, Baikun",
+        "Holby, Edward F.",
+        "Kort-Kamp, Wilton J. M."
+      ],
+      "sourceTitle": "Hierarchical Multi-agent Large Language Model Reasoning for Autonomous Functional Materials Discovery",
+      "sources": [
+        "https://arxiv.org/abs/2512.13930"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://www.nature.com/articles/s43588-025-00849-y": {
+      "name": "SciToolAgent",
+      "kind": "research",
+      "methods": [
+        "tools",
+        "retrieval"
+      ],
+      "zh": {
+        "problem": "大量科学工具怎样被组织成可执行的研究流程？",
+        "method": "使用知识图谱检索、选择和编排工具，并对工具调用进行检查。",
+        "evaluation": "展示生物、化学与材料任务，包括蛋白质、反应和材料设计案例。"
+      },
+      "en": {
+        "problem": "How can many scientific tools be organized into an executable workflow?",
+        "method": "Uses a knowledge graph to retrieve, select and orchestrate tools, with checks on tool execution.",
+        "evaluation": "Demonstrates biology, chemistry and materials tasks, including protein, reaction and materials-design cases."
+      },
+      "authors": [],
+      "sourceTitle": "SciToolAgent: A knowledge-graph-driven scientific agent for multitool integration",
+      "sources": [
+        "https://www.nature.com/articles/s43588-025-00849-y"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://arxiv.org/abs/2506.07551": {
+      "name": "CheMatAgent",
+      "kind": "research",
+      "methods": [
+        "tools",
+        "training",
+        "evolution"
+      ],
+      "zh": {
+        "problem": "模型如何学会选择化学工具并正确填写参数？",
+        "method": "整合 137 个工具，用分层树搜索生成学习轨迹，并分别优化规划与执行。",
+        "evaluation": "构建 ChemToolBench，并在化学问答与发现任务中评估训练后的策略。"
+      },
+      "en": {
+        "problem": "How can a model learn to select chemistry tools and supply correct arguments?",
+        "method": "Integrates 137 tools and uses hierarchical tree search to generate learning trajectories and optimize planning and execution separately.",
+        "evaluation": "Introduces ChemToolBench and evaluates trained policies on chemistry question answering and discovery tasks."
+      },
+      "authors": [
+        "Wu, Mengsong",
+        "Wang, YaFei",
+        "Ming, Yidong",
+        "An, Yuqi",
+        "Wan, Yuwei",
+        "Chen, Wenliang",
+        "Lin, Binbin",
+        "Li, Yuqiang",
+        "Xie, Tong",
+        "Zhou, Dongzhan"
+      ],
+      "sourceTitle": "CheMatAgent: Enhancing LLMs for Chemistry and Materials Science through Tree-Search Based Tool Learning",
+      "sources": [
+        "https://arxiv.org/abs/2506.07551"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://arxiv.org/abs/2504.14110": {
+      "name": "MOFGen",
+      "kind": "research",
+      "methods": [
+        "multi-agent",
+        "tools"
+      ],
+      "zh": {
+        "problem": "生成的金属有机框架能否同时具有目标性质和可合成性？",
+        "method": "组合成分提案、扩散结构生成、量子计算筛选与合成可行性智能体。",
+        "evaluation": "通过高通量实验检验，并报告成功合成五种设计的 MOF。"
+      },
+      "en": {
+        "problem": "Can generated metal-organic frameworks have target properties and be synthesizable?",
+        "method": "Combines composition proposals, diffusion-based structure generation, quantum screening and synthesis-feasibility agents.",
+        "evaluation": "Validated through high-throughput experiments, with five designed MOFs reported as synthesized."
+      },
+      "authors": [
+        "Inizan, Theo Jaffrelot",
+        "Yang, Sherry",
+        "Kaplan, Aaron",
+        "Lin, Yen-hsu",
+        "Yin, Jian",
+        "Mirzaei, Saber",
+        "Abdelgaid, Mona",
+        "Alawadhi, Ali H.",
+        "Cho, KwangHwan",
+        "Zheng, Zhiling",
+        "Cubuk, Ekin Dogus",
+        "Borgs, Christian",
+        "Chayes, Jennifer T.",
+        "Persson, Kristin A.",
+        "Yaghi, Omar M."
+      ],
+      "sourceTitle": "System of Agentic AI for the Discovery of Metal-Organic Frameworks",
+      "sources": [
+        "https://arxiv.org/abs/2504.14110"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://arxiv.org/abs/2504.08810": {
+      "name": "PriM",
+      "kind": "research",
+      "methods": [
+        "multi-agent",
+        "evaluation"
+      ],
+      "zh": {
+        "problem": "材料发现能否利用科学原理，同时解释探索决策？",
+        "method": "让多个智能体进行圆桌式讨论，将原理引导的假设生成与实验验证连接。",
+        "evaluation": "以纳米螺旋材料为案例，比较探索效率与目标性质。"
+      },
+      "en": {
+        "problem": "Can materials discovery use scientific principles while explaining exploration decisions?",
+        "method": "Uses roundtable-style agent discussion to connect principle-guided hypothesis generation with experimental validation.",
+        "evaluation": "Uses nanohelix materials as a case study, comparing exploration efficiency and target properties."
+      },
+      "authors": [
+        "Lai, Zheyuan",
+        "Pu, Yingming"
+      ],
+      "sourceTitle": "PriM: Principle-Inspired Material Discovery through Multi-Agent Collaboration",
+      "sources": [
+        "https://arxiv.org/abs/2504.08810"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://onlinelibrary.wiley.com/doi/abs/10.1002/adma.202413523": {
+      "name": "SciAgents",
+      "kind": "research",
+      "methods": [
+        "multi-agent",
+        "retrieval"
+      ],
+      "zh": {
+        "problem": "跨文献的知识连接能否产生新的仿生材料研究思路？",
+        "method": "把科学知识组织为图谱，利用不同角色的智能体推理、提出和修订假设。",
+        "evaluation": "展示材料研究假设与推理过程；假设生成本身不等于完成湿实验验证。"
+      },
+      "en": {
+        "problem": "Can connections across the literature generate new bioinspired-materials ideas?",
+        "method": "Organizes scientific knowledge as a graph and uses role-specialized agents to reason about, propose and refine hypotheses.",
+        "evaluation": "Demonstrates materials hypotheses and reasoning; generating a hypothesis does not itself establish wet-lab validation."
+      },
+      "authors": [],
+      "sourceTitle": "SciAgents: Automating Scientific Discovery Through Bioinspired Multi-Agent Intelligent Graph Reasoning",
+      "sources": [
+        "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202413523"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://arxiv.org/abs/2407.01603": {
+      "name": "LLMs & Autonomous Agents in Chemistry",
+      "kind": "survey",
+      "methods": [
+        "tools",
+        "evaluation"
+      ],
+      "zh": {
+        "problem": "大模型和工具型智能体在化学中有哪些能力与缺口？",
+        "method": "梳理分子设计、性质预测、合成规划和实验自动化，并讨论数据与可解释性问题。",
+        "evaluation": "综述论文，提出评测与跨工具整合的研究需求。"
+      },
+      "en": {
+        "problem": "What can language models and tool-using agents do in chemistry, and what remains missing?",
+        "method": "Reviews molecular design, property prediction, synthesis planning and experimental automation, including data and interpretability issues.",
+        "evaluation": "A review identifying research needs in evaluation and integration across tools."
+      },
+      "authors": [
+        "Ramos, Mayk Caldas",
+        "Collison, Christopher J.",
+        "White, Andrew D."
+      ],
+      "sourceTitle": "A Review of Large Language Models and Autonomous Agents in Chemistry",
+      "sources": [
+        "https://arxiv.org/abs/2407.01603"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://arxiv.org/abs/2406.13163": {
+      "name": "LLMatDesign",
+      "kind": "research",
+      "methods": [
+        "tools",
+        "memory"
+      ],
+      "zh": {
+        "problem": "在数据有限时，如何按用户目标修改材料？",
+        "method": "用语言模型解释指令、提出材料修改、调用工具评价，并反思此前决策。",
+        "evaluation": "在多个计算材料设计任务中测试；验证范围主要是计算模拟。"
+      },
+      "en": {
+        "problem": "How can materials be modified toward user goals with limited data?",
+        "method": "A language model interprets instructions, proposes material modifications, evaluates them with tools and reflects on earlier decisions.",
+        "evaluation": "Tested on several computational materials-design tasks; validation is primarily in silico."
+      },
+      "authors": [
+        "Jia, Shuyi",
+        "Zhang, Chao",
+        "Fung, Victor"
+      ],
+      "sourceTitle": "LLMatDesign: Autonomous Materials Discovery with Large Language Models",
+      "sources": [
+        "https://arxiv.org/abs/2406.13163"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://www.nature.com/articles/s41467-024-48998-4": {
+      "name": "ChatMOF",
+      "kind": "research",
+      "methods": [
+        "tools"
+      ],
+      "zh": {
+        "problem": "用户能否通过自然语言查询、预测并生成 MOF？",
+        "method": "让语言模型连接材料数据、性质预测与结构生成能力，组织交互式任务流程。",
+        "evaluation": "以 MOF 检索、预测和生成任务展示；计算候选不自动等于可合成材料。"
+      },
+      "en": {
+        "problem": "Can users query, predict and generate MOFs through natural language?",
+        "method": "Connects a language model to materials data, property prediction and structure-generation capabilities in an interactive workflow.",
+        "evaluation": "Demonstrates MOF retrieval, prediction and generation; computational candidates are not automatically synthesizable materials."
+      },
+      "authors": [
+        "Kang, Yeonghun",
+        "Kim, Jihan"
+      ],
+      "sourceTitle": "ChatMOF: An Artificial Intelligence System for Predicting and Generating Metal-Organic Frameworks Using Large Language Models",
+      "sources": [
+        "https://arxiv.org/abs/2308.01423"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://www.nature.com/articles/s41586-023-06792-0": {
+      "name": "Coscientist",
+      "kind": "research",
+      "methods": [
+        "tools",
+        "evaluation"
+      ],
+      "zh": {
+        "problem": "语言模型能否把化学计划转化成自动化实验？",
+        "method": "结合网络与文档检索、代码执行和实验设备接口，规划并执行化学任务。",
+        "evaluation": "包含六类任务及催化反应优化实验。"
+      },
+      "en": {
+        "problem": "Can a language model turn a chemistry plan into automated experiments?",
+        "method": "Combines web and documentation search, code execution and laboratory interfaces to plan and run chemistry tasks.",
+        "evaluation": "Includes six task categories and catalytic-reaction optimization experiments."
+      },
+      "authors": [],
+      "sourceTitle": "Autonomous chemical research with large language models",
+      "sources": [
+        "https://www.nature.com/articles/s41586-023-06792-0"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://www.nature.com/articles/s42256-024-00832-8": {
+      "name": "ChemCrow",
+      "kind": "research",
+      "methods": [
+        "tools",
+        "retrieval"
+      ],
+      "zh": {
+        "problem": "如何弥补语言模型在化学计算和外部知识上的不足？",
+        "method": "为语言模型配备 18 个专业工具，在推理、行动与观察之间循环。",
+        "evaluation": "通过专家评估与化学合成、催化剂和发色团案例检验。"
+      },
+      "en": {
+        "problem": "How can language models compensate for gaps in chemistry computation and external knowledge?",
+        "method": "Equips a language model with 18 specialized tools and cycles between reasoning, actions and observations.",
+        "evaluation": "Assessed through expert evaluation and cases involving chemical synthesis, catalysts and a chromophore."
+      },
+      "authors": [],
+      "sourceTitle": "Augmenting large language models with chemistry tools (ChemCrow)",
+      "sources": [
+        "https://www.nature.com/articles/s42256-024-00832-8"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://arxiv.org/abs/2609.10121": {
+      "name": "ADMET-EvO",
+      "kind": "research",
+      "methods": [
+        "memory",
+        "evolution",
+        "tools"
+      ],
+      "zh": {
+        "problem": "药物性质研究能否跨不同预测任务持续积累证据？",
+        "method": "保存被支持、被否定与未定的结果，据此调整假设及数据、特征、模型选择。",
+        "evaluation": "报告 22 项 TDC ADMET 基准及 43 项毒性相关任务；结果属于计算预测评估。"
+      },
+      "en": {
+        "problem": "Can drug-property research accumulate evidence across different prediction tasks?",
+        "method": "Retains supported, rejected and inconclusive outcomes to revise hypotheses and choices about data, features and models.",
+        "evaluation": "Reports the 22-task TDC ADMET benchmark and 43 toxicity-related tasks; results concern computational prediction."
+      },
+      "authors": [
+        "Zhou, Yiling",
+        "Wang, Yilin",
+        "Wang, Jianmin",
+        "Zhu, Heqin",
+        "Wang, Zirui",
+        "Hiesh, Chang-yu",
+        "Ying, Kejun",
+        "Wang, Jiaqi",
+        "Xu, Yuzhi",
+        "Hou, Tingjun",
+        "Zhang, Odin"
+      ],
+      "sourceTitle": "ADMET-EvO: a self-evolving scientific agent for sustained research across heterogeneous tasks",
+      "sources": [
+        "https://arxiv.org/abs/2609.10121"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": true
+    },
+    "https://www.biorxiv.org/content/10.64898/2026.04.21.719907v1": {
+      "name": "OIH Platform",
+      "kind": "research",
+      "methods": [
+        "tools"
+      ],
+      "zh": {
+        "problem": "计算结合蛋白设计如何衔接抗体药物偶联物的候选排序？",
+        "method": "智能体编排结构、序列和界面评价工具，将结合蛋白设计与偶联相关筛选连接。",
+        "evaluation": "本解读依据官方项目说明；介绍的是计算平台，不据此宣称临床或湿实验疗效。"
+      },
+      "en": {
+        "problem": "How can computational binder design connect to prioritizing antibody–drug conjugate candidates?",
+        "method": "An agent orchestrates structure, sequence and interface-assessment tools, linking binder design with conjugation-aware screening.",
+        "evaluation": "These notes use the official project description; the computational platform does not establish clinical or wet-lab efficacy."
+      },
+      "authors": [],
+      "sourceTitle": "An autonomous LLM-agent platform for computational binder design and conjugation-aware prioritization of antibody–drug conjugates",
+      "sources": [
+        "https://github.com/liugangg/oih-platform"
+      ],
+      "basis": "project",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://arxiv.org/abs/2603.15952": {
+      "name": "Agent Rosetta",
+      "kind": "research",
+      "methods": [
+        "tools"
+      ],
+      "zh": {
+        "problem": "如何让通用智能体操作复杂的物理蛋白质设计软件？",
+        "method": "为 Rosetta 构建结构化交互环境，智能体根据目标反复操作并改进设计。",
+        "evaluation": "比较标准与非标准氨基酸设计任务；强调环境设计对可靠操作的重要性。"
+      },
+      "en": {
+        "problem": "How can a general agent operate complex physics-based protein-design software?",
+        "method": "Builds a structured interaction environment for Rosetta, allowing an agent to iteratively act on design objectives.",
+        "evaluation": "Compares designs using canonical and non-canonical residues, emphasizing the importance of environment design for reliable operation."
+      },
+      "authors": [
+        "Teneggi, Jacopo",
+        "Turzo, S. M. Bargeen A.",
+        "Marwah, Tanya",
+        "Bietti, Alberto",
+        "Renfrew, P. Douglas",
+        "Mulligan, Vikram Khipple",
+        "Golkar, Siavash"
+      ],
+      "sourceTitle": "Protein Design with Agent Rosetta: A Case Study for Specialized Scientific Agents",
+      "sources": [
+        "https://arxiv.org/abs/2603.15952"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://www.nature.com/articles/s41551-026-01634-6": {
+      "name": "BioMedAgent",
+      "kind": "research",
+      "methods": [
+        "multi-agent",
+        "memory",
+        "tools"
+      ],
+      "zh": {
+        "problem": "生物医学分析智能体怎样学习陌生工具并完成复杂任务？",
+        "method": "通过多智能体协作、交互探索和记忆，学习工具用法并安排数据分析。",
+        "evaluation": "在 BioMedAQA 的 327 项任务及外部 BixBench 上评估，并展示跨组学和图像任务。"
+      },
+      "en": {
+        "problem": "How can biomedical analysis agents learn unfamiliar tools and complete complex tasks?",
+        "method": "Uses multi-agent collaboration, interactive exploration and memory to learn tool use and coordinate data analysis.",
+        "evaluation": "Evaluated on 327 BioMedAQA tasks and external BixBench, with cross-omics and imaging demonstrations."
+      },
+      "authors": [],
+      "sourceTitle": "Empowering AI data scientists using a multi-agent LLM framework with self-evolving capabilities for autonomous, tool-aware biomedical data analyses (BioMedAgent)",
+      "sources": [
+        "https://www.nature.com/articles/s41551-026-01634-6"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": true
+    },
+    "https://arxiv.org/abs/2602.14158": {
+      "name": "Evidence-Based Medical Multi-Agent QA",
+      "kind": "research",
+      "methods": [
+        "multi-agent",
+        "retrieval",
+        "training"
+      ],
+      "zh": {
+        "problem": "医学问答怎样结合证据、推理和不确定性检查？",
+        "method": "结合微调模型、PubMed 检索和回答修订，并加入不确定性与偏差检查。",
+        "evaluation": "使用医学问答数据评估生成质量和准确率；不构成临床部署有效性证明。"
+      },
+      "en": {
+        "problem": "How can medical question answering combine evidence, reasoning and uncertainty checks?",
+        "method": "Combines fine-tuned models, PubMed retrieval and response refinement with uncertainty and bias checks.",
+        "evaluation": "Evaluates generation quality and accuracy on medical QA data; this does not establish effectiveness in clinical deployment."
+      },
+      "authors": [
+        "Nourmohammadi, Naeimeh",
+        "Hossain, Md Meem",
+        "Han, The Anh",
+        "Ara, Safina Showkat",
+        "Shamszaman, Zia Ush"
+      ],
+      "sourceTitle": "A Multi-Agent Framework for Medical AI: Leveraging Fine-Tuned GPT, LLaMA, and DeepSeek R1 for Evidence-Based and Bias-Aware Clinical Query Processing",
+      "sources": [
+        "https://arxiv.org/abs/2602.14158"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://arxiv.org/pdf/2601.17687": {
+      "name": "ChemCRAFT",
+      "kind": "research",
+      "methods": [
+        "training",
+        "tools"
+      ],
+      "zh": {
+        "problem": "较小的化学语言模型能否通过工具完成复杂推理？",
+        "method": "构建化学工具轨迹与沙箱，利用化学奖励进行强化学习，让模型学习工具编排。",
+        "evaluation": "评估分子结构分析、分子优化和合成路径预测。"
+      },
+      "en": {
+        "problem": "Can a smaller chemical language model perform complex reasoning through tools?",
+        "method": "Builds tool trajectories and a chemistry sandbox, then uses chemistry-specific reinforcement rewards to learn tool orchestration.",
+        "evaluation": "Evaluates molecular-structure analysis, molecular optimization and synthesis-path prediction."
+      },
+      "authors": [
+        "Li, Hao",
+        "Cao, He",
+        "Peng, Shenyao",
+        "Liu, Zijing",
+        "Feng, Bin",
+        "Wang, Yu",
+        "Yan, Zhiyuan",
+        "Tian, Yonghong",
+        "Li, Yu",
+        "Yuan, Li"
+      ],
+      "sourceTitle": "Agentic reinforcement learning empowers next-generation chemical language models for molecular design and synthesis",
+      "sources": [
+        "https://arxiv.org/pdf/2601.17687"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12780944/": {
+      "name": "Virtual Lab: Nanobody Commentary",
+      "kind": "perspective",
+      "methods": [
+        "multi-agent"
+      ],
+      "zh": {
+        "problem": "Virtual Lab 的纳米抗体案例对科学协作意味着什么？",
+        "method": "评述由负责人、专业研究员和批评者构成的智能体团队及其设计流程。",
+        "evaluation": "这是一篇对 Virtual Lab 原始研究的评论，不能计为独立实验复现。"
+      },
+      "en": {
+        "problem": "What does the Virtual Lab nanobody case suggest about scientific collaboration?",
+        "method": "Discusses an agent team of investigators, specialists and critics and the design workflow it supports.",
+        "evaluation": "This is a commentary on the original Virtual Lab study, not an independent experimental replication."
+      },
+      "authors": [],
+      "sourceTitle": "Virtual lab of artificial intelligence agents accelerating nanobody design against SARS-CoV-2 variants",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12780944/"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://www.nature.com/articles/s41586-025-09442-9": {
+      "name": "The Virtual Lab",
+      "kind": "research",
+      "methods": [
+        "multi-agent",
+        "tools"
+      ],
+      "zh": {
+        "problem": "人类研究者能否和一组 AI 专家共同开展蛋白质研究？",
+        "method": "通过团队和个人会议组织智能体讨论，再构建结合蛋白语言模型、结构预测与物理计算的流程。",
+        "evaluation": "设计 92 个纳米抗体候选并进行实验测试；人类研究者参与指导和实验。"
+      },
+      "en": {
+        "problem": "Can a human researcher work with a team of AI specialists on protein research?",
+        "method": "Uses team and individual meetings to organize agents and build a pipeline combining protein language models, structure prediction and physical computation.",
+        "evaluation": "Designed 92 nanobody candidates for experimental testing, with human researchers providing guidance and laboratory work."
+      },
+      "authors": [],
+      "sourceTitle": "The Virtual Lab of AI agents designs new SARS-CoV-2 nanobodies",
+      "sources": [
+        "https://github.com/zou-group/virtual-lab"
+      ],
+      "basis": "project",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://arxiv.org/abs/2507.21035": {
+      "name": "GenoMAS",
+      "kind": "research",
+      "methods": [
+        "multi-agent",
+        "tools"
+      ],
+      "zh": {
+        "problem": "基因表达分析如何兼顾结构化流程和异常情况处理？",
+        "method": "六个专业智能体以类型化消息协作，把分析计划分为可推进、修订或回退的步骤。",
+        "evaluation": "在 GenoTEX 上评估预处理与基因识别，并考察混杂因素调整。"
+      },
+      "en": {
+        "problem": "How can gene-expression analysis combine structured workflows with flexible exception handling?",
+        "method": "Six specialized agents communicate through typed messages, decomposing analysis into steps that can advance, revise or backtrack.",
+        "evaluation": "Evaluates preprocessing and gene identification on GenoTEX, including adjustment for confounding factors."
+      },
+      "authors": [
+        "Liu, Haoyang",
+        "Li, Yijiang",
+        "Wang, Haohan"
+      ],
+      "sourceTitle": "GenoMAS: A Multi-Agent Framework for Scientific Discovery via Code-Driven Gene Expression Analysis",
+      "sources": [
+        "https://arxiv.org/abs/2507.21035"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://arxiv.org/abs/2507.02004": {
+      "name": "STELLA",
+      "kind": "research",
+      "methods": [
+        "memory",
+        "tools",
+        "evolution"
+      ],
+      "zh": {
+        "problem": "生物医学智能体能否突破固定工具箱的限制？",
+        "method": "积累可复用的推理模板，并自动发现、创建和整合新工具。",
+        "evaluation": "在生物医学 HLE 与 LAB-Bench 任务中评估，并观察随试验次数增加的变化。"
+      },
+      "en": {
+        "problem": "Can a biomedical agent move beyond a fixed toolbox?",
+        "method": "Accumulates reusable reasoning templates and automatically discovers, creates and integrates tools.",
+        "evaluation": "Evaluated on biomedical HLE and LAB-Bench tasks, including changes as trial experience accumulates."
+      },
+      "authors": [
+        "Jin, Ruofan",
+        "Zhang, Zaixi",
+        "Wang, Mengdi",
+        "Cong, Le"
+      ],
+      "sourceTitle": "STELLA: Self-Evolving LLM Agent for Biomedical Research",
+      "sources": [
+        "https://arxiv.org/abs/2507.02004"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": true
+    },
+    "https://arxiv.org/abs/2505.13400": {
+      "name": "Robin",
+      "kind": "research",
+      "methods": [
+        "multi-agent",
+        "tools"
+      ],
+      "zh": {
+        "problem": "文献、假设、实验和数据分析怎样形成连续研究循环？",
+        "method": "让检索和分析智能体提出假设与实验计划，再根据实验结果更新后续研究。",
+        "evaluation": "通过干性年龄相关性黄斑变性的候选治疗研究展示；实验发现不等于临床有效性。"
+      },
+      "en": {
+        "problem": "How can literature, hypotheses, experiments and data analysis form a continuous research loop?",
+        "method": "Search and analysis agents propose hypotheses and experiments, then use results to update subsequent research.",
+        "evaluation": "Demonstrated through candidate-treatment research for dry age-related macular degeneration; experimental findings do not establish clinical efficacy."
+      },
+      "authors": [
+        "Ghareeb, Ali Essam",
+        "Chang, Benjamin",
+        "Mitchener, Ludovico",
+        "Yiu, Angela",
+        "Szostkiewicz, Caralyn J.",
+        "Laurent, Jon M.",
+        "Razzak, Muhammed T.",
+        "White, Andrew D.",
+        "Hinks, Michaela M.",
+        "Rodriques, Samuel G."
+      ],
+      "sourceTitle": "Robin: A multi-agent system for automating scientific discovery",
+      "sources": [
+        "https://arxiv.org/abs/2505.13400"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://www.biorxiv.org/content/10.1101/2025.05.30.656746v1": {
+      "name": "Biomni",
+      "kind": "research",
+      "methods": [
+        "tools",
+        "retrieval"
+      ],
+      "zh": {
+        "problem": "一个通用智能体怎样跨多个生物医学子领域执行任务？",
+        "method": "在统一环境中检索并组合专业工具、软件和数据库，用代码实现研究计划。",
+        "evaluation": "论文与官方资料展示多类生物医学任务；工具覆盖面不等于所有任务均可靠完成。"
+      },
+      "en": {
+        "problem": "How can one general-purpose agent execute tasks across biomedical subfields?",
+        "method": "Retrieves and composes specialized tools, software and databases in a unified environment, implementing research plans through code.",
+        "evaluation": "The paper and official materials demonstrate varied biomedical tasks; broad tool coverage does not imply reliable completion of every task."
+      },
+      "authors": [],
+      "sourceTitle": "Biomni: A General-Purpose Biomedical AI Agent",
+      "sources": [
+        "https://biomni.stanford.edu/paper.pdf"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://arxiv.org/abs/2503.10970": {
+      "name": "TxAgent",
+      "kind": "research",
+      "methods": [
+        "tools",
+        "retrieval"
+      ],
+      "zh": {
+        "problem": "药物推理如何结合最新资料和患者具体条件？",
+        "method": "通过多步工具调用整合药物、相互作用、禁忌和疾病证据，并迭代修订回答。",
+        "evaluation": "在五个药物推理基准及个性化情景中评估；这是任务评测，不是临床试验。"
+      },
+      "en": {
+        "problem": "How can drug reasoning incorporate current evidence and patient-specific conditions?",
+        "method": "Uses multi-step tool calls to combine evidence about drugs, interactions, contraindications and conditions, iteratively revising answers.",
+        "evaluation": "Evaluated on five drug-reasoning benchmarks and personalized scenarios; these are task evaluations, not clinical trials."
+      },
+      "authors": [
+        "Gao, Shanghua",
+        "Zhu, Richard",
+        "Kong, Zhenglun",
+        "Noori, Ayush",
+        "Su, Xiaorui",
+        "Ginder, Curtis",
+        "Tsiligkaridis, Theodoros",
+        "Zitnik, Marinka"
+      ],
+      "sourceTitle": "TxAgent: An AI Agent for Therapeutic Reasoning Across a Universe of Tools",
+      "sources": [
+        "https://arxiv.org/abs/2503.10970"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://arxiv.org/abs/2411.15692": {
+      "name": "DrugAgent",
+      "kind": "research",
+      "methods": [
+        "multi-agent",
+        "tools"
+      ],
+      "zh": {
+        "problem": "药物发现中的机器学习思路如何变成领域正确的代码？",
+        "method": "规划智能体制定方案，指导智能体补充领域知识并协助实现。",
+        "evaluation": "三个药物发现编程案例，包括药物—靶标相互作用预测。"
+      },
+      "en": {
+        "problem": "How can machine-learning ideas for drug discovery become domain-appropriate code?",
+        "method": "A planner proposes approaches while an instructor supplies domain knowledge and guides implementation.",
+        "evaluation": "Three drug-discovery programming cases, including drug–target interaction prediction."
+      },
+      "authors": [
+        "Liu, Sizhe",
+        "Lu, Yizhou",
+        "Chen, Siyu",
+        "Hu, Xiyang",
+        "Zhao, Jieyu",
+        "Lu, Yingzhou",
+        "Zhao, Yue"
+      ],
+      "sourceTitle": "DrugAgent: Automating AI-aided Drug Discovery Programming through LLM Multi-Agent Collaboration",
+      "sources": [
+        "https://arxiv.org/abs/2411.15692"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://arxiv.org/abs/2411.06029": {
+      "name": "TourSynbio-Agent",
+      "kind": "research",
+      "methods": [
+        "multi-agent",
+        "tools"
+      ],
+      "zh": {
+        "problem": "对话式蛋白质工程是否能在计算与湿实验中产生实际效果？",
+        "method": "将蛋白质专用语言模型与多个专业预测和设计模型整合到智能体流程。",
+        "evaluation": "三个计算案例和两个湿实验案例，包含酶选择性及催化效率优化。"
+      },
+      "en": {
+        "problem": "Can conversational protein engineering produce useful computational and wet-lab results?",
+        "method": "Integrates a protein-specialized language model with dedicated prediction and design models in an agent workflow.",
+        "evaluation": "Three computational cases and two wet-lab cases, including enzyme selectivity and catalytic-efficiency optimization."
+      },
+      "authors": [
+        "Chen, Zan",
+        "Liu, Yungeng",
+        "Wang, Yu Guang",
+        "Shen, Yiqing"
+      ],
+      "sourceTitle": "Validation of an LLM-based Multi-Agent Framework for Protein Engineering in Dry Lab and Wet Lab",
+      "sources": [
+        "https://arxiv.org/abs/2411.06029"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://onlinelibrary.wiley.com/doi/full/10.1002/advs.202407094": {
+      "name": "AutoBA",
+      "kind": "research",
+      "methods": [
+        "tools"
+      ],
+      "zh": {
+        "problem": "生物学研究者如何减少多组学分析中的软件配置与编程？",
+        "method": "根据数据路径、数据描述和目标生成分析计划，安装工具、写代码并执行。",
+        "evaluation": "评估多种常规组学任务的规划、代码生成和端到端执行；用户仍需提供输入与审查结果。"
+      },
+      "en": {
+        "problem": "How can biologists reduce software setup and programming in multi-omics analysis?",
+        "method": "Uses a data path, description and goal to plan analyses, install tools, generate code and execute it.",
+        "evaluation": "Evaluates planning, code generation and end-to-end execution across conventional omics tasks; users still supply inputs and review results."
+      },
+      "authors": [],
+      "sourceTitle": "An AI Agent for Fully Automated Multi-Omic Analyses",
+      "sources": [
+        "https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202407094"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://arxiv.org/abs/2405.17631": {
+      "name": "BioDiscoveryAgent",
+      "kind": "research",
+      "methods": [
+        "tools",
+        "memory",
+        "retrieval"
+      ],
+      "zh": {
+        "problem": "有限实验预算下，应优先测试哪些基因扰动？",
+        "method": "利用生物知识、文献检索和已有实验结果提出下一批候选，并由批评智能体检查。",
+        "evaluation": "在六个数据集上比较扰动选择，其中包含未公开数据，并研究组合扰动。"
+      },
+      "en": {
+        "problem": "Which genetic perturbations should be tested under a limited experimental budget?",
+        "method": "Uses biological knowledge, literature retrieval and earlier results to propose candidates, with critique from another agent.",
+        "evaluation": "Compares perturbation selection across six datasets, including unpublished data, and studies combinatorial perturbations."
+      },
+      "authors": [
+        "Roohani, Yusuf",
+        "Lee, Andrew",
+        "Huang, Qian",
+        "Vora, Jian",
+        "Steinhart, Zachary",
+        "Huang, Kexin",
+        "Marson, Alexander",
+        "Liang, Percy",
+        "Leskovec, Jure"
+      ],
+      "sourceTitle": "BioDiscoveryAgent: An AI Agent for Designing Genetic Perturbation Experiments",
+      "sources": [
+        "https://arxiv.org/abs/2405.17631"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://www.nature.com/articles/s41592-024-02370-y": {
+      "name": "BioImage.IO Chatbot",
+      "kind": "research",
+      "methods": [
+        "retrieval",
+        "tools"
+      ],
+      "zh": {
+        "problem": "生物图像分析的文档、模型和工具如何更容易被使用？",
+        "method": "结合社区维护的知识来源和工具接口，用自然语言提供有出处的分析帮助。",
+        "evaluation": "展示图像分析问答与工具使用场景；依赖知识库内容和工具可用性。"
+      },
+      "en": {
+        "problem": "How can bioimage-analysis documentation, models and tools become easier to use?",
+        "method": "Combines community-maintained knowledge sources and tool interfaces to provide grounded analysis assistance through natural language.",
+        "evaluation": "Demonstrates image-analysis assistance and tool-use scenarios, depending on knowledge-base coverage and available tools."
+      },
+      "authors": [],
+      "sourceTitle": "BioImage.IO Chatbot: a community-driven AI assistant for integrative computational bioimaging",
+      "sources": [
+        "https://www.nature.com/articles/s41592-024-02370-y"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://arxiv.org/abs/2408.15299": {
+      "name": "TourSynbio",
+      "kind": "research",
+      "methods": [
+        "training",
+        "tools"
+      ],
+      "zh": {
+        "problem": "如何在一个语言模型中连接自然语言和蛋白质序列？",
+        "method": "通过蛋白质与文本数据进行训练，并将专业模型接入统一对话式工程框架。",
+        "evaluation": "使用 ProteinLMBench 及蛋白质工程案例，包括两个湿实验示例。"
+      },
+      "en": {
+        "problem": "How can one language model connect natural language with protein sequences?",
+        "method": "Trains on protein and text data and connects specialized models through a unified conversational engineering framework.",
+        "evaluation": "Uses ProteinLMBench and protein-engineering cases, including two wet-lab examples."
+      },
+      "authors": [
+        "Shen, Yiqing",
+        "Chen, Zan",
+        "Mamalakis, Michail",
+        "Liu, Yungeng",
+        "Li, Tianbin",
+        "Su, Yanzhou",
+        "He, Junjun",
+        "Liò, Pietro",
+        "Wang, Yu Guang"
+      ],
+      "sourceTitle": "TourSynbio: A Multi-Modal Large Model and Agent Framework to Bridge Text and Protein Sequences for Protein Engineering",
+      "sources": [
+        "https://arxiv.org/abs/2408.15299"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://arxiv.org/abs/2407.02483": {
+      "name": "MMedAgent",
+      "kind": "research",
+      "methods": [
+        "training",
+        "tools"
+      ],
+      "zh": {
+        "problem": "多模态医学任务如何路由到合适的专业工具？",
+        "method": "构造工具使用指令数据，对模型进行微调以学习工具选择与调用。",
+        "evaluation": "覆盖六个工具、七项任务和五种模态，并测试加入新工具。"
+      },
+      "en": {
+        "problem": "How can multimodal medical tasks be routed to appropriate specialized tools?",
+        "method": "Builds tool-use instruction data and fine-tunes a model to select and invoke tools.",
+        "evaluation": "Covers six tools, seven tasks and five modalities, and tests the integration of new tools."
+      },
+      "authors": [
+        "Li, Binxu",
+        "Yan, Tiankai",
+        "Pan, Yuanting",
+        "Luo, Jie",
+        "Ji, Ruiyang",
+        "Ding, Jiayuan",
+        "Xu, Zhe",
+        "Liu, Shilong",
+        "Dong, Haoyu",
+        "Lin, Zihao",
+        "Wang, Yixin"
+      ],
+      "sourceTitle": "MMedAgent: Learning to Use Medical Tools with Multi-modal Agent",
+      "sources": [
+        "https://arxiv.org/abs/2407.02483"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://arxiv.org/abs/2404.14777": {
+      "name": "ClinicalAgent",
+      "kind": "research",
+      "methods": [
+        "multi-agent",
+        "tools"
+      ],
+      "zh": {
+        "problem": "临床试验相关预测怎样利用外部专门工具？",
+        "method": "结合多智能体、任务分解和行动反馈，将语言推理连接到临床试验工具。",
+        "evaluation": "主要评估临床试验结果预测；预测分数不等于临床效果。"
+      },
+      "en": {
+        "problem": "How can clinical-trial predictions use specialized external tools?",
+        "method": "Combines multiple agents, task decomposition and action feedback to connect language reasoning with clinical-trial tools.",
+        "evaluation": "Primarily evaluates clinical-trial outcome prediction; prediction scores are not evidence of clinical benefit."
+      },
+      "authors": [
+        "Yue, Ling",
+        "Xing, Sixue",
+        "Chen, Jintai",
+        "Fu, Tianfan"
+      ],
+      "sourceTitle": "ClinicalAgent: Clinical Trial Multi-Agent System with Large Language Model-based Reasoning",
+      "sources": [
+        "https://arxiv.org/abs/2404.14777"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://arxiv.org/abs/2404.02831": {
+      "name": "Empowering Biomedical Discovery",
+      "kind": "perspective",
+      "methods": [
+        "multi-agent",
+        "memory"
+      ],
+      "zh": {
+        "problem": "生物医学 AI 科学家应怎样与研究者及实验平台协作？",
+        "method": "提出结合专业模型、工具、结构化记忆和自我评估的协作研究愿景。",
+        "evaluation": "观点文章，讨论虚拟细胞、表型与治疗等方向；不报告统一系统的全面验证。"
+      },
+      "en": {
+        "problem": "How should biomedical AI scientists collaborate with researchers and experimental platforms?",
+        "method": "Proposes collaborative research systems combining specialized models, tools, structured memory and self-assessment.",
+        "evaluation": "A perspective discussing areas such as virtual cells, phenotypes and therapeutics, without comprehensive validation of a unified system."
+      },
+      "authors": [
+        "Gao, Shanghua",
+        "Fang, Ada",
+        "Huang, Yepeng",
+        "Giunchiglia, Valentina",
+        "Noori, Ayush",
+        "Schwarz, Jonathan Richard",
+        "Ektefaie, Yasha",
+        "Kondic, Jovana",
+        "Zitnik, Marinka"
+      ],
+      "sourceTitle": "Empowering Biomedical Discovery with AI Agents",
+      "sources": [
+        "https://arxiv.org/abs/2404.02831"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://www.nature.com/articles/s41592-024-02310-w": {
+      "name": "Omega",
+      "kind": "research",
+      "methods": [
+        "tools"
+      ],
+      "zh": {
+        "problem": "研究者能否在图像查看器里用对话完成图像分析？",
+        "method": "作为 napari 插件读取图像与界面状态，生成执行 Python，并根据反馈修正代码。",
+        "evaluation": "展示分割、计数、定量和去噪等交互任务。"
+      },
+      "en": {
+        "problem": "Can researchers perform image analysis conversationally inside an image viewer?",
+        "method": "A napari plugin reads images and viewer state, generates and executes Python, and corrects code using feedback.",
+        "evaluation": "Demonstrates interactive segmentation, counting, quantification and denoising tasks."
+      },
+      "authors": [],
+      "sourceTitle": "Omega — harnessing the power of large language models for bioimage analysis",
+      "sources": [
+        "https://www.nature.com/articles/s41592-024-02310-w"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://www.biorxiv.org/content/10.1101/2024.05.13.593861v1": {
+      "name": "CellAgent",
+      "kind": "research",
+      "methods": [
+        "multi-agent",
+        "tools"
+      ],
+      "zh": {
+        "problem": "单细胞分析能否减少人工选工具和调参数的负担？",
+        "method": "规划者、执行者和评价者分层协作，迭代检查并优化分析流程。",
+        "evaluation": "在覆盖多种组织和细胞类型的单细胞数据上评估。"
+      },
+      "en": {
+        "problem": "Can single-cell analysis reduce manual tool selection and parameter tuning?",
+        "method": "A planner, executor and evaluator coordinate hierarchically to check and optimize analysis workflows.",
+        "evaluation": "Evaluated on single-cell data spanning multiple tissues and cell types."
+      },
+      "authors": [],
+      "sourceTitle": "CellAgent: An LLM-driven Multi-Agent Framework for Automated Single-cell Data Analysis",
+      "sources": [
+        "https://arxiv.org/abs/2407.09811"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://www.biorxiv.org/content/10.1101/2024.05.22.595240v1": {
+      "name": "BioInformatics Agent · BIA",
+      "kind": "research",
+      "methods": [
+        "tools",
+        "retrieval"
+      ],
+      "zh": {
+        "problem": "自然语言能否驱动从数据读取到分析报告的生信工作流？",
+        "method": "读取原始数据与元数据、查询数据库、设计工作流、生成代码并总结结果。",
+        "evaluation": "以单细胞 RNA 测序为主要案例，并分析执行失败与潜在改进。"
+      },
+      "en": {
+        "problem": "Can natural language drive a bioinformatics workflow from data access to a report?",
+        "method": "Reads data and metadata, queries databases, designs workflows, generates code and summarizes results.",
+        "evaluation": "Focuses on single-cell RNA sequencing and analyzes execution failures and possible improvements."
+      },
+      "authors": [],
+      "sourceTitle": "BioInformatics Agent (BIA): Unleashing the Power of Large Language Models to Reshape Bioinformatics Workflow",
+      "sources": [
+        "https://www.biorxiv.org/content/10.1101/2024.05.22.595240v1"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://arxiv.org/abs/2405.02957": {
+      "name": "Agent Hospital",
+      "kind": "research",
+      "methods": [
+        "simulation",
+        "memory"
+      ],
+      "zh": {
+        "problem": "模拟诊疗经验能否改善医生智能体的问答表现？",
+        "method": "在由患者、护士和医生智能体构成的医院模拟中积累诊疗经验并演化医生策略。",
+        "evaluation": "在模拟运行后测试 MedQA；模拟和考试成绩不能替代真实临床验证。"
+      },
+      "en": {
+        "problem": "Can simulated treatment experience improve a doctor agent's question-answering performance?",
+        "method": "Accumulates experience in a hospital simulation of patient, nurse and doctor agents, evolving the doctor agents' strategies.",
+        "evaluation": "Tests MedQA after simulation; simulated experience and exam scores do not replace real clinical validation."
+      },
+      "authors": [
+        "Li, Junkai",
+        "Lai, Yunghwei",
+        "Li, Weitao",
+        "Ren, Jingyi",
+        "Zhang, Meng",
+        "Kang, Xinhui",
+        "Wang, Siyu",
+        "Li, Peng",
+        "Zhang, Ya-Qin",
+        "Ma, Weizhi",
+        "Liu, Yang"
+      ],
+      "sourceTitle": "Agent Hospital: A Simulacrum of Hospital with Evolvable Medical Agents",
+      "sources": [
+        "https://arxiv.org/abs/2405.02957"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": true
+    },
+    "https://arxiv.org/abs/2404.18021": {
+      "name": "CRISPR-GPT",
+      "kind": "research",
+      "methods": [
+        "tools",
+        "retrieval"
+      ],
+      "zh": {
+        "problem": "非专业研究者怎样组织复杂的基因编辑实验设计？",
+        "method": "通过领域知识和专业工具支持实验设计中的选择、规划与验证方案整理。",
+        "evaluation": "论文展示实际用例；这里提供高层研究解读，具体实验有效性以原论文为准。"
+      },
+      "en": {
+        "problem": "How can non-specialists organize complex gene-editing experiment design?",
+        "method": "Uses domain knowledge and specialized tools to support choices, planning and validation design within experiments.",
+        "evaluation": "The paper demonstrates a practical use case; these high-level notes defer experimental validity to the original study."
+      },
+      "authors": [
+        "Qu, Yuanhao",
+        "Huang, Kaixuan",
+        "Yin, Ming",
+        "Zhan, Kanghong",
+        "Liu, Dyllan",
+        "Yin, Di",
+        "Cousins, Henry C.",
+        "Johnson, William A.",
+        "Wang, Xiaotong",
+        "Shah, Mihir",
+        "Altman, Russ B.",
+        "Zhou, Denny",
+        "Wang, Mengdi",
+        "Cong, Le"
+      ],
+      "sourceTitle": "CRISPR-GPT for Agentic Automation of Gene-editing Experiments",
+      "sources": [
+        "https://arxiv.org/abs/2404.18021"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://arxiv.org/abs/2402.04268": {
+      "name": "ProtAgents",
+      "kind": "research",
+      "methods": [
+        "multi-agent",
+        "simulation",
+        "tools"
+      ],
+      "zh": {
+        "problem": "蛋白质设计怎样同时调用知识、机器学习和物理模拟？",
+        "method": "不同专业智能体动态协作，完成知识检索、结构分析、模拟和结果解释。",
+        "evaluation": "展示蛋白质设计与机械性质分析，包括基于物理的振动特性计算。"
+      },
+      "en": {
+        "problem": "How can protein design combine knowledge, machine learning and physical simulation?",
+        "method": "Specialized agents collaborate dynamically on retrieval, structural analysis, simulation and interpretation.",
+        "evaluation": "Demonstrates protein design and mechanical-property analysis, including physics-based vibrational calculations."
+      },
+      "authors": [
+        "Ghafarollahi, A.",
+        "Buehler, M. J."
+      ],
+      "sourceTitle": "ProtAgents: Protein discovery via large language model multi-agent collaborations combining physics and machine learning",
+      "sources": [
+        "https://arxiv.org/abs/2402.04268"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://www.nature.com/articles/s41586-024-07618-3": {
+      "name": "PathChat",
+      "kind": "research",
+      "methods": [
+        "training"
+      ],
+      "zh": {
+        "problem": "病理图像和自然语言问题如何共同驱动医学助理？",
+        "method": "将病理视觉编码器与语言模型结合，通过多模态指令数据训练。",
+        "evaluation": "用诊断选择题及病理学专家评估的开放问答检验；不是自主临床诊断系统的试验。"
+      },
+      "en": {
+        "problem": "How can pathology images and natural-language questions jointly inform a medical assistant?",
+        "method": "Combines a pathology vision encoder with a language model and trains it on multimodal instructions.",
+        "evaluation": "Uses diagnostic multiple-choice questions and pathologist-assessed open responses; it is not a trial of autonomous clinical diagnosis."
+      },
+      "authors": [],
+      "sourceTitle": "A multimodal generative AI copilot for human pathology",
+      "sources": [
+        "https://www.nature.com/articles/s41586-024-07618-3"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://arxiv.org/abs/2401.06155": {
+      "name": "MolRL-MGPT",
+      "kind": "research",
+      "methods": [
+        "training",
+        "multi-agent"
+      ],
+      "zh": {
+        "problem": "分子生成如何兼顾目标性质与候选多样性？",
+        "method": "多个 GPT 生成智能体通过强化学习协作，向不同方向搜索候选分子。",
+        "evaluation": "在 GuacaMol 和特定蛋白靶标的计算设计任务中评估。"
+      },
+      "en": {
+        "problem": "How can molecular generation balance target properties and candidate diversity?",
+        "method": "Multiple GPT-based generation agents cooperate through reinforcement learning to explore different molecular candidates.",
+        "evaluation": "Evaluated on GuacaMol and computational design tasks for specific protein targets."
+      },
+      "authors": [
+        "Hu, Xiuyuan",
+        "Liu, Guoqing",
+        "Zhao, Yang",
+        "Zhang, Hao"
+      ],
+      "sourceTitle": "De novo Drug Design using Reinforcement Learning with Multiple GPT Agents",
+      "sources": [
+        "https://arxiv.org/abs/2401.06155"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://arxiv.org/abs/2311.10537": {
+      "name": "MedAgents",
+      "kind": "research",
+      "methods": [
+        "multi-agent"
+      ],
+      "zh": {
+        "problem": "无需额外训练，多个医学专家角色能否改善推理？",
+        "method": "召集专业角色独立分析、汇总讨论，再通过多轮协商形成答案。",
+        "evaluation": "在九个医学问答数据集或子任务中测试零样本表现。"
+      },
+      "en": {
+        "problem": "Can multiple medical expert roles improve reasoning without additional training?",
+        "method": "Expert roles analyze independently, summarize findings and discuss them over multiple rounds before answering.",
+        "evaluation": "Tests zero-shot performance on nine medical QA datasets or subtasks."
+      },
+      "authors": [
+        "Tang, Xiangru",
+        "Zou, Anni",
+        "Zhang, Zhuosheng",
+        "Li, Ziming",
+        "Zhao, Yilun",
+        "Zhang, Xingyao",
+        "Cohan, Arman",
+        "Gerstein, Mark"
+      ],
+      "sourceTitle": "MedAgents: Large Language Models as Collaborators for Zero-shot Medical Reasoning",
+      "sources": [
+        "https://arxiv.org/abs/2311.10537"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://arxiv.org/abs/2308.03549": {
+      "name": "Zhongjing",
+      "kind": "research",
+      "methods": [
+        "training"
+      ],
+      "zh": {
+        "problem": "中文医学模型怎样学会主动追问与多轮理解？",
+        "method": "结合持续预训练、真实医患对话的监督微调及专家反馈强化学习。",
+        "evaluation": "使用多轮医疗对话和人工评价检验问答能力；不是临床疗效试验。"
+      },
+      "en": {
+        "problem": "How can a Chinese medical model learn proactive questions and multi-turn understanding?",
+        "method": "Combines continued pretraining, supervised learning from real medical dialogues and reinforcement learning from expert feedback.",
+        "evaluation": "Uses multi-turn medical dialogue and human evaluation to test QA capabilities, not clinical efficacy."
+      },
+      "authors": [
+        "Yang, Songhua",
+        "Zhao, Hanjie",
+        "Zhu, Senbin",
+        "Zhou, Guangyu",
+        "Xu, Hongfei",
+        "Jia, Yuxiang",
+        "Zan, Hongying"
+      ],
+      "sourceTitle": "Zhongjing: Enhancing the Chinese Medical Capabilities of Large Language Model through Expert Feedback and Real-world Multi-turn Dialogue",
+      "sources": [
+        "https://arxiv.org/abs/2308.03549"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://arxiv.org/abs/2307.04986": {
+      "name": "Epidemic Modeling with Generative Agents",
+      "kind": "research",
+      "methods": [
+        "simulation"
+      ],
+      "zh": {
+        "problem": "疫情模型如何表示人们根据环境改变行为的过程？",
+        "method": "在个体级传播模拟中，让语言模型为个体生成隔离等行为决策。",
+        "evaluation": "观察多波传播和曲线变化等模拟现象；不等于已经验证真实疫情预测能力。"
+      },
+      "en": {
+        "problem": "How can epidemic models represent people changing behavior in response to their surroundings?",
+        "method": "Uses language models for individual decisions, such as isolation, within an agent-based epidemic simulation.",
+        "evaluation": "Examines simulated waves and curve changes; it does not establish validated real-world epidemic forecasting."
+      },
+      "authors": [
+        "Williams, Ross",
+        "Hosseinichimeh, Niyousha",
+        "Majumdar, Aritra",
+        "Ghaffarzadegan, Navid"
+      ],
+      "sourceTitle": "Epidemic Modeling with Generative Agents",
+      "sources": [
+        "https://arxiv.org/abs/2307.04986"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://arxiv.org/abs/2305.15075": {
+      "name": "HuatuoGPT",
+      "kind": "research",
+      "methods": [
+        "training"
+      ],
+      "zh": {
+        "problem": "医学咨询模型如何同时获得流畅表达和医生式回答能力？",
+        "method": "将蒸馏对话与真实医生数据结合微调，再通过反馈奖励进行对齐。",
+        "evaluation": "通过人工、模型评审和医学基准评估咨询回答。"
+      },
+      "en": {
+        "problem": "How can a consultation model combine fluent explanations with doctor-like responses?",
+        "method": "Combines distilled conversations and real doctor data for fine-tuning, followed by feedback-based reward alignment.",
+        "evaluation": "Evaluates consultation responses with human assessments, model judging and medical benchmarks."
+      },
+      "authors": [
+        "Zhang, Hongbo",
+        "Chen, Junying",
+        "Jiang, Feng",
+        "Yu, Fei",
+        "Chen, Zhihong",
+        "Li, Jianquan",
+        "Chen, Guiming",
+        "Wu, Xiangbo",
+        "Zhang, Zhiyi",
+        "Xiao, Qingying",
+        "Wan, Xiang",
+        "Wang, Benyou",
+        "Li, Haizhou"
+      ],
+      "sourceTitle": "HuatuoGPT, towards Taming Language Model to Be a Doctor",
+      "sources": [
+        "https://arxiv.org/abs/2305.15075"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://www.nature.com/articles/s42256-023-00618-4": {
+      "name": "Self-Driving Labs in Deep Space",
+      "kind": "survey",
+      "methods": [
+        "tools",
+        "evaluation"
+      ],
+      "zh": {
+        "problem": "深空生物研究怎样应对通信、资源和人工操作限制？",
+        "method": "总结 NASA 研讨会建议，讨论 AI、自动实验、预测模型和数据管理的结合。",
+        "evaluation": "路线与综述文章；不是已在深空运行的 LLM 实验室报告。"
+      },
+      "en": {
+        "problem": "How can deep-space biology address limits on communication, resources and manual operation?",
+        "method": "Synthesizes NASA workshop recommendations on AI, automated experiments, predictive models and data management.",
+        "evaluation": "A roadmap and review, not a report of an LLM laboratory already operating in deep space."
+      },
+      "authors": [],
+      "sourceTitle": "Biological research and self-driving labs in deep space supported by artificial intelligence",
+      "sources": [
+        "https://www.nature.com/articles/s42256-023-00618-4"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://arxiv.org/abs/2404.07738": {
+      "name": "ResearchAgent",
+      "kind": "research",
+      "methods": [
+        "retrieval",
+        "multi-agent"
+      ],
+      "zh": {
+        "problem": "如何从已有文献中提出并不断修订研究想法？",
+        "method": "从核心论文、学术图谱与概念知识库扩展证据，由评审智能体迭代反馈。",
+        "evaluation": "使用跨学科论文进行人类与模型评价；重点是想法质量而非执行实验。"
+      },
+      "en": {
+        "problem": "How can research ideas be proposed and repeatedly refined from existing literature?",
+        "method": "Expands from a seed paper through academic graphs and concept knowledge, iterating with feedback from reviewing agents.",
+        "evaluation": "Uses human and model assessments across disciplines, focusing on idea quality rather than executed experiments."
+      },
+      "authors": [
+        "Baek, Jinheon",
+        "Jauhar, Sujay Kumar",
+        "Cucerzan, Silviu",
+        "Hwang, Sung Ju"
+      ],
+      "sourceTitle": "ResearchAgent: Iterative Research Idea Generation over Scientific Literature with Large Language Models",
+      "sources": [
+        "https://arxiv.org/abs/2404.07738"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://arxiv.org/abs/2311.03220": {
+      "name": "Alympics",
+      "kind": "research",
+      "methods": [
+        "simulation",
+        "multi-agent"
+      ],
+      "zh": {
+        "problem": "语言智能体能否用于研究策略互动与博弈？",
+        "method": "构建受控博弈模拟，让不同智能体在多轮资源竞争中形成策略。",
+        "evaluation": "以水资源分配挑战为案例，并有人类对策略行为的评估。"
+      },
+      "en": {
+        "problem": "Can language agents help study strategic interaction and games?",
+        "method": "Builds controlled game simulations in which agents develop strategies through repeated competition for resources.",
+        "evaluation": "Uses a water-allocation challenge and human assessments of strategic behavior."
+      },
+      "authors": [
+        "Mao, Shaoguang",
+        "Cai, Yuzhe",
+        "Xia, Yan",
+        "Wu, Wenshan",
+        "Wang, Xun",
+        "Wang, Fengyi",
+        "Ge, Tao",
+        "Wei, Furu"
+      ],
+      "sourceTitle": "ALYMPICS: LLM Agents Meet Game Theory -- Exploring Strategic Decision-Making with AI Agents",
+      "sources": [
+        "https://arxiv.org/abs/2311.03220"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://arxiv.org/abs/2310.02172": {
+      "name": "Lyfe Agents",
+      "kind": "research",
+      "methods": [
+        "simulation",
+        "memory"
+      ],
+      "zh": {
+        "problem": "如何以较低计算成本实现实时、连贯的虚拟社会互动？",
+        "method": "结合分层行动、异步自我监控，以及优先保留重要信息的摘要记忆。",
+        "evaluation": "在 LyfeGame 的多智能体情景中评估主动性、社交行为与运行成本。"
+      },
+      "en": {
+        "problem": "How can coherent virtual social interaction run in real time at lower cost?",
+        "method": "Combines hierarchical actions, asynchronous self-monitoring and summary memory that prioritizes important information.",
+        "evaluation": "Evaluates initiative, social behavior and operating cost in multi-agent LyfeGame scenarios."
+      },
+      "authors": [
+        "Kaiya, Zhao",
+        "Naim, Michelangelo",
+        "Kondic, Jovana",
+        "Cortes, Manuel",
+        "Ge, Jiaxin",
+        "Luo, Shuying",
+        "Yang, Guangyu Robert",
+        "Ahn, Andrew"
+      ],
+      "sourceTitle": "Lyfe Agents: Generative agents for low-cost real-time social interactions",
+      "sources": [
+        "https://arxiv.org/abs/2310.02172"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://arxiv.org/abs/2310.11667": {
+      "name": "SOTOPIA",
+      "kind": "benchmark",
+      "methods": [
+        "simulation",
+        "evaluation"
+      ],
+      "zh": {
+        "problem": "怎样评估智能体在开放社交场景中的目标达成能力？",
+        "method": "让智能体扮演不同角色进行合作、竞争和交流，用多维规则评估互动。",
+        "evaluation": "比较语言模型与人类，并构建更困难的 SOTOPIA-hard 场景。"
+      },
+      "en": {
+        "problem": "How can agents' goal achievement be evaluated in open-ended social situations?",
+        "method": "Agents role-play cooperation, competition and communication, assessed through multidimensional interaction criteria.",
+        "evaluation": "Compares language models and humans and introduces harder SOTOPIA-hard scenarios."
+      },
+      "authors": [
+        "Zhou, Xuhui",
+        "Zhu, Hao",
+        "Mathur, Leena",
+        "Zhang, Ruohong",
+        "Yu, Haofei",
+        "Qi, Zhengyang",
+        "Morency, Louis-Philippe",
+        "Bisk, Yonatan",
+        "Fried, Daniel",
+        "Neubig, Graham",
+        "Sap, Maarten"
+      ],
+      "sourceTitle": "SOTOPIA: Interactive Evaluation for Social Intelligence in Language Agents",
+      "sources": [
+        "https://arxiv.org/abs/2310.11667"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://arxiv.org/abs/2310.10436": {
+      "name": "EconAgent",
+      "kind": "research",
+      "methods": [
+        "simulation",
+        "memory"
+      ],
+      "zh": {
+        "problem": "宏观经济模拟怎样表示具有不同经历和偏好的个体？",
+        "method": "用语言模型生成劳动和消费决策，通过感知和记忆纳入个人及市场历史。",
+        "evaluation": "将模拟产生的经济现象与规则或学习型智能体比较；不是现实政策预测验证。"
+      },
+      "en": {
+        "problem": "How can macroeconomic simulations represent individuals with different experiences and preferences?",
+        "method": "Uses language models for work and consumption decisions, incorporating individual and market history through perception and memory.",
+        "evaluation": "Compares simulated economic phenomena with rule-based or learned agents, rather than validating real policy forecasts."
+      },
+      "authors": [
+        "Li, Nian",
+        "Gao, Chen",
+        "Li, Mingyu",
+        "Li, Yong",
+        "Liao, Qingmin"
+      ],
+      "sourceTitle": "EconAgent: Large Language Model-Empowered Agents for Simulating Macroeconomic Activities",
+      "sources": [
+        "https://arxiv.org/abs/2310.10436"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://arxiv.org/abs/2310.02124": {
+      "name": "MachineSoM",
+      "kind": "study",
+      "methods": [
+        "multi-agent",
+        "evaluation"
+      ],
+      "zh": {
+        "problem": "个性与讨论方式会怎样影响智能体群体协作？",
+        "method": "组合不同性格与辩论、反思模式，构建四类智能体社会。",
+        "evaluation": "在三个基准上比较表现和成本，并分析从众及共识等现象。"
+      },
+      "en": {
+        "problem": "How do traits and discussion styles affect agent collaboration?",
+        "method": "Combines different traits with debate or reflection to construct four types of agent society.",
+        "evaluation": "Compares performance and cost on three benchmarks and analyzes conformity and consensus."
+      },
+      "authors": [
+        "Zhang, Jintian",
+        "Xu, Xin",
+        "Zhang, Ningyu",
+        "Liu, Ruibo",
+        "Hooi, Bryan",
+        "Deng, Shumin"
+      ],
+      "sourceTitle": "Exploring Collaboration Mechanisms for LLM Agents: A Social Psychology View",
+      "sources": [
+        "https://arxiv.org/abs/2310.02124"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://arxiv.org/abs/2307.14984": {
+      "name": "S³",
+      "kind": "research",
+      "methods": [
+        "simulation",
+        "multi-agent"
+      ],
+      "zh": {
+        "problem": "社交网络中的情绪、态度和信息传播如何被模拟？",
+        "method": "让语言模型智能体感知信息环境并生成情绪、态度与互动行为。",
+        "evaluation": "用真实社交网络数据评估个体与群体两个层面的模拟。"
+      },
+      "en": {
+        "problem": "How can emotions, attitudes and information spread be simulated in social networks?",
+        "method": "Language agents perceive an information environment and generate emotional, attitudinal and interaction behavior.",
+        "evaluation": "Uses real social-network data to evaluate simulations at individual and population levels."
+      },
+      "authors": [
+        "Gao, Chen",
+        "Lan, Xiaochong",
+        "Lu, Zhihong",
+        "Mao, Jinzhu",
+        "Piao, Jinghua",
+        "Wang, Huandong",
+        "Jin, Depeng",
+        "Li, Yong"
+      ],
+      "sourceTitle": "S$^3$: Social-network Simulation System with Large Language Model-Empowered Agents",
+      "sources": [
+        "https://arxiv.org/abs/2307.14984"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://arxiv.org/abs/2307.07871": {
+      "name": "SocialAI School",
+      "kind": "research",
+      "methods": [
+        "simulation",
+        "evaluation"
+      ],
+      "zh": {
+        "problem": "人工智能怎样学习参与社会文化所需的认知能力？",
+        "method": "根据发展心理学构建可配置、程序生成的社交学习环境。",
+        "evaluation": "通过强化学习智能体和语言模型的实验展示环境用途。"
+      },
+      "en": {
+        "problem": "How can AI learn the cognitive abilities needed to participate in social culture?",
+        "method": "Builds configurable, procedurally generated social-learning environments informed by developmental psychology.",
+        "evaluation": "Demonstrates the environments through experiments with reinforcement-learning agents and language models."
+      },
+      "authors": [
+        "Kovač, Grgur",
+        "Portelas, Rémy",
+        "Dominey, Peter Ford",
+        "Oudeyer, Pierre-Yves"
+      ],
+      "sourceTitle": "The SocialAI School: Insights from Developmental Psychology Towards Artificial Socio-Cultural Agents",
+      "sources": [
+        "https://arxiv.org/abs/2307.07871"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://arxiv.org/abs/2307.15810": {
+      "name": "Conversational Agents & Mental Well-Being",
+      "kind": "study",
+      "methods": [
+        "evaluation"
+      ],
+      "zh": {
+        "problem": "使用大模型陪伴应用的人感受到哪些帮助与困难？",
+        "method": "对 Replika 相关社区讨论进行定性分析，归纳使用体验与问题。",
+        "evaluation": "分析 120 个帖子和 2,917 条评论；这是用户体验研究，不是疗效试验。"
+      },
+      "en": {
+        "problem": "What benefits and difficulties do users report from language-model companion apps?",
+        "method": "Qualitatively analyzes community discussions about Replika to identify experiences and problems.",
+        "evaluation": "Analyzes 120 posts and 2,917 comments; it is a user-experience study, not an efficacy trial."
+      },
+      "authors": [
+        "Ma, Zilin",
+        "Mei, Yiyang",
+        "Su, Zhaoyuan"
+      ],
+      "sourceTitle": "Understanding the Benefits and Challenges of Using Large Language Model-based Conversational Agents for Mental Well-being Support",
+      "sources": [
+        "https://arxiv.org/abs/2307.15810"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://arxiv.org/abs/2304.03442": {
+      "name": "Generative Agents",
+      "kind": "research",
+      "methods": [
+        "simulation",
+        "memory"
+      ],
+      "zh": {
+        "problem": "智能体如何在虚拟小镇中形成可信的日常和社会行为？",
+        "method": "记录经历、检索记忆、形成高层反思，再据此规划行动和互动。",
+        "evaluation": "在 25 个智能体的小镇模拟中评估行为可信度，并消融记忆、规划和反思组件。"
+      },
+      "en": {
+        "problem": "How can agents develop believable daily and social behavior in a virtual town?",
+        "method": "Records experiences, retrieves memories and forms higher-level reflections to plan actions and interactions.",
+        "evaluation": "Evaluates behavioral believability in a 25-agent town and ablates memory, planning and reflection components."
+      },
+      "authors": [
+        "Park, Joon Sung",
+        "O'Brien, Joseph C.",
+        "Cai, Carrie J.",
+        "Morris, Meredith Ringel",
+        "Liang, Percy",
+        "Bernstein, Michael S."
+      ],
+      "sourceTitle": "Generative Agents: Interactive Simulacra of Human Behavior",
+      "sources": [
+        "https://arxiv.org/abs/2304.03442"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    },
+    "https://arxiv.org/abs/2301.07543": {
+      "name": "Homo Silicus",
+      "kind": "study",
+      "methods": [
+        "simulation",
+        "evaluation"
+      ],
+      "zh": {
+        "problem": "语言模型能否作为经济实验中的模拟参与者？",
+        "method": "为模型赋予禀赋、信息和偏好，在经典实验情景中观察其选择。",
+        "evaluation": "比较模拟与既有经济实验的定性结果，同时讨论使用模拟人的概念限制。"
+      },
+      "en": {
+        "problem": "Can language models act as simulated participants in economic experiments?",
+        "method": "Assigns endowments, information and preferences to models, then observes choices in established experimental scenarios.",
+        "evaluation": "Compares qualitative outcomes with prior economic experiments and discusses conceptual limits of simulated participants."
+      },
+      "authors": [
+        "Horton, John J.",
+        "Filippas, Apostolos",
+        "Manning, Benjamin S."
+      ],
+      "sourceTitle": "Large Language Models as Simulated Economic Agents: What Can We Learn from Homo Silicus?",
+      "sources": [
+        "https://arxiv.org/abs/2301.07543"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-12",
+      "evolving": false
+    }
+  }
+}

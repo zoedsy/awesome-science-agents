@@ -2,11 +2,14 @@
 
 Thanks for helping curate this list! This guide explains how to add, edit, or report entries.
 
+Browse the collection in the **[interactive Science Agent Atlas](https://zoedsy.github.io/awesome-science-agents/?lang=en)**, with Chinese/English paper guides, figures, tables, and institutions.
+
 ## Quick start
 
 1. Fork the repo and create a branch off `main`.
 2. Edit `README.md` to add or update an entry.
-3. Open a Pull Request — `awesome-lint` will run automatically.
+3. Keep the atlas in sync: update the bilingual notes and rebuild the data snapshot following the [dashboard maintenance guide](docs/DASHBOARD.md#maintain-the-collection). If you only have a paper suggestion, use the issue template below.
+4. Open a Pull Request — `awesome-lint` will run automatically.
 
 If you only want to suggest a paper without filing a PR, open an issue using the **Paper Submission** template.
 

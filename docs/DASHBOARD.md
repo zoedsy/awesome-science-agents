@@ -1,5 +1,10 @@
 # Science Agent Atlas
 
+**[Open the live atlas in English →](https://zoedsy.github.io/awesome-science-agents/?lang=en) · [打开中文版 →](https://zoedsy.github.io/awesome-science-agents/?lang=zh)**
+
+Click any timeline point or paper card to open its reading guide. The public site
+works directly in your browser; installation and sign-in are not required.
+
 An interactive Chinese/English reading dashboard for every dated entry in the
 repository. Select a timeline dot or card for a detailed reading guide: concrete
 research setting, three method steps, experimental design and results, figure/table
@@ -95,12 +100,14 @@ If the primary URL itself changes, its permalink changes too.
 
 ## GitHub Pages
 
-After merging the site into `main`, configure repository **Settings → Pages →
-Deploy from a branch → main → /docs**. Relative asset URLs support the project
-subpath. The `.nojekyll` file makes this a plain static site; no custom workflow is
-required. Then the expected address is
-[Science Agent Atlas](https://zoedsy.github.io/awesome-science-agents/).
-This configuration step is separate from building or merging the files.
+The live site is [Science Agent Atlas](https://zoedsy.github.io/awesome-science-agents/).
+This repository publishes from `main:/docs` through GitHub Pages. Merged changes
+to the site are published automatically after the Pages build completes.
+
+To enable the same setup in a fork, choose **Settings → Pages → Deploy from a
+branch → main → /docs**. Relative asset URLs support the project subpath, and
+`.nojekyll` keeps the site static without a custom build workflow. Update the
+README and repository Website links to the fork's own Pages address.
 
 ## Verification
 

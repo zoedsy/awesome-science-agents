@@ -54,7 +54,8 @@
       ],
       "sourceTitle": "Agon: An Autonomous Large-Scale Omnidisciplinary Research System Built on Prompt Economy",
       "sources": [
-        "https://arxiv.org/abs/2606.24177"
+        "https://arxiv.org/abs/2606.24177",
+        "https://arxiv.org/html/2606.24177"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -76,7 +77,15 @@
         "method": "Organizes systems, tasks, artifacts and verification practices, distinguishing generated research artifacts from supported claims.",
         "evaluation": "A systematization of prior work, rather than a performance report for a new agent."
       },
-      "authors": [],
+      "authors": [
+        "Xingyu Ren",
+        "Youran Sun",
+        "Chugang Yi",
+        "Kejia Zhang",
+        "Jiaxuan Guo",
+        "Jianda Du",
+        "Haizhao Yang"
+      ],
       "sourceTitle": "What's Missing in Autonomous Research? A Systematization of Systems, Benchmarks, and Verification",
       "sources": [
         "https://haizhaoyang.github.io/research/autoresearch-survey.html"
@@ -108,7 +117,8 @@
       ],
       "sourceTitle": "Why LLMs Aren't Scientists Yet: Lessons from Four Autonomous Research Attempts",
       "sources": [
-        "https://arxiv.org/abs/2601.03315"
+        "https://arxiv.org/abs/2601.03315",
+        "https://arxiv.org/html/2601.03315"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -173,7 +183,8 @@
       ],
       "sourceTitle": "Kosmos: An AI Scientist for Autonomous Discovery",
       "sources": [
-        "https://arxiv.org/abs/2511.02824"
+        "https://arxiv.org/abs/2511.02824",
+        "https://arxiv.org/html/2511.02824"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -217,7 +228,8 @@
       ],
       "sourceTitle": "Autonomous Agents for Scientific Discovery: Orchestrating Scientists, Language, Code, and Physics",
       "sources": [
-        "https://arxiv.org/abs/2510.09901"
+        "https://arxiv.org/abs/2510.09901",
+        "https://arxiv.org/html/2510.09901"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -271,7 +283,8 @@
       ],
       "sourceTitle": "From AI for Science to Agentic Science: A Survey on Autonomous Scientific Discovery",
       "sources": [
-        "https://arxiv.org/abs/2508.14111"
+        "https://arxiv.org/abs/2508.14111",
+        "https://arxiv.org/html/2508.14111"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -306,7 +319,8 @@
       ],
       "sourceTitle": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
       "sources": [
-        "https://arxiv.org/abs/2504.08066"
+        "https://arxiv.org/abs/2504.08066",
+        "https://arxiv.org/html/2504.08066"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -336,7 +350,8 @@
       ],
       "sourceTitle": "AgentRxiv: Towards Collaborative Autonomous Research",
       "sources": [
-        "https://arxiv.org/abs/2503.18102"
+        "https://arxiv.org/abs/2503.18102",
+        "https://arxiv.org/html/2503.18102"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -360,61 +375,45 @@
         "evaluation": "Includes biomedical cases such as drug repurposing and experimental tests; findings are specific to those cases."
       },
       "authors": [
-        "Gottweis, Juraj",
-        "Weng, Wei-Hung",
-        "Daryin, Alexander",
-        "Tu, Tao",
-        "Sirkovic, Petar",
-        "Myaskovsky, Artiom",
-        "Glowaty, Grzegorz",
-        "Weissenberger, Felix",
-        "Orlandi, Alessio",
-        "Popovici, Dan",
-        "Palepu, Anil",
-        "Rong, Keran",
-        "Tanno, Ryutaro",
-        "Saab, Khaled",
-        "Zhang, Fan",
-        "Blum, Jacob",
-        "Carroll, Andrew",
-        "Kulkarni, Kavita",
-        "Tomasev, Nenad",
-        "Zverinski, Dina",
-        "Rendulic, Ivor",
-        "Vedadi, Elahe",
-        "Hasler, Florian",
-        "Rimanic, Luka",
-        "Boia, Marina",
-        "Budiselic, Ivan",
-        "Feinstein, Ben",
-        "Bellaiche, Mathias",
-        "Sheffer, Tom",
-        "Freyberg, Jan",
-        "Ratcliff, Jeremy",
-        "Bertolli, Ottavia",
-        "Chou, Katherine",
-        "Hassidim, Avinatan",
-        "Gokturk, Burak",
-        "Vahdat, Amin",
-        "Guan, Yuan",
-        "Dhillon, Vikram",
-        "Vaishnav, Eeshit Dhaval",
-        "Lee, Byron",
-        "Costa, Tiago R D",
-        "Penadés, José R",
-        "Peltz, Gary",
-        "Matias, Yossi",
-        "Manyika, James",
-        "Hassabis, Demis",
-        "Xu, Yunhan",
-        "Kohli, Pushmeet",
-        "Pawlosky, Annalisa",
-        "Karthikesalingam, Alan",
-        "Natarajan, Vivek"
+        "Juraj Gottweis",
+        "Wei-Hung Weng",
+        "Alexander Daryin",
+        "Tao Tu",
+        "Anil Palepu",
+        "Petar Sirkovic",
+        "Artiom Myaskovsky",
+        "Felix Weissenberger",
+        "Keran Rong",
+        "Ryutaro Tanno",
+        "Khaled Saab",
+        "Dan Popovici",
+        "Jacob Blum",
+        "Fan Zhang",
+        "Katherine Chou",
+        "Avinatan Hassidim",
+        "Burak Gokturk",
+        "Amin Vahdat",
+        "Pushmeet Kohli",
+        "Yossi Matias",
+        "Andrew Carroll",
+        "Kavita Kulkarni",
+        "Nenad Tomasev",
+        "Yuan Guan",
+        "Vikram Dhillon",
+        "Eeshit Dhaval Vaishnav",
+        "Byron Lee",
+        "Tiago R D Costa",
+        "José R Penadés",
+        "Gary Peltz",
+        "Yunhan Xu",
+        "Annalisa Pawlosky",
+        "Alan Karthikesalingam",
+        "Vivek Natarajan"
       ],
-      "sourceTitle": "Accelerating scientific discovery with Co-Scientist",
+      "sourceTitle": "Towards an AI co-scientist",
       "sources": [
-        "https://arxiv.org/abs/2502.18864"
+        "https://arxiv.org/abs/2502.18864",
+        "https://arxiv.org/html/2502.18864v1"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -451,7 +450,8 @@
       ],
       "sourceTitle": "Agent Laboratory: Using LLM Agents as Research Assistants",
       "sources": [
-        "https://arxiv.org/abs/2501.04227"
+        "https://arxiv.org/abs/2501.04227",
+        "https://arxiv.org/html/2501.04227"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -483,7 +483,8 @@
       ],
       "sourceTitle": "MLR-Copilot: Autonomous Machine Learning Research based on Large Language Models Agents",
       "sources": [
-        "https://arxiv.org/abs/2408.14033"
+        "https://arxiv.org/abs/2408.14033",
+        "https://arxiv.org/html/2408.14033"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -517,7 +518,8 @@
       ],
       "sourceTitle": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery",
       "sources": [
-        "https://arxiv.org/abs/2408.06292"
+        "https://arxiv.org/abs/2408.06292",
+        "https://arxiv.org/html/2408.06292"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -540,10 +542,25 @@
         "method": "Retrieves papers, builds an outline, drafts subsections in parallel, then integrates and revises them.",
         "evaluation": "Evaluates survey-generation quality and citation performance; the output is a literature survey."
       },
-      "authors": [],
+      "authors": [
+        "Yidong Wang",
+        "Qi Guo",
+        "Wenjin Yao",
+        "Hongbo Zhang",
+        "Xin Zhang",
+        "Zhen Wu",
+        "Meishan Zhang",
+        "Xinyu Dai",
+        "Min Zhang",
+        "Qingsong Wen",
+        "Wei Ye",
+        "Shikun Zhang",
+        "Yue Zhang"
+      ],
       "sourceTitle": "AutoSurvey: Large Language Models Can Automatically Write Surveys",
       "sources": [
-        "https://arxiv.org/abs/2406.10252"
+        "https://arxiv.org/abs/2406.10252",
+        "https://arxiv.org/html/2406.10252"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -576,7 +593,8 @@
       ],
       "sourceTitle": "PaperQA: Retrieval-Augmented Generative Agent for Scientific Research",
       "sources": [
-        "https://arxiv.org/abs/2312.07559"
+        "https://arxiv.org/abs/2312.07559",
+        "https://arxiv.org/html/2312.07559"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -598,10 +616,42 @@
         "method": "Reviews AI's role and limitations across data, models and scientific discovery workflows.",
         "evaluation": "A field review, rather than a single executable scientific-agent system."
       },
-      "authors": [],
+      "authors": [
+        "Wang, Hanchen",
+        "Fu, Tianfan",
+        "Du, Yuanqi",
+        "Gao, Wenhao",
+        "Huang, Kexin",
+        "Liu, Ziming",
+        "Chandak, Payal",
+        "Liu, Shengchao",
+        "Van Katwyk, Peter",
+        "Deac, Andreea",
+        "Anandkumar, Anima",
+        "Bergen, Karianne",
+        "Gomes, Carla P.",
+        "Ho, Shirley",
+        "Kohli, Pushmeet",
+        "Lasenby, Joan",
+        "Leskovec, Jure",
+        "Liu, Tie-Yan",
+        "Manrai, Arjun",
+        "Marks, Debora",
+        "Ramsundar, Bharath",
+        "Song, Le",
+        "Sun, Jimeng",
+        "Tang, Jian",
+        "Veličković, Petar",
+        "Welling, Max",
+        "Zhang, Linfeng",
+        "Coley, Connor W.",
+        "Bengio, Yoshua",
+        "Zitnik, Marinka"
+      ],
       "sourceTitle": "Scientific discovery in the age of artificial intelligence",
       "sources": [
-        "https://pubmed.ncbi.nlm.nih.gov/37532811/"
+        "https://pubmed.ncbi.nlm.nih.gov/37532811/",
+        "https://www.nature.com/articles/s41586-023-06221-2"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -633,7 +683,8 @@
       ],
       "sourceTitle": "HypoForge: A Self-Improving Multi-Agent Framework for Automated Hypothesis Generation and Testing via Scientific Skill Learning",
       "sources": [
-        "https://arxiv.org/abs/2608.25770"
+        "https://arxiv.org/abs/2608.25770",
+        "https://arxiv.org/html/2608.25770"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -663,7 +714,8 @@
       ],
       "sourceTitle": "Meta$^n$: Recursive Self-Improvement through Emergent Depth",
       "sources": [
-        "https://arxiv.org/abs/2608.24735"
+        "https://arxiv.org/abs/2608.24735",
+        "https://arxiv.org/html/2608.24735"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -697,7 +749,8 @@
       ],
       "sourceTitle": "SciToolAgent-Evo: An Ontology-Aware Self-Evolving Agent for Open-World Scientific Tool Acquisition",
       "sources": [
-        "https://arxiv.org/abs/2607.28692"
+        "https://arxiv.org/abs/2607.28692",
+        "https://arxiv.org/html/2607.28692"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -730,7 +783,8 @@
       ],
       "sourceTitle": "Evidence-Informed LLM Beliefs for Continual Scientific Discovery",
       "sources": [
-        "https://arxiv.org/abs/2606.29182"
+        "https://arxiv.org/abs/2606.29182",
+        "https://arxiv.org/html/2606.29182"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -771,7 +825,8 @@
       ],
       "sourceTitle": "MLEvolve: A Self-Evolving Framework for Automated Machine Learning Algorithm Discovery",
       "sources": [
-        "https://arxiv.org/abs/2606.06473"
+        "https://arxiv.org/abs/2606.06473",
+        "https://arxiv.org/html/2606.06473"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -822,7 +877,8 @@
       ],
       "sourceTitle": "EvoMaster: A Foundational Evolving Agent Framework for Agentic Science at Scale",
       "sources": [
-        "https://arxiv.org/abs/2604.17406"
+        "https://arxiv.org/abs/2604.17406",
+        "https://arxiv.org/html/2604.17406"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -866,7 +922,8 @@
       ],
       "sourceTitle": "CORAL: Towards Autonomous Multi-Agent Evolution for Open-Ended Discovery",
       "sources": [
-        "https://arxiv.org/abs/2604.01658"
+        "https://arxiv.org/abs/2604.01658",
+        "https://arxiv.org/html/2604.01658"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -901,7 +958,8 @@
       ],
       "sourceTitle": "Hyperagents",
       "sources": [
-        "https://arxiv.org/abs/2603.19461"
+        "https://arxiv.org/abs/2603.19461",
+        "https://arxiv.org/html/2603.19461"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -940,7 +998,8 @@
       ],
       "sourceTitle": "EvoScientist: Towards Multi-Agent Evolving AI Scientists for End-to-End Scientific Discovery",
       "sources": [
-        "https://arxiv.org/abs/2603.08127"
+        "https://arxiv.org/abs/2603.08127",
+        "https://arxiv.org/html/2603.08127"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -969,7 +1028,8 @@
       ],
       "sourceTitle": "S1-NexusAgent: a Self-Evolving Agent Framework for Multidisciplinary Scientific Research",
       "sources": [
-        "https://arxiv.org/abs/2602.01550"
+        "https://arxiv.org/abs/2602.01550",
+        "https://arxiv.org/html/2602.01550"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -1007,7 +1067,8 @@
       ],
       "sourceTitle": "Learning to Discover at Test Time",
       "sources": [
-        "https://arxiv.org/abs/2601.16175"
+        "https://arxiv.org/abs/2601.16175",
+        "https://arxiv.org/html/2601.16175"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -1052,7 +1113,8 @@
       ],
       "sourceTitle": "AlphaEvolve: A coding agent for scientific and algorithmic discovery",
       "sources": [
-        "https://arxiv.org/abs/2506.13131"
+        "https://arxiv.org/abs/2506.13131",
+        "https://arxiv.org/html/2506.13131"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -1084,7 +1146,8 @@
       ],
       "sourceTitle": "Darwin Godel Machine: Open-Ended Evolution of Self-Improving Agents",
       "sources": [
-        "https://arxiv.org/abs/2505.22954"
+        "https://arxiv.org/abs/2505.22954",
+        "https://arxiv.org/html/2505.22954"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -1121,7 +1184,8 @@
       ],
       "sourceTitle": "AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement",
       "sources": [
-        "https://arxiv.org/abs/2608.20318"
+        "https://arxiv.org/abs/2608.20318",
+        "https://arxiv.org/html/2608.20318"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -1280,7 +1344,8 @@
       ],
       "sourceTitle": "Probing Scientific General Intelligence of LLMs with Scientist-Aligned Workflows",
       "sources": [
-        "https://arxiv.org/abs/2512.16969"
+        "https://arxiv.org/abs/2512.16969",
+        "https://arxiv.org/html/2512.16969"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -1316,7 +1381,8 @@
       ],
       "sourceTitle": "MLR-Bench: Evaluating AI Agents on Open-Ended Machine Learning Research",
       "sources": [
-        "https://arxiv.org/abs/2505.19955"
+        "https://arxiv.org/abs/2505.19955",
+        "https://arxiv.org/html/2505.19955"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -1347,7 +1413,8 @@
       ],
       "sourceTitle": "AI-Researcher: Autonomous Scientific Innovation",
       "sources": [
-        "https://arxiv.org/abs/2505.18705"
+        "https://arxiv.org/abs/2505.18705",
+        "https://arxiv.org/html/2505.18705"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -1387,7 +1454,8 @@
       ],
       "sourceTitle": "PaperBench: Evaluating AI's Ability to Replicate AI Research",
       "sources": [
-        "https://arxiv.org/abs/2504.01848"
+        "https://arxiv.org/abs/2504.01848",
+        "https://arxiv.org/html/2504.01848"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -1426,7 +1494,8 @@
       ],
       "sourceTitle": "MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering",
       "sources": [
-        "https://arxiv.org/abs/2410.07095"
+        "https://arxiv.org/abs/2410.07095",
+        "https://arxiv.org/html/2410.07095"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -1473,7 +1542,8 @@
       ],
       "sourceTitle": "ScienceAgentBench: Toward Rigorous Assessment of Language Agents for Data-Driven Scientific Discovery",
       "sources": [
-        "https://arxiv.org/abs/2410.05080"
+        "https://arxiv.org/abs/2410.05080",
+        "https://arxiv.org/html/2410.05080"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -1506,7 +1576,8 @@
       ],
       "sourceTitle": "Harnessing agent memory to build lifelong AI partners for materials scientists",
       "sources": [
-        "https://arxiv.org/abs/2608.11224"
+        "https://arxiv.org/abs/2608.11224",
+        "https://arxiv.org/html/2608.11224"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -1537,7 +1608,8 @@
       ],
       "sourceTitle": "Self-Evolving Scientific Agent Designs Physically Reasoned White-Box Fluid Control",
       "sources": [
-        "https://arxiv.org/abs/2606.08405"
+        "https://arxiv.org/abs/2606.08405",
+        "https://arxiv.org/html/2606.08405"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -1567,7 +1639,8 @@
       ],
       "sourceTitle": "GRAFT-ATHENA: Self-Improving Agentic Teams for Autonomous Discovery and Evolutionary Numerical Algorithms",
       "sources": [
-        "https://arxiv.org/abs/2605.11117"
+        "https://arxiv.org/abs/2605.11117",
+        "https://arxiv.org/html/2605.11117"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -1598,7 +1671,8 @@
       ],
       "sourceTitle": "AutoNumerics: An Autonomous, PDE-Agnostic Multi-Agent Pipeline for Scientific Computing",
       "sources": [
-        "https://arxiv.org/abs/2602.17607"
+        "https://arxiv.org/abs/2602.17607",
+        "https://arxiv.org/html/2602.17607"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -1621,7 +1695,21 @@
         "method": "Combines specialized knowledge, collaborating agents and experimental tools to iterate on synthesis proposals and results.",
         "evaluation": "Demonstrates the integration of computational proposals and robotic experiments in nanocrystal and composite-material research."
       },
-      "authors": [],
+      "authors": [
+        "Tongyu Shi",
+        "Yutang Li",
+        "Zhanlong Wang",
+        "Wenhe Xu",
+        "Guolai Jiang",
+        "Dawei Dai",
+        "Jie Zhou",
+        "Hao Huang",
+        "Rui He",
+        "Seeram Ramakrishna",
+        "Paul K. Chu",
+        "Wenhua Zhou",
+        "Xue-Feng Yu"
+      ],
       "sourceTitle": "Knowledge-driven autonomous materials research via collaborative multi-agent and robotic system (MARS)",
       "sources": [
         "https://doi.org/10.1016/j.matt.2025.102577"
@@ -1658,7 +1746,8 @@
       ],
       "sourceTitle": "CASCADE: Cumulative Agentic Skill Creation through Autonomous Development and Evolution",
       "sources": [
-        "https://arxiv.org/abs/2512.23880"
+        "https://arxiv.org/abs/2512.23880",
+        "https://arxiv.org/html/2512.23880"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -1699,7 +1788,8 @@
       ],
       "sourceTitle": "VASP Agent: An Agentic Framework for Autonomous First-principles Calculations",
       "sources": [
-        "https://arxiv.org/abs/2512.19458"
+        "https://arxiv.org/abs/2512.19458",
+        "https://arxiv.org/html/2512.19458"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -1732,7 +1822,8 @@
       ],
       "sourceTitle": "Hierarchical Multi-agent Large Language Model Reasoning for Autonomous Functional Materials Discovery",
       "sources": [
-        "https://arxiv.org/abs/2512.13930"
+        "https://arxiv.org/abs/2512.13930",
+        "https://arxiv.org/html/2512.13930"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -1755,7 +1846,14 @@
         "method": "Uses a knowledge graph to retrieve, select and orchestrate tools, with checks on tool execution.",
         "evaluation": "Demonstrates biology, chemistry and materials tasks, including protein, reaction and materials-design cases."
       },
-      "authors": [],
+      "authors": [
+        "Ding, Keyan",
+        "Yu, Jing",
+        "Huang, Junjie",
+        "Yang, Yuchen",
+        "Zhang, Qiang",
+        "Chen, Huajun"
+      ],
       "sourceTitle": "SciToolAgent: A knowledge-graph-driven scientific agent for multitool integration",
       "sources": [
         "https://www.nature.com/articles/s43588-025-00849-y"
@@ -1796,7 +1894,8 @@
       ],
       "sourceTitle": "CheMatAgent: Enhancing LLMs for Chemistry and Materials Science through Tree-Search Based Tool Learning",
       "sources": [
-        "https://arxiv.org/abs/2506.07551"
+        "https://arxiv.org/abs/2506.07551",
+        "https://arxiv.org/html/2506.07551"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -1838,7 +1937,8 @@
       ],
       "sourceTitle": "System of Agentic AI for the Discovery of Metal-Organic Frameworks",
       "sources": [
-        "https://arxiv.org/abs/2504.14110"
+        "https://arxiv.org/abs/2504.14110",
+        "https://arxiv.org/html/2504.14110"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -1867,7 +1967,8 @@
       ],
       "sourceTitle": "PriM: Principle-Inspired Material Discovery through Multi-Agent Collaboration",
       "sources": [
-        "https://arxiv.org/abs/2504.08810"
+        "https://arxiv.org/abs/2504.08810",
+        "https://arxiv.org/html/2504.08810"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -1890,10 +1991,14 @@
         "method": "Organizes scientific knowledge as a graph and uses role-specialized agents to reason about, propose and refine hypotheses.",
         "evaluation": "Demonstrates materials hypotheses and reasoning; generating a hypothesis does not itself establish wet-lab validation."
       },
-      "authors": [],
+      "authors": [
+        "Alireza Ghafarollahi",
+        "Markus J. Buehler"
+      ],
       "sourceTitle": "SciAgents: Automating Scientific Discovery Through Bioinspired Multi-Agent Intelligent Graph Reasoning",
       "sources": [
-        "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202413523"
+        "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202413523",
+        "https://arxiv.org/html/2409.05556v1"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -1923,7 +2028,8 @@
       ],
       "sourceTitle": "A Review of Large Language Models and Autonomous Agents in Chemistry",
       "sources": [
-        "https://arxiv.org/abs/2407.01603"
+        "https://arxiv.org/abs/2407.01603",
+        "https://arxiv.org/html/2407.01603"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -1953,7 +2059,8 @@
       ],
       "sourceTitle": "LLMatDesign: Autonomous Materials Discovery with Large Language Models",
       "sources": [
-        "https://arxiv.org/abs/2406.13163"
+        "https://arxiv.org/abs/2406.13163",
+        "https://arxiv.org/html/2406.13163"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -1981,7 +2088,8 @@
       ],
       "sourceTitle": "ChatMOF: An Artificial Intelligence System for Predicting and Generating Metal-Organic Frameworks Using Large Language Models",
       "sources": [
-        "https://arxiv.org/abs/2308.01423"
+        "https://arxiv.org/abs/2308.01423",
+        "https://www.nature.com/articles/s41467-024-48998-4"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -2004,7 +2112,12 @@
         "method": "Combines web and documentation search, code execution and laboratory interfaces to plan and run chemistry tasks.",
         "evaluation": "Includes six task categories and catalytic-reaction optimization experiments."
       },
-      "authors": [],
+      "authors": [
+        "Boiko, Daniil A.",
+        "MacKnight, Robert",
+        "Kline, Ben",
+        "Gomes, Gabe"
+      ],
       "sourceTitle": "Autonomous chemical research with large language models",
       "sources": [
         "https://www.nature.com/articles/s41586-023-06792-0"
@@ -2030,7 +2143,14 @@
         "method": "Equips a language model with 18 specialized tools and cycles between reasoning, actions and observations.",
         "evaluation": "Assessed through expert evaluation and cases involving chemical synthesis, catalysts and a chromophore."
       },
-      "authors": [],
+      "authors": [
+        "M. Bran, Andres",
+        "Cox, Sam",
+        "Schilter, Oliver",
+        "Baldassari, Carlo",
+        "White, Andrew D.",
+        "Schwaller, Philippe"
+      ],
       "sourceTitle": "Augmenting large language models with chemistry tools (ChemCrow)",
       "sources": [
         "https://www.nature.com/articles/s42256-024-00832-8"
@@ -2072,7 +2192,8 @@
       ],
       "sourceTitle": "ADMET-EvO: a self-evolving scientific agent for sustained research across heterogeneous tasks",
       "sources": [
-        "https://arxiv.org/abs/2609.10121"
+        "https://arxiv.org/abs/2609.10121",
+        "https://arxiv.org/html/2609.10121"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -2087,19 +2208,27 @@
       "zh": {
         "problem": "计算结合蛋白设计如何衔接抗体药物偶联物的候选排序？",
         "method": "智能体编排结构、序列和界面评价工具，将结合蛋白设计与偶联相关筛选连接。",
-        "evaluation": "本解读依据官方项目说明；介绍的是计算平台，不据此宣称临床或湿实验疗效。"
+        "evaluation": "论文报告五个靶点上的计算设计和筛选；没有据此确认湿实验或临床疗效。"
       },
       "en": {
         "problem": "How can computational binder design connect to prioritizing antibody–drug conjugate candidates?",
         "method": "An agent orchestrates structure, sequence and interface-assessment tools, linking binder design with conjugation-aware screening.",
-        "evaluation": "These notes use the official project description; the computational platform does not establish clinical or wet-lab efficacy."
+        "evaluation": "The paper reports computational design and screening across five targets, without establishing wet-lab or clinical efficacy."
       },
-      "authors": [],
+      "authors": [
+        "Ganggang Liu",
+        "Mingjie He",
+        "Liang Sun",
+        "Fuxian Chen",
+        "Yu Zhang"
+      ],
       "sourceTitle": "An autonomous LLM-agent platform for computational binder design and conjugation-aware prioritization of antibody–drug conjugates",
       "sources": [
-        "https://github.com/liugangg/oih-platform"
+        "https://github.com/liugangg/oih-platform",
+        "https://www.biorxiv.org/content/10.64898/2026.04.21.719907v1",
+        "https://www.biorxiv.org/content/10.64898/2026.04.21.719907v1.full-text"
       ],
-      "basis": "project",
+      "basis": "paper",
       "reviewed": "2026-09-12",
       "evolving": false
     },
@@ -2130,7 +2259,8 @@
       ],
       "sourceTitle": "Protein Design with Agent Rosetta: A Case Study for Specialized Scientific Agents",
       "sources": [
-        "https://arxiv.org/abs/2603.15952"
+        "https://arxiv.org/abs/2603.15952",
+        "https://arxiv.org/html/2603.15952"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -2154,7 +2284,30 @@
         "method": "Uses multi-agent collaboration, interactive exploration and memory to learn tool use and coordinate data analysis.",
         "evaluation": "Evaluated on 327 BioMedAQA tasks and external BixBench, with cross-omics and imaging demonstrations."
       },
-      "authors": [],
+      "authors": [
+        "Bu, Dechao",
+        "Sun, Jingbo",
+        "Li, Kun",
+        "He, Zihao",
+        "Huang, Wei",
+        "Hu, Jinlin",
+        "Zhang, Shanshan",
+        "Lei, Shuangshuang",
+        "Huo, Peipei",
+        "Wang, Zhihao",
+        "Wang, Sheng",
+        "Wang, Tao",
+        "Gao, Kai",
+        "Wu, Yang",
+        "Zhao, Lianhe",
+        "Wang, Kai",
+        "Li, Gen",
+        "Song, Huan",
+        "Jin, Yang",
+        "Zhang, Kang",
+        "Chen, Runsheng",
+        "Zhao, Yi"
+      ],
       "sourceTitle": "Empowering AI data scientists using a multi-agent LLM framework with self-evolving capabilities for autonomous, tool-aware biomedical data analyses (BioMedAgent)",
       "sources": [
         "https://www.nature.com/articles/s41551-026-01634-6"
@@ -2190,7 +2343,8 @@
       ],
       "sourceTitle": "A Multi-Agent Framework for Medical AI: Leveraging Fine-Tuned GPT, LLaMA, and DeepSeek R1 for Evidence-Based and Bias-Aware Clinical Query Processing",
       "sources": [
-        "https://arxiv.org/abs/2602.14158"
+        "https://arxiv.org/abs/2602.14158",
+        "https://arxiv.org/html/2602.14158"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -2227,7 +2381,8 @@
       ],
       "sourceTitle": "Agentic reinforcement learning empowers next-generation chemical language models for molecular design and synthesis",
       "sources": [
-        "https://arxiv.org/pdf/2601.17687"
+        "https://arxiv.org/pdf/2601.17687",
+        "https://arxiv.org/html/2601.17687"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -2249,7 +2404,12 @@
         "method": "Discusses an agent team of investigators, specialists and critics and the design workflow it supports.",
         "evaluation": "This is a commentary on the original Virtual Lab study, not an independent experimental replication."
       },
-      "authors": [],
+      "authors": [
+        "Hakjin Kim",
+        "Taeho Kwon",
+        "Sun-Uk Kim",
+        "Seon-Kyu Kim"
+      ],
       "sourceTitle": "Virtual lab of artificial intelligence agents accelerating nanobody design against SARS-CoV-2 variants",
       "sources": [
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC12780944/"
@@ -2275,10 +2435,17 @@
         "method": "Uses team and individual meetings to organize agents and build a pipeline combining protein language models, structure prediction and physical computation.",
         "evaluation": "Designed 92 nanobody candidates for experimental testing, with human researchers providing guidance and laboratory work."
       },
-      "authors": [],
+      "authors": [
+        "Swanson, Kyle",
+        "Wu, Wesley",
+        "Bulaong, Nash L.",
+        "Pak, John E.",
+        "Zou, James"
+      ],
       "sourceTitle": "The Virtual Lab of AI agents designs new SARS-CoV-2 nanobodies",
       "sources": [
-        "https://github.com/zou-group/virtual-lab"
+        "https://github.com/zou-group/virtual-lab",
+        "https://www.nature.com/articles/s41586-025-09442-9"
       ],
       "basis": "project",
       "reviewed": "2026-09-12",
@@ -2308,7 +2475,8 @@
       ],
       "sourceTitle": "GenoMAS: A Multi-Agent Framework for Scientific Discovery via Code-Driven Gene Expression Analysis",
       "sources": [
-        "https://arxiv.org/abs/2507.21035"
+        "https://arxiv.org/abs/2507.21035",
+        "https://arxiv.org/html/2507.21035"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -2340,7 +2508,8 @@
       ],
       "sourceTitle": "STELLA: Self-Evolving LLM Agent for Biomedical Research",
       "sources": [
-        "https://arxiv.org/abs/2507.02004"
+        "https://arxiv.org/abs/2507.02004",
+        "https://arxiv.org/html/2507.02004"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -2377,7 +2546,8 @@
       ],
       "sourceTitle": "Robin: A multi-agent system for automating scientific discovery",
       "sources": [
-        "https://arxiv.org/abs/2505.13400"
+        "https://arxiv.org/abs/2505.13400",
+        "https://arxiv.org/html/2505.13400"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -2400,10 +2570,35 @@
         "method": "Retrieves and composes specialized tools, software and databases in a unified environment, implementing research plans through code.",
         "evaluation": "The paper and official materials demonstrate varied biomedical tasks; broad tool coverage does not imply reliable completion of every task."
       },
-      "authors": [],
+      "authors": [
+        "Kexin Huang",
+        "Serena Zhang",
+        "Hanchen Wang",
+        "Yuanhao Qu",
+        "Yingzhou Lu",
+        "Yusuf Roohani",
+        "Ryan Li",
+        "Lin Qiu",
+        "Gavin Li",
+        "Junze Zhang",
+        "Di Yin",
+        "Shruti Marwaha",
+        "Jennefer N. Carter",
+        "Xin Zhou",
+        "Matthew Wheeler",
+        "Jonathan A. Bernstein",
+        "Mengdi Wang",
+        "Peng He",
+        "Jingtian Zhou",
+        "Michael Snyder",
+        "Le Cong",
+        "Aviv Regev",
+        "Jure Leskovec"
+      ],
       "sourceTitle": "Biomni: A General-Purpose Biomedical AI Agent",
       "sources": [
-        "https://biomni.stanford.edu/paper.pdf"
+        "https://biomni.stanford.edu/paper.pdf",
+        "https://www.biorxiv.org/content/10.1101/2025.05.30.656746v1.full-text"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -2438,7 +2633,8 @@
       ],
       "sourceTitle": "TxAgent: An AI Agent for Therapeutic Reasoning Across a Universe of Tools",
       "sources": [
-        "https://arxiv.org/abs/2503.10970"
+        "https://arxiv.org/abs/2503.10970",
+        "https://arxiv.org/html/2503.10970"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -2472,7 +2668,8 @@
       ],
       "sourceTitle": "DrugAgent: Automating AI-aided Drug Discovery Programming through LLM Multi-Agent Collaboration",
       "sources": [
-        "https://arxiv.org/abs/2411.15692"
+        "https://arxiv.org/abs/2411.15692",
+        "https://arxiv.org/html/2411.15692"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -2503,7 +2700,8 @@
       ],
       "sourceTitle": "Validation of an LLM-based Multi-Agent Framework for Protein Engineering in Dry Lab and Wet Lab",
       "sources": [
-        "https://arxiv.org/abs/2411.06029"
+        "https://arxiv.org/abs/2411.06029",
+        "https://arxiv.org/html/2411.06029"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -2525,10 +2723,23 @@
         "method": "Uses a data path, description and goal to plan analyses, install tools, generate code and execute it.",
         "evaluation": "Evaluates planning, code generation and end-to-end execution across conventional omics tasks; users still supply inputs and review results."
       },
-      "authors": [],
+      "authors": [
+        "Juexiao Zhou",
+        "Bin Zhang",
+        "Guowei Li",
+        "Xiuying Chen",
+        "Haoyang Li",
+        "Xiaopeng Xu",
+        "Siyuan Chen",
+        "Wenjia He",
+        "Chencheng Xu",
+        "Liwei Liu",
+        "Xin Gao"
+      ],
       "sourceTitle": "An AI Agent for Fully Automated Multi-Omic Analyses",
       "sources": [
-        "https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202407094"
+        "https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202407094",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11600294/"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -2565,7 +2776,8 @@
       ],
       "sourceTitle": "BioDiscoveryAgent: An AI Agent for Designing Genetic Perturbation Experiments",
       "sources": [
-        "https://arxiv.org/abs/2405.17631"
+        "https://arxiv.org/abs/2405.17631",
+        "https://arxiv.org/html/2405.17631"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -2588,7 +2800,13 @@
         "method": "Combines community-maintained knowledge sources and tool interfaces to provide grounded analysis assistance through natural language.",
         "evaluation": "Demonstrates image-analysis assistance and tool-use scenarios, depending on knowledge-base coverage and available tools."
       },
-      "authors": [],
+      "authors": [
+        "Lei, Wanlu",
+        "Fuster-Barceló, Caterina",
+        "Reder, Gabriel",
+        "Muñoz-Barrutia, Arrate",
+        "Ouyang, Wei"
+      ],
       "sourceTitle": "BioImage.IO Chatbot: a community-driven AI assistant for integrative computational bioimaging",
       "sources": [
         "https://www.nature.com/articles/s41592-024-02370-y"
@@ -2627,7 +2845,8 @@
       ],
       "sourceTitle": "TourSynbio: A Multi-Modal Large Model and Agent Framework to Bridge Text and Protein Sequences for Protein Engineering",
       "sources": [
-        "https://arxiv.org/abs/2408.15299"
+        "https://arxiv.org/abs/2408.15299",
+        "https://arxiv.org/html/2408.15299"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -2665,7 +2884,8 @@
       ],
       "sourceTitle": "MMedAgent: Learning to Use Medical Tools with Multi-modal Agent",
       "sources": [
-        "https://arxiv.org/abs/2407.02483"
+        "https://arxiv.org/abs/2407.02483",
+        "https://arxiv.org/html/2407.02483"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -2696,7 +2916,8 @@
       ],
       "sourceTitle": "ClinicalAgent: Clinical Trial Multi-Agent System with Large Language Model-based Reasoning",
       "sources": [
-        "https://arxiv.org/abs/2404.14777"
+        "https://arxiv.org/abs/2404.14777",
+        "https://arxiv.org/html/2404.14777"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -2732,7 +2953,8 @@
       ],
       "sourceTitle": "Empowering Biomedical Discovery with AI Agents",
       "sources": [
-        "https://arxiv.org/abs/2404.02831"
+        "https://arxiv.org/abs/2404.02831",
+        "https://arxiv.org/html/2404.02831"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -2754,7 +2976,9 @@
         "method": "A napari plugin reads images and viewer state, generates and executes Python, and corrects code using feedback.",
         "evaluation": "Demonstrates interactive segmentation, counting, quantification and denoising tasks."
       },
-      "authors": [],
+      "authors": [
+        "Royer, Loïc A."
+      ],
       "sourceTitle": "Omega — harnessing the power of large language models for bioimage analysis",
       "sources": [
         "https://www.nature.com/articles/s41592-024-02310-w"
@@ -2780,10 +3004,24 @@
         "method": "A planner, executor and evaluator coordinate hierarchically to check and optimize analysis workflows.",
         "evaluation": "Evaluated on single-cell data spanning multiple tissues and cell types."
       },
-      "authors": [],
+      "authors": [
+        "Yihang Xiao",
+        "Jinyi Liu",
+        "Yan Zheng",
+        "Xiaohan Xie",
+        "Jianye Hao",
+        "Mingzhi Li",
+        "Ruitao Wang",
+        "Fei Ni",
+        "Yuxiao Li",
+        "Jintian Luo",
+        "Shaoqing Jiao",
+        "Jiajie Peng"
+      ],
       "sourceTitle": "CellAgent: An LLM-driven Multi-Agent Framework for Automated Single-cell Data Analysis",
       "sources": [
-        "https://arxiv.org/abs/2407.09811"
+        "https://arxiv.org/abs/2407.09811",
+        "https://arxiv.org/html/2407.09811"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -2806,10 +3044,23 @@
         "method": "Reads data and metadata, queries databases, designs workflows, generates code and summarizes results.",
         "evaluation": "Focuses on single-cell RNA sequencing and analyzes execution failures and possible improvements."
       },
-      "authors": [],
+      "authors": [
+        "Qi Xin",
+        "Quyu Kong",
+        "Hongyi Ji",
+        "Yue Shen",
+        "Yuqi Liu",
+        "Yan Sun",
+        "Zhilin Zhang",
+        "Zhaorong Li",
+        "Xunlong Xia",
+        "Bing Deng",
+        "Yinqi Bai"
+      ],
       "sourceTitle": "BioInformatics Agent (BIA): Unleashing the Power of Large Language Models to Reshape Bioinformatics Workflow",
       "sources": [
-        "https://www.biorxiv.org/content/10.1101/2024.05.22.595240v1"
+        "https://www.biorxiv.org/content/10.1101/2024.05.22.595240v1",
+        "https://www.biorxiv.org/content/10.1101/2024.05.22.595240v1.full-text"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -2847,7 +3098,8 @@
       ],
       "sourceTitle": "Agent Hospital: A Simulacrum of Hospital with Evolvable Medical Agents",
       "sources": [
-        "https://arxiv.org/abs/2405.02957"
+        "https://arxiv.org/abs/2405.02957",
+        "https://arxiv.org/html/2405.02957"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -2888,7 +3140,8 @@
       ],
       "sourceTitle": "CRISPR-GPT for Agentic Automation of Gene-editing Experiments",
       "sources": [
-        "https://arxiv.org/abs/2404.18021"
+        "https://arxiv.org/abs/2404.18021",
+        "https://arxiv.org/html/2404.18021"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -2918,7 +3171,8 @@
       ],
       "sourceTitle": "ProtAgents: Protein discovery via large language model multi-agent collaborations combining physics and machine learning",
       "sources": [
-        "https://arxiv.org/abs/2402.04268"
+        "https://arxiv.org/abs/2402.04268",
+        "https://arxiv.org/html/2402.04268"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -2940,7 +3194,28 @@
         "method": "Combines a pathology vision encoder with a language model and trains it on multimodal instructions.",
         "evaluation": "Uses diagnostic multiple-choice questions and pathologist-assessed open responses; it is not a trial of autonomous clinical diagnosis."
       },
-      "authors": [],
+      "authors": [
+        "Lu, Ming Y.",
+        "Chen, Bowen",
+        "Williamson, Drew F. K.",
+        "Chen, Richard J.",
+        "Zhao, Melissa",
+        "Chow, Aaron K.",
+        "Ikemura, Kenji",
+        "Kim, Ahrong",
+        "Pouli, Dimitra",
+        "Patel, Ankush",
+        "Soliman, Amr",
+        "Chen, Chengkuan",
+        "Ding, Tong",
+        "Wang, Judy J.",
+        "Gerber, Georg",
+        "Liang, Ivy",
+        "Le, Long Phi",
+        "Parwani, Anil V.",
+        "Weishaupt, Luca L.",
+        "Mahmood, Faisal"
+      ],
       "sourceTitle": "A multimodal generative AI copilot for human pathology",
       "sources": [
         "https://www.nature.com/articles/s41586-024-07618-3"
@@ -2974,7 +3249,8 @@
       ],
       "sourceTitle": "De novo Drug Design using Reinforcement Learning with Multiple GPT Agents",
       "sources": [
-        "https://arxiv.org/abs/2401.06155"
+        "https://arxiv.org/abs/2401.06155",
+        "https://arxiv.org/html/2401.06155"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -3008,7 +3284,8 @@
       ],
       "sourceTitle": "MedAgents: Large Language Models as Collaborators for Zero-shot Medical Reasoning",
       "sources": [
-        "https://arxiv.org/abs/2311.10537"
+        "https://arxiv.org/abs/2311.10537",
+        "https://arxiv.org/html/2311.10537"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -3041,7 +3318,8 @@
       ],
       "sourceTitle": "Zhongjing: Enhancing the Chinese Medical Capabilities of Large Language Model through Expert Feedback and Real-world Multi-turn Dialogue",
       "sources": [
-        "https://arxiv.org/abs/2308.03549"
+        "https://arxiv.org/abs/2308.03549",
+        "https://arxiv.org/html/2308.03549"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -3110,7 +3388,8 @@
       ],
       "sourceTitle": "HuatuoGPT, towards Taming Language Model to Be a Doctor",
       "sources": [
-        "https://arxiv.org/abs/2305.15075"
+        "https://arxiv.org/abs/2305.15075",
+        "https://arxiv.org/html/2305.15075"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -3133,7 +3412,64 @@
         "method": "Synthesizes NASA workshop recommendations on AI, automated experiments, predictive models and data management.",
         "evaluation": "A roadmap and review, not a report of an LLM laboratory already operating in deep space."
       },
-      "authors": [],
+      "authors": [
+        "Sanders, Lauren M.",
+        "Scott, Ryan T.",
+        "Yang, Jason H.",
+        "Qutub, Amina Ann",
+        "Garcia Martin, Hector",
+        "Berrios, Daniel C.",
+        "Hastings, Jaden J. A.",
+        "Rask, Jon",
+        "Mackintosh, Graham",
+        "Hoarfrost, Adrienne L.",
+        "Chalk, Stuart",
+        "Kalantari, John",
+        "Khezeli, Kia",
+        "Antonsen, Erik L.",
+        "Babdor, Joel",
+        "Barker, Richard",
+        "Baranzini, Sergio E.",
+        "Beheshti, Afshin",
+        "Delgado-Aparicio, Guillermo M.",
+        "Glicksberg, Benjamin S.",
+        "Greene, Casey S.",
+        "Haendel, Melissa",
+        "Hamid, Arif A.",
+        "Heller, Philip",
+        "Jamieson, Daniel",
+        "Jarvis, Katelyn J.",
+        "Komarova, Svetlana V.",
+        "Komorowski, Matthieu",
+        "Kothiyal, Prachi",
+        "Mahabal, Ashish",
+        "Manor, Uri",
+        "Mason, Christopher E.",
+        "Matar, Mona",
+        "Mias, George I.",
+        "Miller, Jack",
+        "Myers, Jerry G.",
+        "Nelson, Charlotte",
+        "Oribello, Jonathan",
+        "Park, Seung-min",
+        "Parsons-Wingerter, Patricia",
+        "Prabhu, R. K.",
+        "Reynolds, Robert J.",
+        "Saravia-Butler, Amanda",
+        "Saria, Suchi",
+        "Sawyer, Aenor",
+        "Singh, Nitin Kumar",
+        "Snyder, Michael",
+        "Soboczenski, Frank",
+        "Soman, Karthik",
+        "Theriot, Corey A.",
+        "Van Valen, David",
+        "Venkateswaran, Kasthuri",
+        "Warren, Liz",
+        "Worthey, Liz",
+        "Zitnik, Marinka",
+        "Costes, Sylvain V."
+      ],
       "sourceTitle": "Biological research and self-driving labs in deep space supported by artificial intelligence",
       "sources": [
         "https://www.nature.com/articles/s42256-023-00618-4"
@@ -3167,7 +3503,8 @@
       ],
       "sourceTitle": "ResearchAgent: Iterative Research Idea Generation over Scientific Literature with Large Language Models",
       "sources": [
-        "https://arxiv.org/abs/2404.07738"
+        "https://arxiv.org/abs/2404.07738",
+        "https://arxiv.org/html/2404.07738"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -3202,7 +3539,8 @@
       ],
       "sourceTitle": "ALYMPICS: LLM Agents Meet Game Theory -- Exploring Strategic Decision-Making with AI Agents",
       "sources": [
-        "https://arxiv.org/abs/2311.03220"
+        "https://arxiv.org/abs/2311.03220",
+        "https://arxiv.org/html/2311.03220"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -3237,7 +3575,8 @@
       ],
       "sourceTitle": "Lyfe Agents: Generative agents for low-cost real-time social interactions",
       "sources": [
-        "https://arxiv.org/abs/2310.02172"
+        "https://arxiv.org/abs/2310.02172",
+        "https://arxiv.org/html/2310.02172"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -3275,7 +3614,8 @@
       ],
       "sourceTitle": "SOTOPIA: Interactive Evaluation for Social Intelligence in Language Agents",
       "sources": [
-        "https://arxiv.org/abs/2310.11667"
+        "https://arxiv.org/abs/2310.11667",
+        "https://arxiv.org/html/2310.11667"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -3307,7 +3647,8 @@
       ],
       "sourceTitle": "EconAgent: Large Language Model-Empowered Agents for Simulating Macroeconomic Activities",
       "sources": [
-        "https://arxiv.org/abs/2310.10436"
+        "https://arxiv.org/abs/2310.10436",
+        "https://arxiv.org/html/2310.10436"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -3340,7 +3681,8 @@
       ],
       "sourceTitle": "Exploring Collaboration Mechanisms for LLM Agents: A Social Psychology View",
       "sources": [
-        "https://arxiv.org/abs/2310.02124"
+        "https://arxiv.org/abs/2310.02124",
+        "https://arxiv.org/html/2310.02124"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -3375,7 +3717,8 @@
       ],
       "sourceTitle": "S$^3$: Social-network Simulation System with Large Language Model-Empowered Agents",
       "sources": [
-        "https://arxiv.org/abs/2307.14984"
+        "https://arxiv.org/abs/2307.14984",
+        "https://arxiv.org/html/2307.14984"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -3406,7 +3749,8 @@
       ],
       "sourceTitle": "The SocialAI School: Insights from Developmental Psychology Towards Artificial Socio-Cultural Agents",
       "sources": [
-        "https://arxiv.org/abs/2307.07871"
+        "https://arxiv.org/abs/2307.07871",
+        "https://arxiv.org/html/2307.07871"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -3468,7 +3812,8 @@
       ],
       "sourceTitle": "Generative Agents: Interactive Simulacra of Human Behavior",
       "sources": [
-        "https://arxiv.org/abs/2304.03442"
+        "https://arxiv.org/abs/2304.03442",
+        "https://arxiv.org/html/2304.03442"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",
@@ -3498,7 +3843,8 @@
       ],
       "sourceTitle": "Large Language Models as Simulated Economic Agents: What Can We Learn from Homo Silicus?",
       "sources": [
-        "https://arxiv.org/abs/2301.07543"
+        "https://arxiv.org/abs/2301.07543",
+        "https://arxiv.org/html/2301.07543"
       ],
       "basis": "paper",
       "reviewed": "2026-09-12",

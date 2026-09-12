@@ -56,3 +56,17 @@ test('timeline layout preserves dates and prevents overlapping controls at respo
     }
   }
 });
+
+test('institutions are searchable and every reading page has bilingual takeaways and figure provenance', () => {
+  const matches = filterPapers(papers, { ...defaultState(max), q: 'Valhalla' });
+  assert.ok(matches.some(p => p.name === 'ADMET-EvO'));
+  for (const p of papers) {
+    assert.ok(p.reading);
+    assert.ok(p.reading.institutionSource.startsWith('https://'));
+    for (const lang of ['zh', 'en']) {
+      assert.ok(p.reading.takeaways[lang].length > 0);
+      for (const item of [...p.reading.figures, ...p.reading.tables]) assert.ok(item[lang].length > 10);
+    }
+    for (const f of p.reading.figures) assert.ok(f.images.length && f.source.startsWith('https://'));
+  }
+});

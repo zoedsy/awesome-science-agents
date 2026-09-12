@@ -1,3 +1,4 @@
+import { institutionBlock, takeawayBlock, readerNavigation, evidenceBlocks, readingSource } from './reader.js';
 import { domains, methods, kinds, monthIndex, monthString, defaultState, parseState,
   serializeState, filterPapers, layoutPapers } from './catalog.js';
 
@@ -14,8 +15,8 @@ const words = {
     groupBy: '分组', byDomain: '按研究领域', byMethod: '按主要机制', play: '播放演进', pause: '暂停',
     publishedThrough: '时间截至', papersTitle: '从一篇论文开始', sortLabel: '排序', newest: '最新优先', oldest: '最早优先', byName: '按名称排序',
     noResults: '没有匹配的条目', noResultsHint: '试试更短的关键词，或放宽领域、机制与时间范围。', resetAll: '查看全部条目',
-    footerNote: '解读依据论文摘要与官方资料，领域与机制为编辑归类。横轴沿用 README 标注月份；所有计数仅代表本库收录，非领域总体。',
-    contribute: '补充一篇论文 ↗', paperDetail: 'PAPER NOTES / 论文解读', search: '搜索论文、作者或研究问题…',
+    footerNote: '解读依据论文正文、摘要与官方资料，领域与机制为编辑归类。横轴沿用 README 标注月份；所有计数仅代表本库收录，非领域总体。',
+    contribute: '补充一篇论文 ↗', paperDetail: 'PAPER NOTES / 论文解读', search: '搜索论文、作者、机构或问题…',
     count: n => `${n} 个匹配条目`, more: n => `再看 ${Math.min(n, 24)} 篇 · 还有 ${n} 个条目`,
     question: '解决什么问题', approach: '具体怎么做', evidence: '在哪里验证 · 如何理解', mechanism: '研究机制',
     original: '阅读原文 ↗', code: '查看代码 ↗', project: '项目主页 ↗', source: '解读来源',
@@ -24,6 +25,7 @@ const words = {
     copyFallback: '请复制浏览器地址栏中的链接', related: '沿着同一机制继续读', relatedHint: '按共同机制推荐，不表示论文间存在引用关系。',
     close: '关闭论文详情', navigation: '打开导航', paperGrid: '研究条目', timeline: '交互式研究时间轴',
     swipe: '横向滑动，查看完整时间轴 →',
+    topicFilter: '只看自我演化与持续学习', topicHint: '跨领域专题，可与其他筛选组合',
   },
   en: {
     exploreLabel: 'EXPLORE', allPapers: 'All entries', evolving: 'Evolution & learning', domainsLabel: 'DISCIPLINES',
@@ -36,8 +38,8 @@ const words = {
     groupBy: 'Group', byDomain: 'By discipline', byMethod: 'By primary mechanism', play: 'Play timeline', pause: 'Pause',
     publishedThrough: 'Through', papersTitle: 'Start with a paper', sortLabel: 'Sort papers', newest: 'Newest first', oldest: 'Oldest first', byName: 'By name',
     noResults: 'No matching entries', noResultsHint: 'Try a shorter query, or broaden the discipline, mechanism or date range.', resetAll: 'View all entries',
-    footerNote: 'Notes draw on paper abstracts and official materials. Disciplines and mechanisms are editorial categories. Dates follow README months; counts describe this collection, not the entire field.',
-    contribute: 'Contribute a paper ↗', paperDetail: 'PAPER NOTES', search: 'Search papers, authors or research questions…',
+    footerNote: 'Notes draw on paper texts, abstracts and official materials. Disciplines and mechanisms are editorial categories. Dates follow README months; counts describe this collection, not the entire field.',
+    contribute: 'Contribute a paper ↗', paperDetail: 'PAPER NOTES', search: 'Search papers, authors, institutions or questions…',
     count: n => `${n} matching ${n === 1 ? 'entry' : 'entries'}`, more: n => `Load ${Math.min(n, 24)} more · ${n} remaining`,
     question: 'The research question', approach: 'How it works', evidence: 'Evidence & scope', mechanism: 'Research mechanisms',
     original: 'Read paper ↗', code: 'View code ↗', project: 'Visit project ↗', source: 'About these notes',
@@ -47,6 +49,7 @@ const words = {
     copyFallback: 'Copy the link from your browser address bar', related: 'Follow the same mechanism', relatedHint: 'Suggestions share editorial tags; they do not imply a citation relationship.',
     close: 'Close paper details', navigation: 'Open navigation', paperGrid: 'Research entries', timeline: 'Interactive research timeline',
     swipe: 'Swipe to explore the full timeline →',
+    topicFilter: 'Evolution & learning only', topicHint: 'A cross-disciplinary topic; combine with other filters',
   },
 };
 const $ = id => document.getElementById(id);
@@ -114,10 +117,8 @@ function change(patch, { stop = true } = {}) {
 }
 function reset() { change({ ...defaultState(maxMonth), lang: state.lang, paper: state.paper }); }
 function renderNav() {
-  $('nav-all').classList.toggle('active', !state.topic && !state.domain);
-  $('nav-all').setAttribute('aria-pressed', !state.topic && !state.domain);
-  $('nav-evolving').classList.toggle('active', state.topic);
-  $('nav-evolving').setAttribute('aria-pressed', state.topic);
+  $('nav-all').classList.toggle('active', !state.domain);
+  $('nav-all').setAttribute('aria-pressed', !state.domain);
   $('domain-nav').replaceChildren(...Object.keys(domains).map(key => {
     const button = element('button', `nav-item${state.domain === key ? ' active' : ''}`);
     button.dataset.domain = key; button.setAttribute('aria-pressed', state.domain === key);
@@ -131,6 +132,7 @@ function renderNav() {
 function renderFilters() {
   $('result-count').textContent = t('count')(shown.length);
   $('search').value = state.q; $('code-filter').checked = state.code;
+  $('topic-filter').checked = state.topic;
   $('group-by').value = state.group; $('sort').value = state.sort;
   $('timeline').value = state.through - minMonth;
   const date = monthString(state.through).replace('-', '.');
@@ -224,14 +226,16 @@ function renderDetail(p) {
   const heading = element('h2', 'detail-title', p.name); heading.id = 'detail-title';
   const meta = element('div', 'detail-meta', `${t('dateLabel')} ${p.date}  /  ${label(kinds, p.kind)}`);
   root.append(badge(p), heading, element('p', 'detail-fulltitle', p.title), meta);
-  if (p.authors.length) root.append(element('p', 'detail-authors', `${t('authors')}: ${p.authors.join(' · ')}`));
+  root.append(institutionBlock(p, state.lang));
   const links = element('div', 'detail-links');
   if (p.links.paper) links.append(link(p.links.paper, t('original')));
   if (p.links.code) links.append(link(p.links.code, t('code')));
   const project = p.links.project || p.links.platform || p.links.website || p.links.blog;
   if (project && project !== p.links.code) links.append(link(project, t('project')));
-  root.append(links, section('01', t('question'), p[state.lang].problem),
-    section('02', t('approach'), p[state.lang].method), section('03', t('evidence'), p[state.lang].evaluation));
+  const overview = section('01', t('question'), p[state.lang].problem);
+  overview.id = 'reader-overview'; overview.tabIndex = -1;
+  root.append(links, takeawayBlock(p, state.lang), readerNavigation(p, state.lang), overview,
+    section('02', t('approach'), p[state.lang].method), ...evidenceBlocks(p, state.lang));
   const mechanism = element('section', 'detail-section'); mechanism.append(element('h3', '', t('mechanism')));
   const tags = element('div', 'detail-methods');
   for (const method of p.methods) {
@@ -239,8 +243,9 @@ function renderDetail(p) {
     tag.addEventListener('click', () => { closePaper(); change({ method }); }); tags.append(tag);
   }
   mechanism.append(tags); root.append(mechanism);
-  const source = element('section', 'detail-source');
+  const source = element('section', 'detail-source'); source.id = 'reader-source'; source.tabIndex = -1;
   source.append(element('strong', '', t('source')), element('p', '', p.basis === 'project' ? t('sourceProject') : t('sourcePaper')));
+  source.append(readingSource(p, state.lang));
   p.sources.forEach((url, i) => source.append(link(url, `${i + 1}. ${new URL(url).hostname.replace(/^www\./, '')} ↗`)));
   source.append(element('p', '', `${t('reviewed')}: ${p.reviewed}`));
   const share = element('button', 'detail-share', t('copy')); share.addEventListener('click', copyLink);
@@ -306,7 +311,7 @@ function bind() {
   }
   $('close-detail').before(langControls);
   $('nav-all').addEventListener('click', () => change({ domain: '', topic: false }));
-  $('nav-evolving').addEventListener('click', () => change({ topic: !state.topic }));
+  $('topic-filter').addEventListener('change', event => change({ topic: event.target.checked }));
   $('search').addEventListener('input', event => change({ q: event.target.value }));
   $('mechanism-filter').addEventListener('change', event => change({ method: event.target.value }));
   $('code-filter').addEventListener('change', event => change({ code: event.target.checked }));
@@ -352,7 +357,7 @@ async function init() {
   const response = await fetch(new URL('../data/papers.json', import.meta.url));
   if (!response.ok) throw new Error(`Collection request failed: ${response.status}`);
   snapshot = await response.json();
-  if (snapshot.schemaVersion !== 1 || !Array.isArray(snapshot.papers) || !snapshot.papers.length) throw new Error('Invalid collection');
+  if (snapshot.schemaVersion !== 2 || !Array.isArray(snapshot.papers) || !snapshot.papers.length) throw new Error('Invalid collection');
   papers = snapshot.papers;
   minMonth = Math.min(...papers.map(p => monthIndex(p.date))); maxMonth = Math.max(...papers.map(p => monthIndex(p.date)));
   state = parseState(location.search, minMonth, maxMonth, papers);

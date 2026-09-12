@@ -69,7 +69,7 @@ export function filterPapers(papers, state) {
     if (state.topic && !p.evolving) return false;
     if (state.code && !p.links.code) return false;
     if (monthIndex(p.date) > state.through) return false;
-    const searchable = [p.name, p.title, p.sourceTitle, ...p.authors,
+    const searchable = [p.name, p.title, p.sourceTitle, ...p.authors, ...(p.reading?.institutions || []),
       ...Object.values(p.zh), ...Object.values(p.en), domains[p.domain].zh, domains[p.domain].en,
       ...p.methods.flatMap(m => [methods[m].zh, methods[m].en])].join(' ').toLocaleLowerCase();
     return terms.every(term => searchable.includes(term));

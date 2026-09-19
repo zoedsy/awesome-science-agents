@@ -143,6 +143,8 @@ See the [reading guide](docs/self-evolving-science.md) for mechanisms, scientifi
 
 ⚛️ Physics · Chemistry · Earth Sciences · Astronomy · Materials.
 
+[2026-08] ![Simulation](https://img.shields.io/badge/Simulation-2da44e) ![LLM-Tool](https://img.shields.io/badge/LLM--Tool-1f6feb) ![Framework](https://img.shields.io/badge/Framework-1f6feb) "AgentFEM: An AI-Native Open-Source Platform for Finite-Element Computing." Haoming Luo. Technical report 2026. [paper](https://haoming-luo.github.io/agentfem/publications/agentfem-platform/) | [code](https://github.com/haoming-luo/agentfem) | [project](https://haoming-luo.github.io/agentfem/)
+
 [2026-07] ![LLM-Tool](https://img.shields.io/badge/LLM--Tool-1f6feb) ![Materials](https://img.shields.io/badge/Materials-2da44e) "Harnessing agent memory to build lifelong AI partners for materials scientists." Siyu Liu et al. arXiv 2026. [paper](https://arxiv.org/abs/2608.11224)
 
 [2026-06] ![LLM-Tool](https://img.shields.io/badge/LLM--Tool-1f6feb) ![Simulation](https://img.shields.io/badge/Simulation-2da44e) "Self-Evolving Scientific Agent Designs Physically Reasoned White-Box Fluid Control." Boai Sun et al. arXiv 2026. [paper](https://arxiv.org/abs/2606.08405) | [code](https://github.com/scaling-group/agent-fluid)

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "reviewed": "2026-09-12",
+  "reviewed": "2026-09-20",
   "repository": "https://github.com/zoedsy/awesome-science-agents",
   "papers": [
     {
@@ -12468,6 +12468,113 @@
             ],
             "visual": "Figure 3 compares reference-code lengths for success/failure and errors by discipline and subtask. In Table 3, VER checks execution and output filenames, SR checks the scientific goal, CBS measures code similarity and Cost reports API expenditure.",
             "caveat": "Tasks are analysis components extracted from papers, not entire research projects. Similarity metrics and automated figure grading remain imperfect. The reusable lesson is to separate execution, scientific output correctness, code resemblance and cost."
+          }
+        }
+      }
+    },
+    {
+      "id": "p-7721bd4b311f",
+      "title": "AgentFEM: An AI-Native Open-Source Platform for Finite-Element Computing",
+      "date": "2026-08",
+      "domain": "physical",
+      "section": "Physical Sciences",
+      "links": {
+        "paper": "https://haoming-luo.github.io/agentfem/publications/agentfem-platform/",
+        "code": "https://github.com/haoming-luo/agentfem",
+        "project": "https://haoming-luo.github.io/agentfem/"
+      },
+      "name": "AgentFEM",
+      "kind": "tool",
+      "methods": [
+        "simulation",
+        "tools",
+        "evaluation"
+      ],
+      "zh": {
+        "problem": "让人和 AI 智能体使用同一份可读的有限元模型，而不是在对话、临时求解脚本和结果文件之间反复转换。",
+        "method": "用 Python 表达研究类型、网格、材料、载荷和求解步骤；以 FEniCSx、UFL 和 PETSc 执行数值计算，并将结果连接到参数化仿真、数据集和代理模型。",
+        "evaluation": "2026 年 8 月的技术报告以 0.2.1 版演示悬臂梁、夹杂波传播和 C3D10H 周期孔隙胞元；这是软件与算例报告，不是自主智能体成功率或工业全场景验证。"
+      },
+      "en": {
+        "problem": "Let people and AI agents share one readable finite-element model rather than repeatedly translating between chat, ad hoc solver scripts and result files.",
+        "method": "Express studies, meshes, materials, loads and solution steps in Python; execute with FEniCSx, UFL and PETSc; connect recorded results to parameter campaigns, datasets and surrogate models.",
+        "evaluation": "The August 2026 technical report demonstrates version 0.2.1 using a cantilever, inclusion-wave propagation and a C3D10H periodic porous cell. It is a software/case report, not an autonomous-agent success-rate benchmark or general industrial validation."
+      },
+      "authors": [
+        "Haoming Luo"
+      ],
+      "sourceTitle": "AgentFEM: An AI-Native Open-Source Platform for Finite-Element Computing",
+      "sources": [
+        "https://haoming-luo.github.io/agentfem/publications/agentfem-platform/",
+        "https://haoming-luo.github.io/agentfem/assets/papers/agentfem_platform.pdf",
+        "https://github.com/haoming-luo/agentfem"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-20",
+      "evolving": false,
+      "reading": {
+        "institutions": [
+          "Xi'an Thermal Power Research Institute"
+        ],
+        "affiliationStatus": "verified",
+        "institutionSource": "https://haoming-luo.github.io/agentfem/assets/papers/agentfem_platform.pdf#page=1",
+        "fullText": "https://haoming-luo.github.io/agentfem/assets/papers/agentfem_platform.pdf",
+        "takeaways": {
+          "zh": [
+            "智能体操作有限元工作流，数值内核执行计算；可读的 Python 模型是人与 AI 共同的工作对象。",
+            "同一套仿真结果可以继续形成参数化数据集和代理模型，保留参数、单位与计算来源。"
+          ],
+          "en": [
+            "The agent operates the workflow; the numerical kernel computes. A readable Python model is the shared working object.",
+            "The same simulation results can feed parameter datasets and surrogates while retaining parameters, units and computational origin."
+          ]
+        },
+        "figures": [
+          {
+            "label": "Figure 1",
+            "images": [
+              "assets/paper-figures/p-7721bd4b311f.png"
+            ],
+            "sizes": [
+              [
+                1510,
+                320
+              ]
+            ],
+            "source": "https://haoming-luo.github.io/agentfem/assets/papers/agentfem_platform.pdf#page=4",
+            "zh": "沿箭头看工程模型如何进入有限元数值计算，再生成结果、数据集和学习模型。每一层有明确职责，学习结果可以返回下一轮预测或有限元计算。",
+            "en": "Follow the engineering model into finite-element computation, then results, datasets and learned models. Each layer has a separate role; learned outputs can feed another prediction or FEM calculation."
+          }
+        ],
+        "tables": [],
+        "guide": {
+          "zh": {
+            "context": "这个项目处理的是科学智能体接入有限元时的工具层问题。自然语言可以帮助提出建模方案，但实际几何、材料、边界条件和求解方法仍需要明确表达。报告将 AgentFEM 设计为人与智能体都能读写的 Python 有限元平台，而不是绑定某个大模型的聊天外壳；FEniCSx、UFL、PETSc 和 MPI 提供数值基础。",
+            "steps": [
+              "先声明物理研究类型，再组织网格、未知场、材料、载荷和约束。顶层 Python 程序按工程问题的描述顺序表达模型，专业用户仍可进入 UFL 或后端层。",
+              "通过求解步骤执行静力、动力或其他已有方法。统一结果对象连接场输出、时间历程、执行状态和检查记录，避免只把正常退出当作模型已正确。",
+              "把可重复的单个算例扩展为参数化计算，按声明的结果策略形成数据集，再交给简单代理模型或用户自己的 PyTorch 程序。域外请求可返回原有限元模型计算；代理模型和神经算子不是同一种方法。"
+            ],
+            "evidence": [
+              "报告的三个可执行例子分别展示基本静力建模、带周期边界和吸收出口的显式波传播，以及从 Abaqus 风格网格与方程约束导入的有限应变周期胞元。它们说明工作流覆盖不同建模环节，而非测量智能体相对人工的效率提升。",
+              "在报告的 C3D10H 胞元案例中，计算达到轴向伸长比 1.20，采用三个接受增量、每增量三次 Newton 迭代且没有切回；最大周期方程误差约为 1.4×10^-17。这些是给定算例的数值记录，不能外推为其他材料、网格和工况的保证。"
+            ],
+            "visual": "原报告第 4 页 Figure 1 从人和智能体指向工程模型、有限元能力和数值内核，再连接结果、数据集、学习模型与下一次预测。按箭头检查每一步交付的科学对象，而不是把所有方框都理解成大模型内部推理。",
+            "caveat": "条目解读的是 2026 年 8 月、版本 0.2.1 的公开技术报告，未声称经过同行评审。项目随后仍在发展，应以当前能力文档判断现有接口。计算、收敛、数值验证与物理验证不同；报告没有给出跨任务智能体成功率或通用工业认证。"
+          },
+          "en": {
+            "context": "AgentFEM addresses the tool layer between scientific agents and finite-element analysis. Natural language can help propose a model, but geometry, constitutive assumptions, boundary conditions and numerical procedures still need explicit representation. The report presents a Python platform shared by people and agents, with FEniCSx, UFL, PETSc and MPI supplying the numerical foundation rather than replacing it with a language model.",
+            "steps": [
+              "Declare the physical study, then organize the mesh, unknown fields, materials, loads and constraints. The top-level program follows the engineering description; specialist access to UFL and backend objects remains available.",
+              "Execute a solution step for the supported analysis. A common result object connects fields, histories, execution status and checks, keeping successful process completion distinct from a correct physical model.",
+              "Extend a repeatable case into a parameter campaign, assemble a dataset under a declared result policy, and hand it to a baseline surrogate or user-owned PyTorch code. Out-of-domain requests can fall back to the FEM case; scalar surrogates and neural operators remain distinct choices."
+            ],
+            "evidence": [
+              "Three executable cases demonstrate elementary static modeling, explicit wave propagation with periodic boundaries and an absorbing outlet, and a finite-strain periodic cell imported from an Abaqus-style mesh with equation constraints. They demonstrate workflow components, not a measured agent-versus-human productivity gain.",
+              "For the reported C3D10H cell, axial stretch reaches 1.20 in three accepted increments, with three Newton iterations per increment and no cutback. The maximum periodic-equation error is approximately 1.4×10^-17. These are records for that case, not guarantees for other materials, meshes or loads."
+            ],
+            "visual": "Figure 1 on page 4 runs from people and agents through the engineering model, FE capabilities and numerical kernel, then connects results, datasets, learning and the next prediction. Follow the scientific object handed over at each arrow; the boxes do not all represent language-model reasoning.",
+            "caveat": "This guide describes the August 2026 technical report and its version 0.2.1 snapshot, without claiming peer review. Consult current capability documentation for the evolving software. Computed, converged, numerically verified and physically validated are different states; the report does not establish cross-task agent success rates or general industrial certification."
           }
         }
       }

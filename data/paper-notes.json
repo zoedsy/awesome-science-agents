@@ -1,6 +1,31 @@
 {
-  "reviewed": "2026-09-12",
+  "reviewed": "2026-09-20",
   "entries": {
+    "https://haoming-luo.github.io/agentfem/publications/agentfem-platform/": {
+      "name": "AgentFEM",
+      "kind": "tool",
+      "methods": ["simulation", "tools", "evaluation"],
+      "zh": {
+        "problem": "让人和 AI 智能体使用同一份可读的有限元模型，而不是在对话、临时求解脚本和结果文件之间反复转换。",
+        "method": "用 Python 表达研究类型、网格、材料、载荷和求解步骤；以 FEniCSx、UFL 和 PETSc 执行数值计算，并将结果连接到参数化仿真、数据集和代理模型。",
+        "evaluation": "2026 年 8 月的技术报告以 0.2.1 版演示悬臂梁、夹杂波传播和 C3D10H 周期孔隙胞元；这是软件与算例报告，不是自主智能体成功率或工业全场景验证。"
+      },
+      "en": {
+        "problem": "Let people and AI agents share one readable finite-element model rather than repeatedly translating between chat, ad hoc solver scripts and result files.",
+        "method": "Express studies, meshes, materials, loads and solution steps in Python; execute with FEniCSx, UFL and PETSc; connect recorded results to parameter campaigns, datasets and surrogate models.",
+        "evaluation": "The August 2026 technical report demonstrates version 0.2.1 using a cantilever, inclusion-wave propagation and a C3D10H periodic porous cell. It is a software/case report, not an autonomous-agent success-rate benchmark or general industrial validation."
+      },
+      "authors": ["Haoming Luo"],
+      "sourceTitle": "AgentFEM: An AI-Native Open-Source Platform for Finite-Element Computing",
+      "sources": [
+        "https://haoming-luo.github.io/agentfem/publications/agentfem-platform/",
+        "https://haoming-luo.github.io/agentfem/assets/papers/agentfem_platform.pdf",
+        "https://github.com/haoming-luo/agentfem"
+      ],
+      "basis": "paper",
+      "reviewed": "2026-09-20",
+      "evolving": false
+    },
     "https://github.com/morluto/jacobian": {
       "name": "Jacobian",
       "kind": "tool",

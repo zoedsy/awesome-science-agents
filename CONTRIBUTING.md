@@ -92,6 +92,12 @@ Verify paper metadata and code links using the paper or official project. Link r
 
 Open an issue using the **Broken Link** template. PRs that fix dead links are welcome.
 
+## Licensing contributions
+
+For new contributions submitted under the [licensing policy](LICENSE), you agree to license your original software contributions (website-template code, build scripts, tests, and software configuration) under [MIT](LICENSES/MIT.txt), and your original collection content (paper-list entries, reading guides, documentation, and catalog data) under [CC0 1.0 Universal](LICENSES/CC0-1.0.txt), unless explicitly agreed otherwise before merging.
+
+Only contribute material you have the right to submit under the applicable terms. Identify third-party material and preserve its notices and source links. Existing CC0 permissions remain effective; this policy does not relicense earlier contributions or require public acknowledgement for them.
+
 ## Code of conduct
 
 Be respectful. We follow the [Contributor Covenant](https://www.contributor-covenant.org/). Submitting irrelevant content, spam, or self-promotion without scientific merit will be closed without discussion.

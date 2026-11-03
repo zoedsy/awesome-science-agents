@@ -1,7 +1,8 @@
 # Awesome-Science-Agents
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
+[![New code: MIT](https://img.shields.io/badge/New_code-MIT-blue.svg)](LICENSE)
+[![Content: CC0-1.0](https://img.shields.io/badge/Content-CC0_1.0-lightgrey.svg)](LICENSES/CC0-1.0.txt)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![Last Commit](https://img.shields.io/github/last-commit/zoedsy/awesome-science-agents)](https://github.com/zoedsy/awesome-science-agents/commits/main)
 [![GitHub Stars](https://img.shields.io/github/stars/zoedsy/awesome-science-agents?style=social)](https://github.com/zoedsy/awesome-science-agents/stargazers)
@@ -39,6 +40,7 @@ We're continually improving and expanding this collection. To add a paper, pleas
 - 👥 [Social Science & Simulation](#social-science--simulation)
 - [Tag legend](#tag-legend)
 - [Contributing](#contributing)
+- [Reusing this template](#reusing-this-template)
 - [License](#license)
 
 ## Tag legend
@@ -285,9 +287,24 @@ See the [reading guide](docs/self-evolving-science.md) for mechanisms, scientifi
 
 Contributions are very welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a PR. For paper suggestions you can also open an [issue](https://github.com/zoedsy/awesome-science-agents/issues/new/choose) using the **Paper Submission** template.
 
+## Reusing this template
+
+If you reuse the Science Agent Atlas website template or adapt this collection, we would appreciate an acknowledgement in your README, website credits, or About page. You can copy this example:
+
+```markdown
+Based on [Awesome-Science-Agents / Science Agent Atlas](https://github.com/zoedsy/awesome-science-agents) by the Awesome-Science-Agents contributors.
+```
+
+This acknowledgement is optional, not an additional license condition. It does not replace the copyright and permission notices required for MIT-covered software.
+
 ## License
 
-This list is released under [CC0 1.0 Universal](LICENSE) — to the extent possible under law, the maintainers have waived all copyright and related rights to this work. Underlying papers, code, and platforms remain under their respective licenses.
+- **New software contributions:** original website-template code, build scripts, tests, and software configuration submitted under the new policy use the [MIT License](LICENSES/MIT.txt).
+- **Collection content:** original paper-list entries, reading guides, documentation, and catalog data continue to use [CC0 1.0 Universal](LICENSES/CC0-1.0.txt), unless otherwise noted.
+- **Previously published material:** existing CC0 permissions remain effective, including for earlier code carried forward into later versions. This change does not retroactively require attribution for CC0-covered material.
+- **Third-party material:** papers, figures, external code, and platforms remain subject to their respective rights and licenses.
+
+See [LICENSE](LICENSE) for the transition, scope, and preserved CC0 permissions.
 
 ## Maintainers
 

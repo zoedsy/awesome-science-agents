@@ -289,6 +289,17 @@ Contributions are very welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) b
 
 This list is released under [CC0 1.0 Universal](LICENSE) — to the extent possible under law, the maintainers have waived all copyright and related rights to this work. Underlying papers, code, and platforms remain under their respective licenses.
 
-## Maintainer
+## Maintainers
 
-Curated by [@zoedsy](https://github.com/zoedsy). Contact: <zoedusy123@gmail.com>.
+Curated by the following contributors (in alphabetical order):
+
+- [@haoming-luo](https://github.com/haoming-luo)
+- [@HowardLi1984](https://github.com/HowardLi1984)
+- [@JiayiJennie](https://github.com/JiayiJennie)
+- [@morluto](https://github.com/morluto)
+- [@NIHANCHU](https://github.com/NIHANCHU)
+- [@WhymustIhaveaname](https://github.com/WhymustIhaveaname)
+- [@xtanh](https://github.com/xtanh)
+- [@zoedsy](https://github.com/zoedsy)
+
+Contact: <zoedusy123@gmail.com>.
